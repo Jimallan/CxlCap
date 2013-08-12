@@ -1,0 +1,13 @@
+//
+// ProcStatProps.tbl
+// Shared with DLL and EXE
+//
+ProcStatProp(ProcessId,			m_dwProcessId,		0,	"Process id")
+ProcStatProp(ProcessFile,		m_szProcessPath,	0,	"szProcessFile")
+ProcStatProp(LastError,			m_szLastError,		0,	"szLastError")
+ProcStatProp(Wnd,				m_hWndCap,			0,	"hWnd")
+ProcStatProp(SizeWnd,			m_SizeWnd,			0,	"SizeWnd")
+ProcStatProp(GAPI,				m_eGAPI,			0,	"What graphics API is hooked")
+ProcStatProp(State,				m_eState,			0,	"eState, ready, recording, paused")
+ProcStatProp(FrameRate,			m_fFrameRate,		0,	"fFrameRate")
+ProcStatProp(DataRecorded,		m_nDataRecorded,	0,	"nDataRecorded")

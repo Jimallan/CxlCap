@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<title>Taksi: Video capture/Screen capture for 3D applications</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<table id="heading" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#8080b0">
+			<tr>
+				<td bgcolor="#8080b0" valign="top">
+					<img src="img/taksi_logo.jpg" id="logo">
+					<h3 class="title">TAKSI: Video capture/Screen capture for 3D graphics</h3>
+				</td>
+				<td bgcolor="#8080b0" align="right" valign="top">
+					<a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=104102&amp;type=4" width="125" height="37"
+							border="0" alt="SourceForge.net Logo"></a>
+				</td>
+			</tr>
+		</table>
+		<img src="TaksiPic.jpg" id="Img1">
+		<div>
+			<p class="header">What it is:</p>
+			<p>Taksi is a utility that allows you to take screenshots and record video clips of 
+				your favourite games and other 3D-graphics applications. Inspired by Fraps (<a href="http://www.fraps.com">www.fraps.com</a>), 
+				Taksi aims to provide an open source alternative to that great tool.
+			</p>
+		</div>
+		<div>
+			<p class="header">Other features:</p>
+		</div>
+		<div>
+			<p>
+				Taksi can support live video compression with any VFW video codec your system 
+				has installed (i.e. <a href="http://www.xvid.org/">XVid</a>, <a href="http://www.divx.com/divx/windows/">
+					DivX</a>, MS Mpeg4, etc).
+			</p>
+			<P>Supports user-specified key mapping, allowing user to assign almost any key to a 
+				particular function (such as video start/stop, screenshot trigger, etc.). 
+				Runtime re-mapping of the keys is supported via GUI: user can change keys 
+				without having to restart the game.
+			</P>
+			<p>
+				Custom video settings are supported (see <b>manual.txt</b> for more details 
+				about this).<br>
+				Basically, this allows a user to specify on a per-game basis the frame rate of 
+				the captured video, and the weight of each source frame. The weight determines 
+				whether a particular frame is captured or not. This allows for creation of 
+				smoother and faster videos, when generic algorithm doesn't produce desired 
+				results.
+			</p>
+		</div>
+		<div>
+			<p class="header">Project info:</p>
+			<p>
+				The project summary page can be found at <a href="http://sourceforge.net/projects/taksi">
+					SourceForge.net/projects/taksi</a>.
+			</p>
+			<P>&nbsp;</P>
+			<DIV>
+				<P class="header">Download:</P>
+				<P>Latest stable version is <A href="http://sourceforge.net/project/showfiles.php?group_id=104102">
+						0.7.6</A>
+					<SPAN class="newInfo">(from June.22,2006 )</SPAN>
+					<BR>
+					<SPAN style="COLOR: #66a">Changes include: improved mapping/hooking algorithm; 
+full-size video capture.</SPAN>
+				</P>
+				<P>List of all previous releases (including full source code) <A href="http://sourceforge.net/project/showfiles.php?group_id=104102">
+						here</A>.
+				</P>
+				<P>&nbsp;</P>
+			</DIV>
+			<DIV class="techspec">
+				<P class="header">Tech spec for v0.7.6:</P>
+				<P>
+					DirectX 8, DirectX 9, OpenGL and GDI based&nbsp;applications are supported in 
+					this version. Video can be recorded at either full-size, or half-size in each 
+					dimension (using bilinear minification filter). Audio is not captured. There is 
+					no imposed&nbsp;limit on the duration of the video,&nbsp;only available disk 
+					space is your limit.
+					<UL>
+						<LI>
+						Supported OS: Win95/98/ME, WinNT4.0/2K/XP.
+						<LI>
+						3D Graphics API: Direct3D 8, Direct3D 9, OpenGL, GDI
+						<LI>
+						Screenshot file format: PNG or 24-bit BMP
+						<LI>
+							Video file format: compressed or uncompressed AVI using any VFW codecs
+						</LI>
+					</UL>
+			</DIV>
+		</div>
+		<div id="footer">&nbsp;</div>
+	</body>
+</html>

@@ -1,0 +1,1825 @@
+ TaksiDll
+
+ Timestamp is 5204a8cb (Fri Aug 09 16:31:07 2013)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00010000H .textbss                DATA
+ 0002:00000000 0001ab2cH .text                   CODE
+ 0002:0001ab30 0000162dH .text$x                 CODE
+ 0002:0001c160 00001654H .text$yc                CODE
+ 0002:0001d7c0 0000143dH .text$yd                CODE
+ 0003:00000000 00000104H .CRT$XCA                DATA
+ 0003:00000104 00000154H .CRT$XCU                DATA
+ 0003:00000258 00000104H .CRT$XCZ                DATA
+ 0003:0000035c 00000104H .CRT$XIA                DATA
+ 0003:00000460 00000104H .CRT$XIAA               DATA
+ 0003:00000564 00000104H .CRT$XIZ                DATA
+ 0003:00000670 00005edfH .rdata                  DATA
+ 0003:00006550 000001a5H .rdata$debug            DATA
+ 0003:000066f8 000006c1H .rdata$r                DATA
+ 0003:00006dbc 00000104H .rtc$IAA                DATA
+ 0003:00006ec0 00000121H .rtc$IMZ                DATA
+ 0003:00006fe4 00000104H .rtc$IZZ                DATA
+ 0003:000070e8 00000104H .rtc$TAA                DATA
+ 0003:000071ec 00000121H .rtc$TMZ                DATA
+ 0003:00007310 00000104H .rtc$TZZ                DATA
+ 0003:00007418 0000068bH .xdata$x                DATA
+ 0003:00007ab0 0000126cH .edata                  DATA
+ 0004:00000000 00001981H .data                   DATA
+ 0004:00001988 00000f44H .bss                    DATA
+ 0005:00000000 00000064H .idata$2                DATA
+ 0005:00000064 00000014H .idata$3                DATA
+ 0005:00000078 00000560H .idata$4                DATA
+ 0005:000005d8 00000560H .idata$5                DATA
+ 0005:00000b38 00001d0aH .idata$6                DATA
+ 0006:00000000 00000020H .didat$2                DATA
+ 0006:00000020 00000020H .didat$3                DATA
+ 0006:00000040 00000048H .didat$4                DATA
+ 0006:00000088 00000048H .didat$5                DATA
+ 0006:000000d0 0000017dH .didat$6                DATA
+ 0006:00000250 0000011eH .didat$7                DATA
+ 0007:00000000 00000880H .SHARED                 DATA
+ 0008:00000000 000001c0H .rsrc$01                DATA
+ 0008:000001c0 000004b6H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       __enc$textbss$begin        10001000     <linker-defined>
+ 0001:00010000       __enc$textbss$end          10011000     <linker-defined>
+ 0002:000015f0       ?InitFreqUnits@CTaksiFrameRate@@QAE_NXZ 100125f0 f   AVI.obj
+ 0002:000017a0       ?InitStart@CTaksiFrameRate@@QAEXXZ 100127a0 f i AVI.obj
+ 0002:00001810       ?CheckFrameWeight@CTaksiFrameRate@@AAEN_J@Z 10012810 f   AVI.obj
+ 0002:00001a50       ?CheckFrameRate@CTaksiFrameRate@@QAEKXZ 10012a50 f   AVI.obj
+ 0002:00001c50       ??0CAVIThread@@QAE@XZ      10012c50 f   AVI.obj
+ 0002:00001e10       ??0CAVIFrame@@QAE@XZ       10012e10 f i AVI.obj
+ 0002:00001e80       ??0CNTEvent@@QAE@XZ        10012e80 f i AVI.obj
+ 0002:00001ef0       ??1CNTEvent@@QAE@XZ        10012ef0 f i AVI.obj
+ 0002:00001f50       ??1CAVIFrame@@QAE@XZ       10012f50 f i AVI.obj
+ 0002:00001fb0       ??1CAVIThread@@QAE@XZ      10012fb0 f   AVI.obj
+ 0002:000020f0       ?InitFrameQ@CAVIThread@@QAEXXZ 100130f0 f   AVI.obj
+ 0002:00002180       ?ThreadRun@CAVIThread@@AAEKXZ 10013180 f   AVI.obj
+ 0002:00002750       ?ThreadEntryProc@CAVIThread@@CGKPAX@Z 10013750 f   AVI.obj
+ 0002:000027e0       ?CheckAVIFileReset@CAVIThread@@AAEJXZ 100137e0 f   AVI.obj
+ 0002:000028e0       ?WaitForAllFrames@CAVIThread@@QAEXXZ 100138e0 f   AVI.obj
+ 0002:00002a10       ?WaitForNextFrame@CAVIThread@@QAEPAUCAVIFrame@@XZ 10013a10 f   AVI.obj
+ 0002:00002cd0       ?SignalFrameAdd@CAVIThread@@QAEXPAUCAVIFrame@@K@Z 10013cd0 f   AVI.obj
+ 0002:00002fa0       ?WriteAVIAudioBlock@CAVIThread@@AAEJPAEK_N@Z 10013fa0 f   AVI.obj
+ 0002:00003310       ?WriteAVIAudioBlock@CAVIThread@@AAEJXZ 10014310 f   AVI.obj
+ 0002:00003420       ?AudioInProc@CAVIThread@@CGXPAUHWAVEIN__@@IKKK@Z 10014420 f   AVI.obj
+ 0002:000034f0       ?OpenAudioInputDevice@CAVIThread@@QAEJIAAVCWaveFormat@@@Z 100144f0 f   AVI.obj
+ 0002:00003750       ?CloseAudioInputDevice@CAVIThread@@QAEJXZ 10014750 f   AVI.obj
+ 0002:000038a0       ?WaitAndWriteAVIAudioBlock@CAVIThread@@QAEJXZ 100148a0 f   AVI.obj
+ 0002:00003930       ?StopAVIThread@CAVIThread@@QAEJXZ 10014930 f   AVI.obj
+ 0002:00003ad0       ?StartAVIThread@CAVIThread@@QAEJXZ 10014ad0 f   AVI.obj
+ 0002:00003ce0       _HRESULT_FROM_WIN32        10014ce0 f i AVI.obj
+ 0002:00003d50       ?CreateEventA@CNTEvent@@QAE_NPAU_SECURITY_ATTRIBUTES@@_N1PBD@Z 10014d50 f i AVI.obj
+ 0002:00003df0       ?SetEvent@CNTEvent@@QBE_NXZ 10014df0 f i AVI.obj
+ 0002:00003ea0       ?ResetEvent@CNTEvent@@QBE_NXZ 10014ea0 f i AVI.obj
+ 0002:00003f50       ??0CTaksiFrameRate@@QAE@XZ 10014f50 f i AVI.obj
+ 0002:00003fd0       ?Str_MakeFilePath@@YAHPADHPBD1@Z 10014fd0 f   config.obj
+ 0002:00004050       ?PropGet@CTaksiConfigCustom@@UBEHHPADH@Z 10015050 f   config.obj
+ 0002:00004240       ?PropSet@CTaksiConfigCustom@@UAE_NHPBD@Z 10015240 f   config.obj
+ 0002:000044c0       ?strchr@@YAPADPADH@Z       100154c0 f i config.obj
+ 0002:00004520       ?InitConfig@CTaksiConfigData@@QAEXXZ 10015520 f   config.obj
+ 0002:00004780       ?CopyConfig@CTaksiConfigData@@QAEXABU1@@Z 10015780 f   config.obj
+ 0002:00004a20       ?SetHotKey@CTaksiConfigData@@QAE_NW4TAKSI_HOTKEY_TYPE@@G@Z 10015a20 f   config.obj
+ 0002:00004ab0       ?GetHotKey@CTaksiConfigData@@QBEGW4TAKSI_HOTKEY_TYPE@@@Z 10015ab0 f   config.obj
+ 0002:00004b10       ?FixCaptureDir@CTaksiConfigData@@QAEJXZ 10015b10 f   config.obj
+ 0002:00004c80       ?CustomConfig_Alloc@CTaksiConfig@@SAPAUCTaksiConfigCustom@@XZ 10015c80 f   config.obj
+ 0002:00004d50       ??2@YAPAXIPAX@Z            10015d50 f i config.obj
+ 0002:00004d90       ?CustomConfig_Delete@CTaksiConfig@@SAXPAUCTaksiConfigCustom@@@Z 10015d90 f   config.obj
+ 0002:00004e10       ?CustomConfig_FindPattern@CTaksiConfig@@QBEPAUCTaksiConfigCustom@@PBD@Z 10015e10 f   config.obj
+ 0002:00004eb0       ?CustomConfig_FindAppId@CTaksiConfig@@QBEPAUCTaksiConfigCustom@@PBD@Z 10015eb0 f   config.obj
+ 0002:00004f50       ?CustomConfig_Lookup@CTaksiConfig@@QAEPAUCTaksiConfigCustom@@PBD_N@Z 10015f50 f   config.obj
+ 0002:00005030       ?CustomConfig_DeleteAppId@CTaksiConfig@@QAEXPBD@Z 10016030 f   config.obj
+ 0002:00005120       ??0CTaksiConfig@@QAE@XZ    10016120 f   config.obj
+ 0002:000051c0       ??1CTaksiConfig@@QAE@XZ    100161c0 f   config.obj
+ 0002:00005240       ?PropGet@CTaksiConfig@@UBEHHPADH@Z 10016240 f   config.obj
+ 0002:00005960       __tcsncpy                  10016960 f i config.obj
+ 0002:000059d0       __tcsstr                   100169d0 f i config.obj
+ 0002:00005a30       ?PropSet@CTaksiConfig@@UAE_NHPBD@Z 10016a30 f   config.obj
+ 0002:000060b0       ?ReadIniFile@CTaksiConfig@@QAE_NXZ 100170b0 f   config.obj
+ 0002:00006570       ?strstr@@YAPADPADPBD@Z     10017570 f i config.obj
+ 0002:000065d0       ?WriteIniFile@CTaksiConfig@@QAE_NXZ 100175d0 f   config.obj
+ 0002:00006e30       __tcslwr                   10017e30 f i config.obj
+ 0002:00006e90       ?_tcschr@@YAPADPADI@Z      10017e90 f i config.obj
+ 0002:00006ef0       __tcschr                   10017ef0 f i config.obj
+ 0002:00006f50       ?FILE_IsDirSep@@YA_ND@Z    10017f50 f i config.obj
+ 0002:00006fc0       ??0CTaksiConfigCustom@@QAE@XZ 10017fc0 f i config.obj
+ 0002:00007030       ?get_Props@CTaksiConfigCustom@@UBEPAPBDXZ 10018030 f i config.obj
+ 0002:00007070       ?get_PropQty@CTaksiConfigCustom@@UBEHXZ 10018070 f i config.obj
+ 0002:000070b0       ?get_Props@CTaksiConfig@@UBEPAPBDXZ 100180b0 f i config.obj
+ 0002:000070f0       ?get_PropQty@CTaksiConfig@@UBEHXZ 100180f0 f i config.obj
+ 0002:00007130       ??_H@YGXPAXIHP6EPAX0@Z@Z   10018130 f i GAPI_Base.obj
+ 0002:000071a0       ?MakeScreenShotGDIP@CTaksiGAPIBase@@CAJPADAAUCVideoFrame@@@Z 100181a0 f   GAPI_Base.obj
+ 0002:00007520       ?Save@Image@Gdiplus@@QAE?AW4Status@2@PB_WPBU_GUID@@PBVEncoderParameters@2@@Z 10018520 f i GAPI_Base.obj
+ 0002:00007590       ?SetStatus@Image@Gdiplus@@IBE?AW4Status@2@W432@@Z 10018590 f i GAPI_Base.obj
+ 0002:000075f0       ?FromBITMAPINFO@Bitmap@Gdiplus@@SAPAV12@PBUtagBITMAPINFO@@PAX@Z 100185f0 f i GAPI_Base.obj
+ 0002:000076e0       ??3GdiplusBase@Gdiplus@@SAXPAX@Z 100186e0 f i GAPI_Base.obj
+ 0002:00007730       ??2GdiplusBase@Gdiplus@@SAPAXI@Z 10018730 f i GAPI_Base.obj
+ 0002:00007780       ??0Bitmap@Gdiplus@@QAE@PBUtagBITMAPINFO@@PAX@Z 10018780 f i GAPI_Base.obj
+ 0002:000078a0       ??0Image@Gdiplus@@IAE@XZ   100188a0 f i GAPI_Base.obj
+ 0002:000078f0       ??_GImage@Gdiplus@@UAEPAXI@Z 100188f0 f i GAPI_Base.obj
+ 0002:000078f0       ??_EImage@Gdiplus@@UAEPAXI@Z 100188f0 f i GAPI_Base.obj
+ 0002:00007960       ??1Image@Gdiplus@@UAE@XZ   10018960 f i GAPI_Base.obj
+ 0002:000079c0       ?Clone@Image@Gdiplus@@UAEPAV12@XZ 100189c0 f i GAPI_Base.obj
+ 0002:00007b20       ??0Image@Gdiplus@@IAE@PAVGpImage@1@W4Status@1@@Z 10018b20 f i GAPI_Base.obj
+ 0002:00007b90       ?SetNativeImage@Image@Gdiplus@@IAEXPAVGpImage@2@@Z 10018b90 f i GAPI_Base.obj
+ 0002:00007be0       ??_EBitmap@Gdiplus@@UAEPAXI@Z 10018be0 f i GAPI_Base.obj
+ 0002:00007be0       ??_GBitmap@Gdiplus@@UAEPAXI@Z 10018be0 f i GAPI_Base.obj
+ 0002:00007c50       ??1Bitmap@Gdiplus@@UAE@XZ  10018c50 f i GAPI_Base.obj
+ 0002:00007ca0       ?MakeScreenShot@CTaksiGAPIBase@@AAEJ_N@Z 10018ca0 f   GAPI_Base.obj
+ 0002:00008040       ?RecordAVI_Reset@CTaksiGAPIBase@@QAEXXZ 10019040 f   GAPI_Base.obj
+ 0002:000081a0       ?StopAudioRecorder@CAVIThread@@QAEIXZ 100191a0 f i GAPI_Base.obj
+ 0002:00008210       ?ScheduleHotKey@CTaksiHotKeys@@QAEXW4TAKSI_HOTKEY_TYPE@@@Z 10019210 f i GAPI_Base.obj
+ 0002:00008270       ?RecordAVI_Start@CTaksiGAPIBase@@AAEJXZ 10019270 f   GAPI_Base.obj
+ 0002:00008880       ?RecordAVI_Stop@CTaksiGAPIBase@@AAEXXZ 10019880 f   GAPI_Base.obj
+ 0002:000089a0       ?RecordAVI_Frame@CTaksiGAPIBase@@AAE_NXZ 100199a0 f   GAPI_Base.obj
+ 0002:00008b40       ?EndOfOverheadTime@CTaksiFrameRate@@QAEXXZ 10019b40 f i GAPI_Base.obj
+ 0002:00008bc0       ?ProcessHotKey@CTaksiGAPIBase@@AAEXW4TAKSI_HOTKEY_TYPE@@@Z 10019bc0 f   GAPI_Base.obj
+ 0002:00008d90       ?StartAudioRecorder@CAVIThread@@QAEIXZ 10019d90 f i GAPI_Base.obj
+ 0002:00008e00       ?PresentFrameBegin@CTaksiGAPIBase@@QAEX_N@Z 10019e00 f   GAPI_Base.obj
+ 0002:00009290       ?IsProcPrime@CTaksiProcess@@QBE_NXZ 1001a290 f i GAPI_Base.obj
+ 0002:000092e0       ?IsHookCBT@CTaksiShared@@QBE_NXZ 1001a2e0 f i GAPI_Base.obj
+ 0002:00009330       ?PresentFrameEnd@CTaksiGAPIBase@@QAEXXZ 1001a330 f   GAPI_Base.obj
+ 0002:00009460       ?AttachGAPI@CTaksiGAPIBase@@QAEJXZ 1001a460 f   GAPI_Base.obj
+ 0002:000096a0       ?RestoreDeviceObjects@CTaksiGAPI_DX9@@QAEJXZ 1001a6a0 f   GAPI_dx9.obj
+ 0002:00009f10       ?InvalidateDeviceObjects@CTaksiGAPI_DX9@@QAEJXZ 1001af10 f   GAPI_dx9.obj
+ 0002:0000a0c0       ?GetFrameInfo@CTaksiGAPI_DX9@@UAEPAUHWND__@@AAUtagSIZE@@@Z 1001b0c0 f   GAPI_dx9.obj
+ 0002:0000a440       ?GetFrame@CTaksiGAPI_DX9@@UAEJAAUCVideoFrame@@_N@Z 1001b440 f   GAPI_dx9.obj
+ 0002:0000bda0       ?DrawIndicator@CTaksiGAPI_DX9@@UAEJW4TAKSI_INDICATE_TYPE@@@Z 1001cda0 f   GAPI_dx9.obj
+ 0002:0000c110       _DX9_AddRef@4              1001d110 f   GAPI_dx9.obj
+ 0002:0000c180       _DX9_Release@4             1001d180 f   GAPI_dx9.obj
+ 0002:0000c3d0       _DX9_Reset@8               1001d3d0 f   GAPI_dx9.obj
+ 0002:0000c630       _DX9_Present@20            1001d630 f   GAPI_dx9.obj
+ 0002:0000c940       _DX9_SCPresent@24          1001d940 f   GAPI_dx9.obj
+ 0002:0000cbc0       ??0CTaksiGAPI_DX9@@QAE@XZ  1001dbc0 f   GAPI_dx9.obj
+ 0002:0000cd00       ??0CTaksiGAPIBase@@QAE@XZ  1001dd00 f i GAPI_dx9.obj
+ 0002:0000cd90       ?FreeDll@CTaksiGAPIBase@@UAEXXZ 1001dd90 f i GAPI_dx9.obj
+ 0002:0000cdf0       ?HookFunctions@CTaksiGAPIBase@@MAEJXZ 1001ddf0 f i GAPI_dx9.obj
+ 0002:0000ced0       ?UnhookFunctions@CTaksiGAPIBase@@MAEXXZ 1001ded0 f i GAPI_dx9.obj
+ 0002:0000cf50       ?get_DLLName@CTaksiGAPI_DX9@@UBEPBDXZ 1001df50 f i GAPI_dx9.obj
+ 0002:0000cf90       ?get_GAPIType@CTaksiGAPI_DX9@@UBE?AW4TAKSI_GAPI_TYPE@@XZ 1001df90 f i GAPI_dx9.obj
+ 0002:0000cfd0       ??1CTaksiGAPIBase@@QAE@XZ  1001dfd0 f i GAPI_dx9.obj
+ 0002:0000d030       ??1CTaksiGAPI_DX9@@QAE@XZ  1001e030 f   GAPI_dx9.obj
+ 0002:0000d090       ?HookFunctions@CTaksiGAPI_DX9@@UAEJXZ 1001e090 f   GAPI_dx9.obj
+ 0002:0000d340       ?UnhookFunctions@CTaksiGAPI_DX9@@UAEXXZ 1001e340 f   GAPI_dx9.obj
+ 0002:0000d480       ?FreeDll@CTaksiGAPI_DX9@@UAEXXZ 1001e480 f   GAPI_dx9.obj
+ 0002:0000d570       ?IsValidRefObj@?$IRefPtr@UIDirect3DVertexBuffer9@@@@QBE_NXZ 1001e570 f i GAPI_dx9.obj
+ 0002:0000d5e0       ?get_PPtr@?$IRefPtr@UIDirect3DVertexBuffer9@@@@QAEPAPAUIDirect3DVertexBuffer9@@XZ 1001e5e0 f i GAPI_dx9.obj
+ 0002:0000d660       ?ReleaseRefObj@?$IRefPtr@UIDirect3DVertexBuffer9@@@@QAEHXZ 1001e660 f i GAPI_dx9.obj
+ 0002:0000d700       ??B?$IRefPtr@UIDirect3DVertexBuffer9@@@@QBEPAUIDirect3DVertexBuffer9@@XZ 1001e700 f i GAPI_dx9.obj
+ 0002:0000d740       ??C?$IRefPtr@UIDirect3DVertexBuffer9@@@@QBEPAUIDirect3DVertexBuffer9@@XZ 1001e740 f i GAPI_dx9.obj
+ 0002:0000d7c0       ??8?$IRefPtr@UIDirect3DVertexBuffer9@@@@QBE_NPAUIDirect3DVertexBuffer9@@@Z 1001e7c0 f i GAPI_dx9.obj
+ 0002:0000d810       ?IsValidRefObj@?$IRefPtr@UIDirect3DStateBlock9@@@@QBE_NXZ 1001e810 f i GAPI_dx9.obj
+ 0002:0000d880       ?get_PPtr@?$IRefPtr@UIDirect3DStateBlock9@@@@QAEPAPAUIDirect3DStateBlock9@@XZ 1001e880 f i GAPI_dx9.obj
+ 0002:0000d900       ?ReleaseRefObj@?$IRefPtr@UIDirect3DStateBlock9@@@@QAEHXZ 1001e900 f i GAPI_dx9.obj
+ 0002:0000d9a0       ??C?$IRefPtr@UIDirect3DStateBlock9@@@@QBEPAUIDirect3DStateBlock9@@XZ 1001e9a0 f i GAPI_dx9.obj
+ 0002:0000da20       ?get_PPtr@?$IRefPtr@UIDirect3DSurface9@@@@QAEPAPAUIDirect3DSurface9@@XZ 1001ea20 f i GAPI_dx9.obj
+ 0002:0000daa0       ??B?$IRefPtr@UIDirect3DSurface9@@@@QBEPAUIDirect3DSurface9@@XZ 1001eaa0 f i GAPI_dx9.obj
+ 0002:0000dae0       ??C?$IRefPtr@UIDirect3DSurface9@@@@QBEPAUIDirect3DSurface9@@XZ 1001eae0 f i GAPI_dx9.obj
+ 0002:0000db60       ??0?$IRefPtr@UIDirect3DSurface9@@@@QAE@XZ 1001eb60 f i GAPI_dx9.obj
+ 0002:0000dbb0       ??1?$IRefPtr@UIDirect3DSurface9@@@@QAE@XZ 1001ebb0 f i GAPI_dx9.obj
+ 0002:0000dc00       ?get_PPtr@?$IRefPtr@UIDirect3DDevice9@@@@QAEPAPAUIDirect3DDevice9@@XZ 1001ec00 f i GAPI_dx9.obj
+ 0002:0000dc80       ??B?$IRefPtr@UIDirect3DDevice9@@@@QBEPAUIDirect3DDevice9@@XZ 1001ec80 f i GAPI_dx9.obj
+ 0002:0000dcc0       ??0?$IRefPtr@UIDirect3DDevice9@@@@QAE@XZ 1001ecc0 f i GAPI_dx9.obj
+ 0002:0000dd10       ??1?$IRefPtr@UIDirect3DDevice9@@@@QAE@XZ 1001ed10 f i GAPI_dx9.obj
+ 0002:0000dd60       ?AssertIREF@?$IRefPtr@UIDirect3DVertexBuffer9@@@@IBEXPAUIDirect3DVertexBuffer9@@@Z 1001ed60 f i GAPI_dx9.obj
+ 0002:0000dda0       ?AssertIREF@?$IRefPtr@UIDirect3DStateBlock9@@@@IBEXPAUIDirect3DStateBlock9@@@Z 1001eda0 f i GAPI_dx9.obj
+ 0002:0000dde0       ?ReleaseRefObj@?$IRefPtr@UIDirect3DSurface9@@@@QAEHXZ 1001ede0 f i GAPI_dx9.obj
+ 0002:0000de80       ?ReleaseRefObj@?$IRefPtr@UIDirect3DDevice9@@@@QAEHXZ 1001ee80 f i GAPI_dx9.obj
+ 0002:0000df20       ?AssertIREF@?$IRefPtr@UIDirect3DSurface9@@@@IBEXPAUIDirect3DSurface9@@@Z 1001ef20 f i GAPI_dx9.obj
+ 0002:0000df60       ?AssertIREF@?$IRefPtr@UIDirect3DDevice9@@@@IBEXPAUIDirect3DDevice9@@@Z 1001ef60 f i GAPI_dx9.obj
+ 0002:0000dfa0       ??0?$IRefPtr@UIDirect3DVertexBuffer9@@@@QAE@XZ 1001efa0 f i GAPI_dx9.obj
+ 0002:0000dff0       ??1?$IRefPtr@UIDirect3DVertexBuffer9@@@@QAE@XZ 1001eff0 f i GAPI_dx9.obj
+ 0002:0000e040       ??0?$IRefPtr@UIDirect3DStateBlock9@@@@QAE@XZ 1001f040 f i GAPI_dx9.obj
+ 0002:0000e090       ??1?$IRefPtr@UIDirect3DStateBlock9@@@@QAE@XZ 1001f090 f i GAPI_dx9.obj
+ 0002:0000e0e0       ?IsDesktop@CTaksiGAPI_GDI@@SA_NXZ 1001f0e0 f   GAPI_gdi.obj
+ 0002:0000e130       ?DrawIndicator@CTaksiGAPI_GDI@@UAEJW4TAKSI_INDICATE_TYPE@@@Z 1001f130 f   GAPI_gdi.obj
+ 0002:0000e550       ?GetFrameInfo@CTaksiGAPI_GDI@@UAEPAUHWND__@@AAUtagSIZE@@@Z 1001f550 f   GAPI_gdi.obj
+ 0002:0000e6b0       ?DrawMouse@CTaksiGAPI_GDI@@AAEXPAUHDC__@@_N@Z 1001f6b0 f   GAPI_gdi.obj
+ 0002:0000e860       ?GetFrame@CTaksiGAPI_GDI@@UAEJAAUCVideoFrame@@_N@Z 1001f860 f   GAPI_gdi.obj
+ 0002:0000f160       ?OnTick@CTaksiGAPI_GDI@@QAEJPAUHWND__@@IIJ@Z 10020160 f   GAPI_gdi.obj
+ 0002:0000f330       ?WndProcHook@CTaksiGAPI_GDI@@CGJPAUHWND__@@IIJ@Z 10020330 f   GAPI_gdi.obj
+ 0002:0000f620       ?HookFunctions@CTaksiGAPI_GDI@@UAEJXZ 10020620 f   GAPI_gdi.obj
+ 0002:0000fa50       ?UnhookFunctions@CTaksiGAPI_GDI@@UAEXXZ 10020a50 f   GAPI_gdi.obj
+ 0002:0000fcf0       ?FreeDll@CTaksiGAPI_GDI@@UAEXXZ 10020cf0 f   GAPI_gdi.obj
+ 0002:0000fd80       ??0CTaksiGAPI_GDI@@QAE@XZ  10020d80 f i GAPI_gdi.obj
+ 0002:0000fe10       ?get_DLLName@CTaksiGAPI_GDI@@UBEPBDXZ 10020e10 f i GAPI_gdi.obj
+ 0002:0000fe50       ?get_GAPIType@CTaksiGAPI_GDI@@UBE?AW4TAKSI_GAPI_TYPE@@XZ 10020e50 f i GAPI_gdi.obj
+ 0002:0000fec0       ??1CTaksiGAPI_GDI@@QAE@XZ  10020ec0 f i GAPI_gdi.obj
+ 0002:0000ff10       ?DrawIndicator@CTaksiGAPI_OGL@@UAEJW4TAKSI_INDICATE_TYPE@@@Z 10020f10 f   GAPI_ogl.obj
+ 0002:00010700       ?GetFrameInfo@CTaksiGAPI_OGL@@UAEPAUHWND__@@AAUtagSIZE@@@Z 10021700 f   GAPI_ogl.obj
+ 0002:00010820       ?GetFrameHalfSize@CTaksiGAPI_OGL@@AAEXAAUCVideoFrame@@@Z 10021820 f   GAPI_ogl.obj
+ 0002:00010a50       ?SwapColorsRGB@@YAXPAE@Z   10021a50 f i GAPI_ogl.obj
+ 0002:00010d90       ?GetFrameFullSize@CTaksiGAPI_OGL@@AAEXAAUCVideoFrame@@@Z 10021d90 f   GAPI_ogl.obj
+ 0002:00010e50       ?GetFrame@CTaksiGAPI_OGL@@UAEJAAUCVideoFrame@@_N@Z 10021e50 f   GAPI_ogl.obj
+ 0002:00010ed0       _OGL_WglSwapBuffers@4      10021ed0 f   GAPI_ogl.obj
+ 0002:00010fe0       _OGL_WglDeleteContext@4    10021fe0 f   GAPI_ogl.obj
+ 0002:000110e0       ?HookFunctions@CTaksiGAPI_OGL@@UAEJXZ 100220e0 f   GAPI_ogl.obj
+ 0002:00011cd0       ?UnhookFunctions@CTaksiGAPI_OGL@@UAEXXZ 10022cd0 f   GAPI_ogl.obj
+ 0002:00011d70       ?FreeDll@CTaksiGAPI_OGL@@UAEXXZ 10022d70 f   GAPI_ogl.obj
+ 0002:00011e80       ??0CTaksiGAPI_OGL@@QAE@XZ  10022e80 f i GAPI_ogl.obj
+ 0002:00011f80       ?get_DLLName@CTaksiGAPI_OGL@@UBEPBDXZ 10022f80 f i GAPI_ogl.obj
+ 0002:00011fc0       ?get_GAPIType@CTaksiGAPI_OGL@@UBE?AW4TAKSI_GAPI_TYPE@@XZ 10022fc0 f i GAPI_ogl.obj
+ 0002:00012000       ??1CTaksiGAPI_OGL@@QAE@XZ  10023000 f i GAPI_ogl.obj
+ 0002:000120b0       ??0CTaksiDI@@QAE@XZ        100230b0 f   HotKeys.obj
+ 0002:00012140       ?SetupDirectInput@CTaksiDI@@QAEJXZ 10023140 f   HotKeys.obj
+ 0002:00012320       ?ProcessDirectInput@CTaksiDI@@QAEXXZ 10023320 f   HotKeys.obj
+ 0002:00012890       ?CloseDirectInput@CTaksiDI@@QAEXXZ 10023890 f   HotKeys.obj
+ 0002:00012960       ?InstallHookKeys@CTaksiKeyboard@@QAE_N_N@Z 10023960 f   HotKeys.obj
+ 0002:00012aa0       ?UninstallHookKeys@CTaksiKeyboard@@QAEXXZ 10023aa0 f   HotKeys.obj
+ 0002:00012b50       ?DummyKeyboardProc@CTaksiKeyboard@@KGJHIJ@Z 10023b50 f   HotKeys.obj
+ 0002:00012bc0       ?KeyboardProc@CTaksiKeyboard@@KGJHIJ@Z 10023bc0 f   HotKeys.obj
+ 0002:00012dc0       ?DoHotKey@CTaksiHotKeys@@QAEXW4TAKSI_HOTKEY_TYPE@@@Z 10023dc0 f   HotKeys.obj
+ 0002:00012f00       ?AttachHotKeysToApp@CTaksiHotKeys@@QAEJXZ 10023f00 f   HotKeys.obj
+ 0002:00013060       ?DetachHotKeys@CTaksiHotKeys@@QAEXXZ 10024060 f   HotKeys.obj
+ 0002:000130d0       ?IsValidRefObj@?$IRefPtr@UIDirectInput8A@@@@QBE_NXZ 100240d0 f i HotKeys.obj
+ 0002:00013140       ?get_PPtr@?$IRefPtr@UIDirectInput8A@@@@QAEPAPAUIDirectInput8A@@XZ 10024140 f i HotKeys.obj
+ 0002:000131c0       ?ReleaseRefObj@?$IRefPtr@UIDirectInput8A@@@@QAEHXZ 100241c0 f i HotKeys.obj
+ 0002:00013260       ??C?$IRefPtr@UIDirectInput8A@@@@QBEPAUIDirectInput8A@@XZ 10024260 f i HotKeys.obj
+ 0002:000132e0       ?IsValidRefObj@?$IRefPtr@UIDirectInputDevice8A@@@@QBE_NXZ 100242e0 f i HotKeys.obj
+ 0002:00013350       ?get_PPtr@?$IRefPtr@UIDirectInputDevice8A@@@@QAEPAPAUIDirectInputDevice8A@@XZ 10024350 f i HotKeys.obj
+ 0002:000133d0       ?ReleaseRefObj@?$IRefPtr@UIDirectInputDevice8A@@@@QAEHXZ 100243d0 f i HotKeys.obj
+ 0002:00013470       ??C?$IRefPtr@UIDirectInputDevice8A@@@@QBEPAUIDirectInputDevice8A@@XZ 10024470 f i HotKeys.obj
+ 0002:000134f0       ?AssertIREF@?$IRefPtr@UIDirectInput8A@@@@IBEXPAUIDirectInput8A@@@Z 100244f0 f i HotKeys.obj
+ 0002:00013530       ?AssertIREF@?$IRefPtr@UIDirectInputDevice8A@@@@IBEXPAUIDirectInputDevice8A@@@Z 10024530 f i HotKeys.obj
+ 0002:00013570       ??0CTaksiHotKeys@@QAE@XZ   10024570 f i HotKeys.obj
+ 0002:000135c0       ??0CTaksiKeyboard@@QAE@XZ  100245c0 f i HotKeys.obj
+ 0002:00013610       ??0?$IRefPtr@UIDirectInput8A@@@@QAE@XZ 10024610 f i HotKeys.obj
+ 0002:00013660       ??0?$IRefPtr@UIDirectInputDevice8A@@@@QAE@XZ 10024660 f i HotKeys.obj
+ 0002:000136b0       ??1CTaksiDI@@QAE@XZ        100246b0 f i HotKeys.obj
+ 0002:00013710       ??1?$IRefPtr@UIDirectInput8A@@@@QAE@XZ 10024710 f i HotKeys.obj
+ 0002:00013760       ??1?$IRefPtr@UIDirectInputDevice8A@@@@QAE@XZ 10024760 f i HotKeys.obj
+ 0002:000137b0       ??0CTaksiConfigCustom@@QAE@ABU0@@Z 100247b0 f i TaksiDll.obj
+ 0002:000138a0       ??4CTaksiConfigCustom@@QAEAAU0@ABU0@@Z 100248a0 f i TaksiDll.obj
+ 0002:000139d0       ??4CTaksiConfigData@@QAEAAU0@ABU0@@Z 100249d0 f i TaksiDll.obj
+ 0002:00013a20       ??0CTaksiConfig@@QAE@ABU0@@Z 10024a20 f i TaksiDll.obj
+ 0002:00013af0       ??4CTaksiConfig@@QAEAAU0@ABU0@@Z 10024af0 f i TaksiDll.obj
+ 0002:00013bb0       ??0CTaksiLogFile@@QAE@XZ   10024bb0 f i TaksiDll.obj
+ 0002:00013ca0       ??1CTaksiLogFile@@UAE@XZ   10024ca0 f i TaksiDll.obj
+ 0002:00013d80       ??0CTaksiLogFile@@QAE@ABU0@@Z 10024d80 f i TaksiDll.obj
+ 0002:00013e00       ??4CTaksiLogFile@@QAEAAU0@ABU0@@Z 10024e00 f i TaksiDll.obj
+ 0002:00013e80       ??_GCTaksiLogFile@@UAEPAXI@Z 10024e80 f i TaksiDll.obj
+ 0002:00013ef0       ??_ECTaksiLogFile@@UAEPAXI@Z 10024ef0 f i TaksiDll.obj
+ 0002:00013fb0       ?UpdateProcStat@CTaksiProcStats@@QAEXW4TAKSI_PROCSTAT_TYPE@@@Z 10024fb0 f i TaksiDll.obj
+ 0002:00014060       ?CopyProcStat@CTaksiProcStats@@QAEXABU1@W4TAKSI_PROCSTAT_TYPE@@@Z 10025060 f i TaksiDll.obj
+ 0002:00014220       ?get_DataRecMeg@CTaksiProcStats@@QBENXZ 10025220 f i TaksiDll.obj
+ 0002:000142d0       ??4CTaksiProcStats@@QAEAAU0@ABU0@@Z 100252d0 f i TaksiDll.obj
+ 0002:00014320       ??4CTaksiShared@@QAEAAU0@ABU0@@Z 10025320 f i TaksiDll.obj
+ 0002:00014370       ?OpenLogFile@CTaksiLogFile@@QAEJPBD@Z 10025370 f   TaksiDll.obj
+ 0002:00014510       ?CloseLogFile@CTaksiLogFile@@QAEXXZ 10025510 f   TaksiDll.obj
+ 0002:000145c0       ?EventStr@CTaksiLogFile@@UAEHKW4LOGL_TYPE@@PBD@Z 100255c0 f   TaksiDll.obj
+ 0002:00014770       ?InitProcStats@CTaksiProcStats@@QAEXXZ 10025770 f   TaksiDll.obj
+ 0002:00014860       ?ResetProcStats@CTaksiProcStats@@QAEXXZ 10025860 f   TaksiDll.obj
+ 0002:000148d0       ?CopyProcStats@CTaksiProcStats@@QAEXABU1@@Z 100258d0 f   TaksiDll.obj
+ 0002:00014950       ?HookCBTProc@CTaksiShared@@SGJHIJ@Z 10025950 f   TaksiDll.obj
+ 0002:00014a50       ?HookCBT_Install@CTaksiShared@@QAE_NXZ 10025a50 f   TaksiDll.obj
+ 0002:00014b70       ?HookCBT_Uninstall@CTaksiShared@@QAE_NXZ 10025b70 f   TaksiDll.obj
+ 0002:00014ca0       ?UpdateMaster@CTaksiShared@@QAEXXZ 10025ca0 f   TaksiDll.obj
+ 0002:00014d50       ?OnMasterTick@CTaksiShared@@QAEXXZ 10025d50 f   TaksiDll.obj
+ 0002:00014e70       ?LogMessage@CTaksiShared@@QAEJPBD@Z 10025e70 f   TaksiDll.obj
+ 0002:000151e0       ?UpdateConfigCustom@CTaksiShared@@QAEXXZ 100261e0 f   TaksiDll.obj
+ 0002:00015270       ?SendReHookMessage@CTaksiShared@@QAEXXZ 10026270 f   TaksiDll.obj
+ 0002:00015350       ?HotKey_ConfigOpen@CTaksiShared@@QAEXXZ 10026350 f   TaksiDll.obj
+ 0002:00015400       ?HotKey_IndicatorToggle@CTaksiShared@@QAEXXZ 10026400 f   TaksiDll.obj
+ 0002:00015470       ?HotKey_HookModeToggle@CTaksiShared@@QAEXXZ 10026470 f   TaksiDll.obj
+ 0002:00015590       ?InitMasterWnd@CTaksiShared@@QAE_NPAUHWND__@@@Z 10026590 f   TaksiDll.obj
+ 0002:00015640       ?DestroyShared@CTaksiShared@@QAEXXZ 10026640 f   TaksiDll.obj
+ 0002:000156c0       ?InitShared@CTaksiShared@@QAE_NXZ 100266c0 f   TaksiDll.obj
+ 0002:00015920       ?UpdateStat@CTaksiProcess@@QAEXW4TAKSI_PROCSTAT_TYPE@@@Z 10026920 f   TaksiDll.obj
+ 0002:000159e0       ?MakeFileName@CTaksiProcess@@QAEHPADPBD@Z 100269e0 f   TaksiDll.obj
+ 0002:00015b20       ?CheckProcessMaster@CTaksiProcess@@QBE_NXZ 10026b20 f   TaksiDll.obj
+ 0002:00015ba0       ?CheckProcessIgnored@CTaksiProcess@@QBE_NXZ 10026ba0 f   TaksiDll.obj
+ 0002:00015ce0       ?CheckProcessCustom@CTaksiProcess@@QAEXXZ 10026ce0 f   TaksiDll.obj
+ 0002:000161b0       ?StartGAPI@CTaksiProcess@@QAE_NW4TAKSI_GAPI_TYPE@@@Z 100271b0 f   TaksiDll.obj
+ 0002:00016300       ?AttachGAPIs@CTaksiProcess@@QAEJPAUHWND__@@@Z 10027300 f   TaksiDll.obj
+ 0002:00016450       ?StopGAPIs@CTaksiProcess@@QAEXXZ 10027450 f   TaksiDll.obj
+ 0002:00016500       ?DetachGAPIs@CTaksiProcess@@QAEXXZ 10027500 f   TaksiDll.obj
+ 0002:000165d0       ?OnDllProcessAttach@CTaksiProcess@@QAE_NXZ 100275d0 f   TaksiDll.obj
+ 0002:00016b50       ?OnDllProcessDetach@CTaksiProcess@@QAE_NXZ 10027b50 f   TaksiDll.obj
+ 0002:00016c80       _DllMain@12                10027c80 f   TaksiDll.obj
+ 0002:00016d40       ??0CTaksiProcess@@QAE@XZ   10027d40 f i TaksiDll.obj
+ 0002:00016df1       __imp_load__GdipSaveImageToFile@16 10027df1     gdiplus:gdiplus.dll
+ 0002:00016dfd       __tailMerge_gdiplus_dll    10027dfd     gdiplus:gdiplus.dll
+ 0002:00016e12       _GdipSaveImageToFile@16    10027e12 f   gdiplus:gdiplus.dll
+ 0002:00016e18       __imp_load__GdipFree@4     10027e18     gdiplus:gdiplus.dll
+ 0002:00016e24       _GdipFree@4                10027e24 f   gdiplus:gdiplus.dll
+ 0002:00016e2a       __imp_load__GdipAlloc@4    10027e2a     gdiplus:gdiplus.dll
+ 0002:00016e36       _GdipAlloc@4               10027e36 f   gdiplus:gdiplus.dll
+ 0002:00016e3c       __imp_load__GdipCreateBitmapFromGdiDib@12 10027e3c     gdiplus:gdiplus.dll
+ 0002:00016e48       _GdipCreateBitmapFromGdiDib@12 10027e48 f   gdiplus:gdiplus.dll
+ 0002:00016e4e       __imp_load__GdipDisposeImage@4 10027e4e     gdiplus:gdiplus.dll
+ 0002:00016e5a       _GdipDisposeImage@4        10027e5a f   gdiplus:gdiplus.dll
+ 0002:00016e60       __imp_load__GdipCloneImage@8 10027e60     gdiplus:gdiplus.dll
+ 0002:00016e6c       _GdipCloneImage@8          10027e6c f   gdiplus:gdiplus.dll
+ 0002:00016e72       _HRESULT_FROM_WIN32@4      10027e72 f i delayimp:delayhlp.obj
+ 0002:00016f0f       ?IndexFromPImgThunkData@@YGIPBU_IMAGE_THUNK_DATA32@@0@Z 10027f0f f i delayimp:delayhlp.obj
+ 0002:00016f25       ?CountOfImports@@YGIPBU_IMAGE_THUNK_DATA32@@@Z 10027f25 f i delayimp:delayhlp.obj
+ 0002:00016f46       ??2ULI@@SGPAXI@Z           10027f46 f i delayimp:delayhlp.obj
+ 0002:00016f5f       ??3ULI@@SGXPAX@Z           10027f5f f i delayimp:delayhlp.obj
+ 0002:00016f6e       ?Unlink@ULI@@QAEXXZ        10027f6e f i delayimp:delayhlp.obj
+ 0002:00016f9b       ?Link@ULI@@QAEXXZ          10027f9b f i delayimp:delayhlp.obj
+ 0002:00017003       ??$PFromRva@PBD@@YGPBDK@Z  10028003 f i delayimp:delayhlp.obj
+ 0002:00017019       ??$PFromRva@PAPAUHINSTANCE__@@@@YGPAPAUHINSTANCE__@@K@Z 10028019 f i delayimp:delayhlp.obj
+ 0002:0001702f       ??$PFromRva@PAU_IMAGE_THUNK_DATA32@@@@YGPAU_IMAGE_THUNK_DATA32@@K@Z 1002802f f i delayimp:delayhlp.obj
+ 0002:00017045       ??$PFromRva@PBU_IMAGE_THUNK_DATA32@@@@YGPBU_IMAGE_THUNK_DATA32@@K@Z 10028045 f i delayimp:delayhlp.obj
+ 0002:0001705b       ??$PFromRva@PAU_IMAGE_IMPORT_BY_NAME@@@@YGPAU_IMAGE_IMPORT_BY_NAME@@K@Z 1002805b f i delayimp:delayhlp.obj
+ 0002:00017071       ??$PFromRva@PBUImgDelayDescr@@@@YGPBUImgDelayDescr@@K@Z 10028071 f i delayimp:delayhlp.obj
+ 0002:00017087       ??$PFromRva@PAP6GHXZ@@YGPAP6GHXZK@Z 10028087 f i delayimp:delayhlp.obj
+ 0002:0001709d       ??0ULI@@QAE@PBUImgDelayDescr@@@Z 1002809d f i delayimp:delayhlp.obj
+ 0002:000170c2       ??1ULI@@QAE@XZ             100280c2 f i delayimp:delayhlp.obj
+ 0002:000170c7       ___delayLoadHelper2@8      100280c7 f   delayimp:delayhlp.obj
+ 0002:00017390       ??_GULI@@QAEPAXI@Z         10028390 f i delayimp:delayhlp.obj
+ 0002:000173b9       ___HrLoadAllImportsForDll@4 100283b9 f   delayimp:delayhlp.obj
+ 0002:000174a4       ___FUnloadDelayLoadedDLL2@4 100284a4 f   delayimp:delayhlp.obj
+ 0002:000175d6       _QueryPerformanceFrequency@4 100285d6 f   kernel32:KERNEL32.dll
+ 0002:000175dc       _HeapFree@12               100285dc f   kernel32:KERNEL32.dll
+ 0002:000175e2       _WaitForSingleObject@8     100285e2 f   kernel32:KERNEL32.dll
+ 0002:000175e8       _HeapAlloc@12              100285e8 f   kernel32:KERNEL32.dll
+ 0002:000175ee       _GetProcessHeap@0          100285ee f   kernel32:KERNEL32.dll
+ 0002:000175f4       _GetCurrentThreadId@0      100285f4 f   kernel32:KERNEL32.dll
+ 0002:000175fa       _CreateThread@24           100285fa f   kernel32:KERNEL32.dll
+ 0002:00017600       _CreateEventA@16           10028600 f   kernel32:KERNEL32.dll
+ 0002:00017606       _SetEvent@4                10028606 f   kernel32:KERNEL32.dll
+ 0002:0001760c       _ResetEvent@4              1002860c f   kernel32:KERNEL32.dll
+ 0002:00017612       _lstrcpyA@8                10028612 f   kernel32:KERNEL32.dll
+ 0002:00017618       _lstrcatA@8                10028618 f   kernel32:KERNEL32.dll
+ 0002:0001761e       _GetModuleFileNameA@12     1002861e f   kernel32:KERNEL32.dll
+ 0002:00017624       _lstrlenA@4                10028624 f   kernel32:KERNEL32.dll
+ 0002:0001762a       _lstrcmpA@8                1002862a f   kernel32:KERNEL32.dll
+ 0002:00017630       _ReadFile@20               10028630 f   kernel32:KERNEL32.dll
+ 0002:00017636       _GetFileSize@8             10028636 f   kernel32:KERNEL32.dll
+ 0002:0001763c       _CreateFileA@28            1002863c f   kernel32:KERNEL32.dll
+ 0002:00017642       _GetLastError@0            10028642 f   kernel32:KERNEL32.dll
+ 0002:00017648       _MultiByteToWideChar@24    10028648 f   kernel32:KERNEL32.dll
+ 0002:0001764e       _GetModuleHandleA@4        1002864e f   kernel32:KERNEL32.dll
+ 0002:00017654       _GetTickCount@0            10028654 f   kernel32:KERNEL32.dll
+ 0002:0001765a       _SetFilePointer@16         1002865a f   kernel32:KERNEL32.dll
+ 0002:00017660       _WriteFile@20              10028660 f   kernel32:KERNEL32.dll
+ 0002:00017666       _GetCurrentProcessId@0     10028666 f   kernel32:KERNEL32.dll
+ 0002:0001766c       _GetCurrentDirectoryA@8    1002866c f   kernel32:KERNEL32.dll
+ 0002:00017672       _GetLocalTime@4            10028672 f   kernel32:KERNEL32.dll
+ 0002:00017678       _lstrcmpiA@8               10028678 f   kernel32:KERNEL32.dll
+ 0002:0001767e       _lstrcpynA@12              1002867e f   kernel32:KERNEL32.dll
+ 0002:00017684       _GetWindowsDirectoryA@8    10028684 f   kernel32:KERNEL32.dll
+ 0002:0001768a       _LocalAlloc@8              1002868a f   kernel32:KERNEL32.dll
+ 0002:00017690       _LocalFree@4               10028690 f   kernel32:KERNEL32.dll
+ 0002:00017696       _GetProcAddress@8          10028696 f   kernel32:KERNEL32.dll
+ 0002:0001769c       _FreeLibrary@4             1002869c f   kernel32:KERNEL32.dll
+ 0002:000176a2       _InterlockedExchange@8     100286a2 f   kernel32:KERNEL32.dll
+ 0002:000176a8       _LoadLibraryA@4            100286a8 f   kernel32:KERNEL32.dll
+ 0002:000176ae       _RaiseException@16         100286ae f   kernel32:KERNEL32.dll
+ 0002:000176b4       _IsWindow@4                100286b4 f   user32:USER32.dll
+ 0002:000176ba       _FillRect@12               100286ba f   user32:USER32.dll
+ 0002:000176c0       _ClientToScreen@8          100286c0 f   user32:USER32.dll
+ 0002:000176c6       _GetClientRect@8           100286c6 f   user32:USER32.dll
+ 0002:000176cc       _GetWindowRect@8           100286cc f   user32:USER32.dll
+ 0002:000176d2       _DrawIcon@16               100286d2 f   user32:USER32.dll
+ 0002:000176d8       _GetIconInfo@8             100286d8 f   user32:USER32.dll
+ 0002:000176de       _GetCursor@0               100286de f   user32:USER32.dll
+ 0002:000176e4       _GetCursorPos@4            100286e4 f   user32:USER32.dll
+ 0002:000176ea       _CallWindowProcA@20        100286ea f   user32:USER32.dll
+ 0002:000176f0       _SetTimer@16               100286f0 f   user32:USER32.dll
+ 0002:000176f6       _SetWindowLongA@12         100286f6 f   user32:USER32.dll
+ 0002:000176fc       _GetWindowLongA@8          100286fc f   user32:USER32.dll
+ 0002:00017702       _IsWindowVisible@4         10028702 f   user32:USER32.dll
+ 0002:00017708       _InvalidateRect@12         10028708 f   user32:USER32.dll
+ 0002:0001770e       _KillTimer@8               1002870e f   user32:USER32.dll
+ 0002:00017714       _WindowFromDC@4            10028714 f   user32:USER32.dll
+ 0002:0001771a       _MapVirtualKeyA@8          1002871a f   user32:USER32.dll
+ 0002:00017720       _SetWindowsHookExA@16      10028720 f   user32:USER32.dll
+ 0002:00017726       _GetWindowThreadProcessId@8 10028726 f   user32:USER32.dll
+ 0002:0001772c       _UnhookWindowsHookEx@4     1002872c f   user32:USER32.dll
+ 0002:00017732       _CallNextHookEx@16         10028732 f   user32:USER32.dll
+ 0002:00017738       _PostMessageA@16           10028738 f   user32:USER32.dll
+ 0002:0001773e       _DeleteObject@4            1002873e f   gdi32:GDI32.dll
+ 0002:00017744       _GetDIBits@28              10028744 f   gdi32:GDI32.dll
+ 0002:0001774a       _BitBlt@36                 1002874a f   gdi32:GDI32.dll
+ 0002:00017750       _StretchBlt@44             10028750 f   gdi32:GDI32.dll
+ 0002:00017756       ?Debug_Warn@CLogBase@@QAAHPBDZZ 10028756 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001775c       ?Debug_Info@CLogBase@@QAAHPBDZZ 1002875c f   TaksiCommon:TaksiCommon.dll
+ 0002:00017762       ?Assert_CheckFail@CLogBase@@QAEXPBD0I@Z 10028762 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017768       ?Debug_Trace@CLogBase@@QAAHPBDZZ 10028768 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001776e       ?GetPerformanceCounter@@YA_JXZ 1002876e f   TaksiCommon:TaksiCommon.dll
+ 0002:00017774       ??1CWaveRecorder@@QAE@XZ   10028774 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001777a       ??1CNTHandle@@QAE@XZ       1002877a f   TaksiCommon:TaksiCommon.dll
+ 0002:00017780       ??_FCWaveHeaderBase@@QAEXXZ 10028780 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017786       ??1CWaveHeaderBase@@QAE@XZ 10028786 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001778c       ??0CWaveRecorder@@QAE@I@Z  1002878c f   TaksiCommon:TaksiCommon.dll
+ 0002:00017792       ??0CThreadLockedLong@@QAE@J@Z 10028792 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017798       ??0CNTHandle@@QAE@PAX@Z    10028798 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001779e       ??0CVideoFrame@@QAE@XZ     1002879e f   TaksiCommon:TaksiCommon.dll
+ 0002:000177a4       ??1CVideoFrame@@QAE@XZ     100287a4 f   TaksiCommon:TaksiCommon.dll
+ 0002:000177aa       ?Exchange@CThreadLockedLong@@QAEJJ@Z 100287aa f   TaksiCommon:TaksiCommon.dll
+ 0002:000177b0       ?Debug_Error@CLogBase@@QAAHPBDZZ 100287b0 f   TaksiCommon:TaksiCommon.dll
+ 0002:000177b6       ??BCNTHandle@@QBEPAXXZ     100287b6 f   TaksiCommon:TaksiCommon.dll
+ 0002:000177bc       ?Dec@CThreadLockedLong@@QAEJXZ 100287bc f   TaksiCommon:TaksiCommon.dll
+ 0002:000177c2       ?WriteAudioBlock@CAVIFile@@QAEJPBEK@Z 100287c2 f   TaksiCommon:TaksiCommon.dll
+ 0002:000177c8       ?GetAudioBytesForMs@CAVIFile@@QBEKK@Z 100287c8 f   TaksiCommon:TaksiCommon.dll
+ 0002:000177ce       ?GetFrameTimeMs@CAVIFile@@QBEKXZ 100287ce f   TaksiCommon:TaksiCommon.dll
+ 0002:000177d4       ?GetAudioTimeMs@CAVIFile@@QBEKXZ 100287d4 f   TaksiCommon:TaksiCommon.dll
+ 0002:000177da       ?get_Handle@CWaveRecorder@@QBEPAUHWAVEIN__@@XZ 100287da f   TaksiCommon:TaksiCommon.dll
+ 0002:000177e0       ?WriteVideoBlocks@CAVIFile@@QAEJAAUCVideoFrame@@H@Z 100287e0 f   TaksiCommon:TaksiCommon.dll
+ 0002:000177e6       ?IsValidFrame@CVideoFrame@@QBE_NXZ 100287e6 f   TaksiCommon:TaksiCommon.dll
+ 0002:000177ec       ?IsValidHandle@CNTHandle@@QBE_NXZ 100287ec f   TaksiCommon:TaksiCommon.dll
+ 0002:000177f2       ?ResetAVIFile@CAVIFile@@QAEJPBD@Z 100287f2 f   TaksiCommon:TaksiCommon.dll
+ 0002:000177f8       ?AllocForm@CVideoFrame@@QAE_NABUCVideoFrameForm@@@Z 100287f8 f   TaksiCommon:TaksiCommon.dll
+ 0002:000177fe       ?get_SizeBytes@CVideoFrameForm@@QBEHXZ 100287fe f   TaksiCommon:TaksiCommon.dll
+ 0002:00017804       ?Inc@CThreadLockedLong@@QAEJXZ 10028804 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001780a       ?UnprepareDevice@CWaveHeaderBase@@QAEXXZ 1002880a f   TaksiCommon:TaksiCommon.dll
+ 0002:00017810       ?get_wh@CWaveHeaderBase@@QBEPAUwavehdr_tag@@XZ 10028810 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017816       ?IsOpen@CAVIFile@@QBE_NXZ  10028816 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001781c       ?OnHeaderReturn@CWaveDevice@@SGPAVCWaveHeaderBase@@PAUwavehdr_tag@@@Z 1002881c f   TaksiCommon:TaksiCommon.dll
+ 0002:00017822       ?AttachData@CWaveHeaderBase@@QAEXPADK@Z 10028822 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017828       ?CvtBlocksToBytes@CWaveFormat@@QBEKK@Z 10028828 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001782e       ?CvtmSecToBlocks@CWaveFormat@@QBEKK@Z 1002882e f   TaksiCommon:TaksiCommon.dll
+ 0002:00017834       ?IsValidFormat@CWaveFormat@@QBE_NXZ 10028834 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001783a       ?DetachData@CWaveHeaderBase@@QAEXXZ 1002883a f   TaksiCommon:TaksiCommon.dll
+ 0002:00017840       ?CloseHandle@CNTHandle@@QAE_NXZ 10028840 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017846       ?HRes_GetLastErrorDef@@YAJJ@Z 10028846 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001784c       ?AttachHandle@CNTHandle@@QAEXPAX@Z 1002884c f   TaksiCommon:TaksiCommon.dll
+ 0002:00017852       ??0CAVIFile@@QAE@XZ        10028852 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017858       ??1CAVIFile@@QAE@XZ        10028858 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001785e       ?InitFormatEmpty@CWaveFormat@@QAEXXZ 1002885e f   TaksiCommon:TaksiCommon.dll
+ 0002:00017864       ?InitCodec@CVideoCodec@@QAEXXZ 10028864 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001786a       ?SetFormat@CWaveFormat@@QAE_NPBUtWAVEFORMATEX@@@Z 1002886a f   TaksiCommon:TaksiCommon.dll
+ 0002:00017870       ??BCWaveFormat@@QBEPBUtWAVEFORMATEX@@XZ 10028870 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017876       ?CopyCodec@CVideoCodec@@QAEXABU1@@Z 10028876 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001787c       ?CreateDirectoryX@@YAJPBD@Z 1002887c f   TaksiCommon:TaksiCommon.dll
+ 0002:00017882       ?GetFileTitlePtr@@YAPADPAD@Z 10028882 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017888       ?PropsInit@CIniObject@@QAEXXZ 10028888 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001788e       ??0CIniObject@@QAE@XZ      1002888e f   TaksiCommon:TaksiCommon.dll
+ 0002:00017894       ?DestroyCodec@CVideoCodec@@QAEXXZ 10028894 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001789a       ?Mem_ConvertToString@@YAHPADHPBEH@Z 1002889a f   TaksiCommon:TaksiCommon.dll
+ 0002:000178a0       ?get_WF@CWaveFormat@@QBEPAUtWAVEFORMATEX@@XZ 100288a0 f   TaksiCommon:TaksiCommon.dll
+ 0002:000178a6       ?get_FormatSize@CWaveFormat@@QBEHXZ 100288a6 f   TaksiCommon:TaksiCommon.dll
+ 0002:000178ac       ?GetStr@CVideoCodec@@QBEHPADH@Z 100288ac f   TaksiCommon:TaksiCommon.dll
+ 0002:000178b2       ?SetFormatBytes@CWaveFormat@@QAE_NPBEH@Z 100288b2 f   TaksiCommon:TaksiCommon.dll
+ 0002:000178b8       ?Mem_ReadFromString@@YAHPAEHPBD@Z 100288b8 f   TaksiCommon:TaksiCommon.dll
+ 0002:000178be       ?put_Str@CVideoCodec@@QAE_NPBD@Z 100288be f   TaksiCommon:TaksiCommon.dll
+ 0002:000178c4       ?PropSetName@CIniObject@@QAE_NPBD0@Z 100288c4 f   TaksiCommon:TaksiCommon.dll
+ 0002:000178ca       ?Str_SkipSpace@@YAPADPBD@Z 100288ca f   TaksiCommon:TaksiCommon.dll
+ 0002:000178d0       ?PropWriteName@CIniObject@@QAE_NPAU_iobuf@@PBD@Z 100288d0 f   TaksiCommon:TaksiCommon.dll
+ 0002:000178d6       ?Str_IsSpace@@YA_ND@Z      100288d6 f   TaksiCommon:TaksiCommon.dll
+ 0002:000178dc       ?PropsWrite@CIniObject@@QAEXPAU_iobuf@@@Z 100288dc f   TaksiCommon:TaksiCommon.dll
+ 0002:000178e2       ?DetachGDIPInt@CImageGDIPInt@@QAEXXZ 100288e2 f   TaksiCommon:TaksiCommon.dll
+ 0002:000178e8       ?SetupBITMAPINFOHEADER@CVideoFrame@@QBEXAAUtagBITMAPINFOHEADER@@@Z 100288e8 f   TaksiCommon:TaksiCommon.dll
+ 0002:000178ee       ?GetEncoderClsid@CImageGDIPInt@@QAEJPBDPAU_GUID@@@Z 100288ee f   TaksiCommon:TaksiCommon.dll
+ 0002:000178f4       ?AttachGDIPInt@CImageGDIPInt@@QAE_NXZ 100288f4 f   TaksiCommon:TaksiCommon.dll
+ 0002:000178fa       ?SaveAsBMP@CVideoFrame@@QBEJPBD@Z 100288fa f   TaksiCommon:TaksiCommon.dll
+ 0002:00017900       ?AllocPadXY@CVideoFrame@@QAE_NHHHH@Z 10028900 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017906       ?CloseAVI@CAVIFile@@QAEJ_N@Z 10028906 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001790c       ?OpenAVIFile@CAVIFile@@QAEJPBD@Z 1002890c f   TaksiCommon:TaksiCommon.dll
+ 0002:00017912       ?OpenAVICodec@CAVIFile@@QAEJAAUCVideoFrameForm@@NABUCVideoCodec@@PBVCWaveFormat@@@Z 10028912 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017918       ?InitPadded@CVideoFrameForm@@QAEXHHHH@Z 10028918 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001791e       ??0CVideoFrameForm@@QAE@XZ 1002891e f   TaksiCommon:TaksiCommon.dll
+ 0002:00017924       ?IsValidDll@CDllFile@@QBE_NXZ 10028924 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001792a       ?FindDll@CDllFile@@QAE_NPBD@Z 1002892a f   TaksiCommon:TaksiCommon.dll
+ 0002:00017930       ?SwapReset@CHookJump@@QAEXPAX@Z 10028930 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017936       ?SwapOld@CHookJump@@QAEXPAX@Z 10028936 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001793c       ?RemoveHook@CHookJump@@QAEXPAX@Z 1002893c f   TaksiCommon:TaksiCommon.dll
+ 0002:00017942       ?IsHookInstalled@CHookJump@@QBE_NXZ 10028942 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017948       ??0CHookJump@@QAE@XZ       10028948 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001794e       ??0CDllFile@@QAE@PAUHINSTANCE__@@_N@Z 1002894e f   TaksiCommon:TaksiCommon.dll
+ 0002:00017954       ?FreeDll@CDllFile@@QAEXXZ  10028954 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001795a       ??1CDllFile@@QAE@XZ        1002895a f   TaksiCommon:TaksiCommon.dll
+ 0002:00017960       ?InstallHook@CHookJump@@QAE_NPAX0@Z 10028960 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017966       ?get_DllInt@CDllFile@@QBEIXZ 10028966 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001796c       ??BCWndDC@@QBEPAUHDC__@@XZ 1002896c f   TaksiCommon:TaksiCommon.dll
+ 0002:00017972       ?get_HBrush@CWndGDI@@QBEPAUHBRUSH__@@XZ 10028972 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017978       ??1CWndGDI@@QAE@XZ         10028978 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001797e       ?CreateSolidBrush@CWndGDI@@QAEPAUHBRUSH__@@K@Z 1002897e f   TaksiCommon:TaksiCommon.dll
+ 0002:00017984       ??0CWndGDI@@QAE@PAX@Z      10028984 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001798a       ??1CWndDC@@QAE@XZ          1002898a f   TaksiCommon:TaksiCommon.dll
+ 0002:00017990       ?GetDCEx@CWndDC@@QAE_NPAUHWND__@@K@Z 10028990 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017996       ??0CWndDC@@QAE@PAUHDC__@@PAUHWND__@@@Z 10028996 f   TaksiCommon:TaksiCommon.dll
+ 0002:0001799c       ?GetObjectA@CWndGDI@@QBEHHPAX@Z 1002899c f   TaksiCommon:TaksiCommon.dll
+ 0002:000179a2       ??1CWndGDISelect@@QAE@XZ   100289a2 f   TaksiCommon:TaksiCommon.dll
+ 0002:000179a8       ??0CWndGDISelect@@QAE@PAUHDC__@@PAX@Z 100289a8 f   TaksiCommon:TaksiCommon.dll
+ 0002:000179ae       ??BCWndGDI@@QBEPAXXZ       100289ae f   TaksiCommon:TaksiCommon.dll
+ 0002:000179b4       ?get_HBitmap@CWndGDI@@QBEPAUHBITMAP__@@XZ 100289b4 f   TaksiCommon:TaksiCommon.dll
+ 0002:000179ba       ?CreateCompatibleBitmap@CWndDC@@QAEPAUHBITMAP__@@HH@Z 100289ba f   TaksiCommon:TaksiCommon.dll
+ 0002:000179c0       ?CreateCompatibleDC@CWndDC@@QAE_NPAUHDC__@@@Z 100289c0 f   TaksiCommon:TaksiCommon.dll
+ 0002:000179c6       ?GetDC@CWndDC@@QAE_NPAUHWND__@@@Z 100289c6 f   TaksiCommon:TaksiCommon.dll
+ 0002:000179cc       ?GetProcAddress@CDllFile@@QBEP6GHXZPBD@Z 100289cc f   TaksiCommon:TaksiCommon.dll
+ 0002:000179d2       ?VerifyHook@CHookJump@@QBE_NQAX@Z 100289d2 f   TaksiCommon:TaksiCommon.dll
+ 0002:000179d8       ?FreeFrame@CVideoFrame@@QAEXXZ 100289d8 f   TaksiCommon:TaksiCommon.dll
+ 0002:000179de       ?LoadDll@CDllFile@@QAEJPBD@Z 100289de f   TaksiCommon:TaksiCommon.dll
+ 0002:000179e4       ??0CIniObject@@QAE@ABU0@@Z 100289e4 f   TaksiCommon:TaksiCommon.dll
+ 0002:000179ea       ??4CIniObject@@QAEAAU0@ABU0@@Z 100289ea f   TaksiCommon:TaksiCommon.dll
+ 0002:000179f0       ??1CLogFiltered@@UAE@XZ    100289f0 f   TaksiCommon:TaksiCommon.dll
+ 0002:000179f6       ??0CLogFiltered@@QAE@KW4LOGL_TYPE@@@Z 100289f6 f   TaksiCommon:TaksiCommon.dll
+ 0002:000179fc       ?IsLogged@CLogFiltered@@UBE_NKW4LOGL_TYPE@@@Z 100289fc f   TaksiCommon:TaksiCommon.dll
+ 0002:00017a02       ?VEvent@CLogBase@@UAEHKW4LOGL_TYPE@@PBDPAD@Z 10028a02 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017a08       ??0CLogFiltered@@QAE@ABV0@@Z 10028a08 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017a0e       ??4CLogFiltered@@QAEAAV0@ABV0@@Z 10028a0e f   TaksiCommon:TaksiCommon.dll
+ 0002:00017a14       ?EventStr@CLogBase@@UAEHKW4LOGL_TYPE@@PBD@Z 10028a14 f   TaksiCommon:TaksiCommon.dll
+ 0002:00017a1a       ?FindWindowTop@@YAPAUHWND__@@PAU1@@Z 10028a1a f   TaksiCommon:TaksiCommon.dll
+ 0002:00017a20       __RTC_CheckEsp             10028a20 f   MSVCRTD:_stack_.obj
+ 0002:00017a50       @_RTC_CheckStackVars@8     10028a50 f   MSVCRTD:_stack_.obj
+ 0002:00017ad0       @_RTC_AllocaHelper@12      10028ad0 f   MSVCRTD:_stack_.obj
+ 0002:00017b10       @_RTC_CheckStackVars2@12   10028b10 f   MSVCRTD:_stack_.obj
+ 0002:00017c20       __RTC_InitBase             10028c20 f   MSVCRTD:_init_.obj
+ 0002:00017c60       __RTC_Shutdown             10028c60 f   MSVCRTD:_init_.obj
+ 0002:00017c80       ??_M@YGXPAXIHP6EX0@Z@Z     10028c80 f   MSVCRTD:ehvecdtr.obj
+ 0002:00017d60       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10028d60 f   MSVCRTD:ehvecdtr.obj
+ 0002:00017e50       ??_L@YGXPAXIHP6EX0@Z1@Z    10028e50 f   MSVCRTD:ehvecctr.obj
+ 0002:00017f2c       ___CxxFrameHandler3        10028f2c f   MSVCRTD:MSVCR100D.dll
+ 0002:00017f40       @__security_check_cookie@4 10028f40 f   MSVCRTD:secchk.obj
+ 0002:00017f52       _memset                    10028f52 f   MSVCRTD:MSVCR100D.dll
+ 0002:00017f58       _memcpy                    10028f58 f   MSVCRTD:MSVCR100D.dll
+ 0002:00017f60       __onexit                   10028f60 f   MSVCRTD:atonexit.obj
+ 0002:00018090       _atexit                    10029090 f   MSVCRTD:atonexit.obj
+ 0002:000180b4       __snprintf                 100290b4 f   MSVCRTD:MSVCR100D.dll
+ 0002:000180ba       _atof                      100290ba f   MSVCRTD:MSVCR100D.dll
+ 0002:000180c0       _strncpy                   100290c0 f   MSVCRTD:MSVCR100D.dll
+ 0002:000180c6       _strchr                    100290c6 f   MSVCRTD:MSVCR100D.dll
+ 0002:000180d0       ??0type_info@@AAE@ABV0@@Z  100290d0 f   MSVCRTD:ti_inst.obj
+ 0002:00018100       ??_Etype_info@@UAEPAXI@Z   10029100 f i MSVCRTD:ti_inst.obj
+ 0002:00018190       ??4type_info@@AAEAAV0@ABV0@@Z 10029190 f   MSVCRTD:ti_inst.obj
+ 0002:000181a6       __mbsnbcpy                 100291a6 f   MSVCRTD:MSVCR100D.dll
+ 0002:000181ac       __mbsstr                   100291ac f   MSVCRTD:MSVCR100D.dll
+ 0002:000181b2       _atoi                      100291b2 f   MSVCRTD:MSVCR100D.dll
+ 0002:000181b8       _strtol                    100291b8 f   MSVCRTD:MSVCR100D.dll
+ 0002:000181be       _sscanf                    100291be f   MSVCRTD:MSVCR100D.dll
+ 0002:000181c4       _fclose                    100291c4 f   MSVCRTD:MSVCR100D.dll
+ 0002:000181ca       _feof                      100291ca f   MSVCRTD:MSVCR100D.dll
+ 0002:000181d0       _fgets                     100291d0 f   MSVCRTD:MSVCR100D.dll
+ 0002:000181d6       _fopen                     100291d6 f   MSVCRTD:MSVCR100D.dll
+ 0002:000181dc       _strstr                    100291dc f   MSVCRTD:MSVCR100D.dll
+ 0002:000181e2       _fprintf                   100291e2 f   MSVCRTD:MSVCR100D.dll
+ 0002:000181e8       __mbslwr                   100291e8 f   MSVCRTD:MSVCR100D.dll
+ 0002:000181ee       __mbschr                   100291ee f   MSVCRTD:MSVCR100D.dll
+ 0002:000181f4       __purecall                 100291f4 f   MSVCRTD:MSVCR100D.dll
+ 0002:000181fa       __wassert                  100291fa f   MSVCRTD:MSVCR100D.dll
+ 0002:00018200       ??3@YAXPAX@Z               10029200 f   MSVCRTD:MSVCR100D.dll
+ 0002:00018206       ??_V@YAXPAX@Z              10029206 f   MSVCRTD:MSVCR100D.dll
+ 0002:000182b0       __CRT_INIT@12              100292b0 f   MSVCRTD:crtdll.obj
+ 0002:00018660       _NtCurrentTeb              10029660 f i MSVCRTD:crtdll.obj
+ 0002:00018670       __DllMainCRTStartup@12     10029670 f   MSVCRTD:crtdll.obj
+ 0002:000188f0       ?_RTC_Failure@@YAXPAXH@Z   100298f0 f   MSVCRTD:_error_.obj
+ 0002:00018d80       ?_RTC_StackFailure@@YAXPAXPBD@Z 10029d80 f   MSVCRTD:_error_.obj
+ 0002:00018ec0       ?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z 10029ec0 f   MSVCRTD:_error_.obj
+ 0002:000190d0       __RTC_UninitUse            1002a0d0 f   MSVCRTD:_error_.obj
+ 0002:00019200       __RTC_NumErrors            1002a200 f   MSVCRTD:_userapi_.obj
+ 0002:00019210       __RTC_GetErrDesc           1002a210 f   MSVCRTD:_userapi_.obj
+ 0002:00019230       __RTC_SetErrorType         1002a230 f   MSVCRTD:_userapi_.obj
+ 0002:00019260       __RTC_SetErrorFunc         1002a260 f   MSVCRTD:_userapi_.obj
+ 0002:00019290       __RTC_SetErrorFuncW        1002a290 f   MSVCRTD:_userapi_.obj
+ 0002:000192c0       ?_RTC_GetErrorFunc@@YAP6AHHPBDH00ZZPBX@Z 1002a2c0 f   MSVCRTD:_userapi_.obj
+ 0002:000192d0       ?_RTC_GetErrorFuncW@@YAP6AHHPB_WH00ZZPBX@Z 1002a2d0 f   MSVCRTD:_userapi_.obj
+ 0002:000192d6       __CRT_RTC_INITW            1002a2d6 f   MSVCRTD:MSVCR100D.dll
+ 0002:000192e0       __except_handler4          1002a2e0 f   MSVCRTD:chandler4gs.obj
+ 0002:00019314       ?terminate@@YAXXZ          1002a314 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019320       ___report_gsfailure        1002a320 f   MSVCRTD:gs_report.obj
+ 0002:00019472       __unlock                   1002a472 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019478       ___dllonexit               1002a478 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001947e       __lock                     1002a47e f   MSVCRTD:MSVCR100D.dll
+ 0002:00019490       ___clean_type_info_names   1002a490 f   MSVCRTD:tncleanup.obj
+ 0002:000194b0       __RTC_Initialize           1002a4b0 f   MSVCRTD:_initsect_.obj
+ 0002:000194e0       __RTC_Terminate            1002a4e0 f   MSVCRTD:_initsect_.obj
+ 0002:00019510       __malloc_dbg               1002a510 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019516       __free_dbg                 1002a516 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001951c       __encoded_null             1002a51c f   MSVCRTD:MSVCR100D.dll
+ 0002:00019522       __CrtSetCheckCount         1002a522 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019530       __ValidateImageBase        1002a530 f   MSVCRTD:pesect.obj
+ 0002:000195b0       __FindPESection            1002a5b0 f   MSVCRTD:pesect.obj
+ 0002:00019650       __IsNonwritableInCurrentImage 1002a650 f   MSVCRTD:pesect.obj
+ 0002:000197a6       __initterm                 1002a7a6 f   MSVCRTD:MSVCR100D.dll
+ 0002:000197ac       __initterm_e               1002a7ac f   MSVCRTD:MSVCR100D.dll
+ 0002:000197b2       __amsg_exit                1002a7b2 f   MSVCRTD:MSVCR100D.dll
+ 0002:000197c0       ___security_init_cookie    1002a7c0 f   MSVCRTD:gs_support.obj
+ 0002:000198d8       ___CppXcptFilter           1002a8d8 f   MSVCRTD:MSVCR100D.dll
+ 0002:000198e0       ?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z 1002a8e0 f   MSVCRTD:_pdblkup_.obj
+ 0002:00019eb6       __except_handler4_common   1002aeb6 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019ebc       __crt_debugger_hook        1002aebc f   MSVCRTD:MSVCR100D.dll
+ 0002:00019ec2       ??1type_info@@UAE@XZ       1002aec2 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019ec2       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 1002aec2 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019ec8       ___clean_type_info_names_internal 1002aec8 f   MSVCRTD:MSVCR100D.dll
+ 0002:00019ece       _EncodePointer@4           1002aece f   kernel32:KERNEL32.dll
+ 0002:00019ed4       _DecodePointer@4           1002aed4 f   kernel32:KERNEL32.dll
+ 0002:00019eda       _Sleep@4                   1002aeda f   kernel32:KERNEL32.dll
+ 0002:00019ee0       _InterlockedCompareExchange@12 1002aee0 f   kernel32:KERNEL32.dll
+ 0002:00019ee6       _WideCharToMultiByte@32    1002aee6 f   kernel32:KERNEL32.dll
+ 0002:00019eec       _IsDebuggerPresent@0       1002aeec f   kernel32:KERNEL32.dll
+ 0002:00019ef2       _LoadLibraryW@4            1002aef2 f   kernel32:KERNEL32.dll
+ 0002:00019ef8       _TerminateProcess@8        1002aef8 f   kernel32:KERNEL32.dll
+ 0002:00019efe       _GetCurrentProcess@0       1002aefe f   kernel32:KERNEL32.dll
+ 0002:00019f04       _UnhandledExceptionFilter@4 1002af04 f   kernel32:KERNEL32.dll
+ 0002:00019f0a       _SetUnhandledExceptionFilter@4 1002af0a f   kernel32:KERNEL32.dll
+ 0002:00019f10       _QueryPerformanceCounter@4 1002af10 f   kernel32:KERNEL32.dll
+ 0002:00019f16       _GetSystemTimeAsFileTime@4 1002af16 f   kernel32:KERNEL32.dll
+ 0002:00019f1c       _GetModuleFileNameW@12     1002af1c f   kernel32:KERNEL32.dll
+ 0002:00019f22       _VirtualQuery@12           1002af22 f   kernel32:KERNEL32.dll
+ 0002:00019f28       __strnicmp                 1002af28 f   MSVCRTD:MSVCR100D.dll
+ 0003:00000000       ___xc_a                    10030000     MSVCRTD:cinitexe.obj
+ 0003:00000258       ___xc_z                    10030258     MSVCRTD:cinitexe.obj
+ 0003:0000035c       ___xi_a                    1003035c     MSVCRTD:cinitexe.obj
+ 0003:00000564       ___xi_z                    10030564     MSVCRTD:cinitexe.obj
+ 0003:0000068c       ??_C@_0CE@PMIIBBKL@QueryPerformanceFrequency?5FAILED@ 1003068c     AVI.obj
+ 0003:000006b8       ??_C@_0CJ@MLLNDNLG@QueryPerformanceFrequency?5hi?$DN?$CFu?0@ 100306b8     AVI.obj
+ 0003:000006ec       ??_C@_0BD@HOLKHEAK@freq?4HighPart?5?$DN?$DN?50?$AA@ 100306ec     AVI.obj
+ 0003:00000708       ??_C@_0GK@FMPBDLLC@c?3?2users?2changxl?2documents?2visua@ 10030708     AVI.obj
+ 0003:00000788       __real@00000000            10030788     AVI.obj
+ 0003:0000078c       ??_C@_0BI@HKGLBGFA@currentFrameRate?5?$DN?5?$CFf?$AN?6?$AA@ 1003078c     AVI.obj
+ 0003:000007a8       ??_C@_0CL@LHFFOPKM@adjusted?5iTimeDiff?5?$DN?5?$CFd?0?5LastOve@ 100307a8     AVI.obj
+ 0003:000007dc       ??_C@_0P@FCBKICHE@iTimeDiff?$DN?$CFd?$AN?6?$AA@ 100307dc     AVI.obj
+ 0003:000007f0       __real@0000000000000000    100307f0     AVI.obj
+ 0003:000007fc       ??_C@_0BI@CGBCDMJD@dwFrameDups?5?$DN?5?$CFd?5?$CL?5?$CFf?$AN?6?$AA@ 100307fc     AVI.obj
+ 0003:00000818       ??_C@_04GNLBACMP@tNow?$AA@ 10030818     AVI.obj
+ 0003:00000820       ??_C@_0BO@KJLCENFF@CAVIThread?3?3ThreadRun?$CI?$CJ?5END?$AN?6?$AA@ 10030820     AVI.obj
+ 0003:00000844       ??_C@_0CH@EJKNKHPH@CAVIThread?3?3WaitForSingleObject?5@ 10030844     AVI.obj
+ 0003:00000874       ??_C@_0BG@MNJICK@pFrame?9?$DOm_dwFrameDups?$AA@ 10030874     AVI.obj
+ 0003:00000890       ??_C@_0BP@JPDHMJGO@pFrame?9?$DOm_Video?4IsValidFrame?$CI?$CJ?$AA@ 10030890     AVI.obj
+ 0003:000008b8       ??_C@_06PPHPNID@pFrame?$AA@ 100308b8     AVI.obj
+ 0003:000008c0       ??_C@_0BL@LJNHGANH@m_iFrameCount?4m_lValue?5?$DO?50?$AA@ 100308c0     AVI.obj
+ 0003:000008e0       ??_C@_0BP@EGHIBNEE@CAVIThread?3?3ThreadRun?$CI?$CJ?5n?$DN?$CFd?$AN?6?$AA@ 100308e0     AVI.obj
+ 0003:00000908       ??_C@_05DFAKDPOA@pThis?$AA@ 10030908     AVI.obj
+ 0003:00000910       ??_C@_03LJGCHEIJ@avi?$AA@  10030910     AVI.obj
+ 0003:00000914       ??_C@_0CG@NMPAKPGE@CAVIThread?3?3WaitForNextFrame?5FAI@ 10030914     AVI.obj
+ 0003:00000944       ??_C@_0CE@INEOLDGH@GetCurrentThreadId?$CI?$CJ?5?$CB?$DN?5m_nThrea@ 10030944     AVI.obj
+ 0003:00000970       ??_C@_01GBGANLPD@0?$AA@    10030970     AVI.obj
+ 0003:00000974       ??_C@_0CG@MEMFCOKB@g_AVIFile?4m_FrameForm?4get_SizeBy@ 10030974     AVI.obj
+ 0003:000009a4       ??_C@_0BL@NBKFNCJD@pFrame?9?$DOm_dwFrameDups?5?$DN?$DN?50?$AA@ 100309a4     AVI.obj
+ 0003:000009c4       ??_C@_0CH@KHJJJAHM@m_iFrameCount?4m_lValue?5?$DM?5AVI_FRA@ 100309c4     AVI.obj
+ 0003:000009f4       ??_C@_0CI@KMHHELGF@pFrame?5?$DN?$DN?5?$CGm_aFrames?$FL?5m_iFrameFr@ 100309f4     AVI.obj
+ 0003:00000a24       ??_C@_0O@JEOAHOFK@dwFrameDups?$DO0?$AA@ 10030a24     AVI.obj
+ 0003:00000a34       ??_C@_0BD@OHFLFDHD@g_AVIFile?4IsOpen?$CI?$CJ?$AA@ 10030a34     AVI.obj
+ 0003:00000a4c       ??_C@_0DJ@FOOEBPIP@dwBufferSize?5?$DO?$DN?5AUDIO_FRAME_QTY?5@ 10030a4c     AVI.obj
+ 0003:00000a90       ??_C@_07MCNOEKLP@pThread?$AA@ 10030a90     AVI.obj
+ 0003:00000a9c       ??_C@_0BK@NMBFJDIH@m_AudioInput?4get_Handle?$CI?$CJ?$AA@ 10030a9c     AVI.obj
+ 0003:00000abc       ??_C@_0BF@IBNHJMEJ@hRes?5?$DN?$DN?5WAIT_TIMEOUT?$AA@ 10030abc     AVI.obj
+ 0003:00000ad8       ??_C@_0CF@KJGGNDP@CAVIThread?3?3StopAVIThread?5TIMEOU@ 10030ad8     AVI.obj
+ 0003:00000b04       ??_C@_0BM@LIKJGNJM@CAVIThread?3?3StopAVIThread?$AN?6?$AA@ 10030b04     AVI.obj
+ 0003:00000b28       ??_C@_0CP@KEOFCCHD@CAVIThread?3?5FAILED?5to?5create?5new@ 10030b28     AVI.obj
+ 0003:00000b60       ??_C@_0BN@BFGMPNEF@CAVIThread?3?3StartAVIThread?$AN?6?$AA@ 10030b60     AVI.obj
+ 0003:00000b84       ??_C@_0BA@DGMEDMJF@IsValidHandle?$CI?$CJ?$AA@ 10030b84     AVI.obj
+ 0003:00000b98       ??_C@_0HB@BHLDDLPI@c?3?2users?2changxl?2documents?2visua@ 10030b98     AVI.obj
+ 0003:00000c20       ??_C@_07NOCIGAPP@Pattern?$AA@ 10030c20     config.obj
+ 0003:00000c2c       ??_C@_0M@HHDHNCOM@FrameWeight?$AA@ 10030c2c     config.obj
+ 0003:00000c3c       ??_C@_09HFKGELHH@FrameRate?$AA@ 10030c3c     config.obj
+ 0003:00000c48       ??_C@_0BI@EOAAJJFH@UseOverheadCompensation?$AA@ 10030c48     config.obj
+ 0003:00000c64       ??_C@_0BF@NBEJFBBK@VKey_SmallScreenshot?$AA@ 10030c64     config.obj
+ 0003:00000c80       ??_C@_0BA@NJOJKDFC@VKey_Screenshot?$AA@ 10030c80     config.obj
+ 0003:00000c94       ??_C@_0BA@IDICMFCO@VKey_RecordStop?$AA@ 10030c94     config.obj
+ 0003:00000ca8       ??_C@_0BB@NHKJHDBG@VKey_RecordPause?$AA@ 10030ca8     config.obj
+ 0003:00000cbc       ??_C@_0BB@GEGCBGDP@VKey_RecordBegin?$AA@ 10030cbc     config.obj
+ 0003:00000cd0       ??_C@_0BF@POOJMJJI@VKey_IndicatorToggle?$AA@ 10030cd0     config.obj
+ 0003:00000cec       ??_C@_0BE@PHBIEOJH@VKey_HookModeToggle?$AA@ 10030cec     config.obj
+ 0003:00000d04       ??_C@_0BA@FDBFPNH@VKey_ConfigOpen?$AA@ 10030d04     config.obj
+ 0003:00000d18       ??_C@_0O@MBBBFAEP@VideoHalfSize?$AA@ 10030d18     config.obj
+ 0003:00000d28       ??_C@_0O@FACDDJIL@VideoCodecMsg?$AA@ 10030d28     config.obj
+ 0003:00000d38       ??_C@_0P@MOGOENEM@VideoCodecInfo?$AA@ 10030d38     config.obj
+ 0003:00000d4c       ??_C@_0O@IAGNIHME@ShowIndicator?$AA@ 10030d4c     config.obj
+ 0003:00000d5c       ??_C@_0BB@HEGNKHGH@PosMasterTopMost?$AA@ 10030d5c     config.obj
+ 0003:00000d70       ??_C@_0BA@KCKLNHF@PosMasterWindow?$AA@ 10030d70     config.obj
+ 0003:00000d84       ??_C@_0BF@OICFGMGO@MovieFrameRateTarget?$AA@ 10030d84     config.obj
+ 0003:00000da0       ??_C@_0BH@DPEACDE@KeyboardUseDirectInput?$AA@ 10030da0     config.obj
+ 0003:00000dbc       ??_C@_0P@GHEFOGOB@ImageFormatExt?$AA@ 10030dbc     config.obj
+ 0003:00000dd0       ??_C@_09FPKJNILP@GDICursor?$AA@ 10030dd0     config.obj
+ 0003:00000ddc       ??_C@_08FOENHEAL@GDIFrame?$AA@ 10030ddc     config.obj
+ 0003:00000de8       ??_C@_0L@BBIPAELP@GDIDesktop?$AA@ 10030de8     config.obj
+ 0003:00000df8       ??_C@_0BA@ICGHDFGI@FileNamePostfix?$AA@ 10030df8     config.obj
+ 0003:00000e0c       ??_C@_06CFHELCOE@UseOGL?$AA@ 10030e0c     config.obj
+ 0003:00000e14       ??_C@_06JPPBNABH@UseGDI?$AA@ 10030e14     config.obj
+ 0003:00000e1c       ??_C@_06LHEHFMBL@UseDX9?$AA@ 10030e1c     config.obj
+ 0003:00000e24       ??_C@_08NGKCOLJO@DebugLog?$AA@ 10030e24     config.obj
+ 0003:00000e30       ??_C@_0L@NKFPINMG@CaptureDir?$AA@ 10030e30     config.obj
+ 0003:00000e40       ??_C@_0M@LEEJFKC@AudioDevice?$AA@ 10030e40     config.obj
+ 0003:00000e50       ??_C@_0M@BHPPGBAE@AudioFormat?$AA@ 10030e50     config.obj
+ 0003:00000e60       ??_C@_04HDOCAJNK@?$CFs?$CFs?$AA@ 10030e60     config.obj
+ 0003:00000e68       ??_C@_0GN@ECMBPFGO@c?3?2users?2changxl?2documents?2visua@ 10030e68     config.obj
+ 0003:00000eec       ??_C@_0CK@BMNNHFCD@CTaksiConfigCustom?3?3PropGet?5bad?5@ 10030eec     config.obj
+ 0003:00000f20       ??_C@_02BEIEFPIG@?$CFg?$AA@ 10030f20     config.obj
+ 0003:00000f24       ??_C@_04OEDFLLKD@?$CC?$CFs?$CC?$AA@ 10030f24     config.obj
+ 0003:00000f2c       ??_C@_0CK@DJNGPODN@CTaksiConfigCustom?3?3PropSet?5bad?5@ 10030f2c     config.obj
+ 0003:00000f60       ??_C@_0BL@BKOJABJH@CTaksiConfig?3?3InitConfig?$AN?6?$AA@ 10030f60     config.obj
+ 0003:00000f80       ??_C@_03NNHBJLDF@png?$AA@  10030f80     config.obj
+ 0003:00000f84       __real@41200000            10030f84     config.obj
+ 0003:00000f88       ??_C@_0CA@HFCNAMAO@CTaksiConfig?3?3CopyConfig?5?8?$CFs?8?$AN?6?$AA@ 10030f88     config.obj
+ 0003:00000fb0       ??_C@_01KICIPPFI@?2?$AA@   10030fb0     config.obj
+ 0003:00000fb8       ??_7CTaksiConfig@@6B@      10030fb8     config.obj
+ 0003:00000fcc       ??_C@_0CE@MBMMKOJF@CTaksiConfig?3?3PropGet?5bad?5code?5?$CF@ 10030fcc     config.obj
+ 0003:00000ff8       ??_C@_05KABNCBHK@?$CFd?0?$CFd?$AA@ 10030ff8     config.obj
+ 0003:00001000       ??_C@_02DPKJAMEF@?$CFd?$AA@ 10031000     config.obj
+ 0003:00001004       ??_C@_01HIHLOKLC@1?$AA@    10031004     config.obj
+ 0003:00001008       ??_C@_0CE@OEMHCFIL@CTaksiConfig?3?3PropSet?5bad?5code?5?$CF@ 10031008     config.obj
+ 0003:00001034       ??_C@_0CF@DOEMELGB@iKey?5?$DO?$DN?50?5?$CG?$CG?5iKey?5?$DM?5TAKSI_HOTKEY@ 10031034     config.obj
+ 0003:00001060       ??_C@_0BC@GEGADFAO@INI?5Bad?5Prop?5?$CFs?$AN?6?$AA@ 10031060     config.obj
+ 0003:00001078       ??_C@_01NEMOKFLO@?$DN?$AA@ 10031078     config.obj
+ 0003:0000107c       ??_C@_0BF@JMNNJIGB@INI?5Bad?5Section?5?$CFs?$AN?6?$AA@ 1003107c     config.obj
+ 0003:00001098       ??_C@_0P@PGNDNKHM@?$FLTAKSI_CUSTOM?5?$AA@ 10031098     config.obj
+ 0003:000010ac       ??_C@_07HMKIHCJ@?$FLTAKSI?$FN?$AA@ 100310ac     config.obj
+ 0003:000010b8       ??_C@_01ICJEACDI@?$DL?$AA@ 100310b8     config.obj
+ 0003:000010bc       ??_C@_0BI@IPMOEME@Reading?5INI?5file?5?8?$CFs?8?$AN?6?$AA@ 100310bc     config.obj
+ 0003:000010d8       ??_C@_02BMJICGCB@rt?$AA@   100310d8     config.obj
+ 0003:000010dc       ??_C@_09BJJMBAGN@taksi?4ini?$AA@ 100310dc     config.obj
+ 0003:000010e8       ??_C@_0BD@LBBMJEFI@?$FLTAKSI_CUSTOM?5?$CFs?$FN?6?$AA@ 100310e8     config.obj
+ 0003:00001100       ??_C@_08LIFKLKGB@?$FLTAKSI?$FN?6?$AA@ 10031100     config.obj
+ 0003:0000110c       ??_C@_03OFAPEBGM@?$CFs?6?$AA@ 1003110c     config.obj
+ 0003:00001110       ??_C@_02BKFDOEMK@wt?$AA@   10031110     config.obj
+ 0003:00001118       ??_7CTaksiConfigCustom@@6B@ 10031118     config.obj
+ 0003:0000112c       ?sm_IndColors@CTaksiGAPIBase@@2QBKB 1003112c     GAPI_Base.obj
+ 0003:00001144       ??_C@_0CP@OGLCNEPI@CTaksiGAPIBase?3?3MakeScreenShot?5G@ 10031144     GAPI_Base.obj
+ 0003:0000117c       ??_C@_0DM@OGJLNMBL@CTaksiGAPIBase?3?3MakeScreenShot?5G@ 1003117c     GAPI_Base.obj
+ 0003:000011c8       ??_C@_0EC@LLOFAFGO@CTaksiGAPIBase?3?3MakeScreenShot?5G@ 100311c8     GAPI_Base.obj
+ 0003:0000121c       ??_7Bitmap@Gdiplus@@6B@    1003121c     GAPI_Base.obj
+ 0003:0000122c       ??_7Image@Gdiplus@@6B@     1003122c     GAPI_Base.obj
+ 0003:00001238       ??_C@_0BL@DIMNIENA@MakeScreenShot?$CI?$CFd?$CJ?5?8?$CFs?8?5OK?$AA@ 10031238     GAPI_Base.obj
+ 0003:00001258       ??_C@_0CO@IGLDAGDC@MakeScreenShot?$CI?$CFd?$CJ?5SaveAsBMP?5?8?$CFs@ 10031258     GAPI_Base.obj
+ 0003:00001290       ??_C@_03CAKEDOOO@bmp?$AA@  10031290     GAPI_Base.obj
+ 0003:00001294       ??_C@_0CM@FEFELALG@MakeScreenShot?3?5unable?5to?5get?5RG@ 10031294     GAPI_Base.obj
+ 0003:000012c8       ??_C@_0CC@ICOPJOMJ@CTaksiGAPIBase?3?3RecordAVI_Reset?$AN@ 100312c8     GAPI_Base.obj
+ 0003:000012f0       ??_C@_0BD@GMPKMPPK@AVI?5record?5started?$AA@ 100312f0     GAPI_Base.obj
+ 0003:00001308       ??_C@_0CE@JBGPFKBN@Cant?5create?5AVI?5thread?4?5Error?$DN0x@ 10031308     GAPI_Base.obj
+ 0003:00001334       ??_C@_0CF@DHCLFECM@RecordAVI_Start?5Recording?5starte@ 10031334     GAPI_Base.obj
+ 0003:00001360       ??_C@_0HA@GMAGBIEP@c?3?2users?2changxl?2documents?2visua@ 10031360     GAPI_Base.obj
+ 0003:000013e8       ??_C@_0CA@NMOKAKCP@Cant?5open?5AVI?5file?4?5Error?$DN0x?$CFx?4?$AA@ 100313e8     GAPI_Base.obj
+ 0003:00001410       ??_C@_0DC@NKBBFPLL@g_AVIFile?4OpenAVIFile?5device?1cod@ 10031410     GAPI_Base.obj
+ 0003:0000144c       ??_C@_0CK@JHBBCLDN@Cant?5open?5Audio?5device?1codec?4?5Er@ 1003144c     GAPI_Base.obj
+ 0003:00001480       ??_C@_0CF@HEBGLKKA@g_AVIFile?4OpenAVIFile?5FAILED?50x?$CF@ 10031480     GAPI_Base.obj
+ 0003:000014ac       ??_C@_0DO@EIIHBAKD@Cant?5open?5AVI?5codec?4?5Error?$DN0x?$CFx?4@ 100314ac     GAPI_Base.obj
+ 0003:000014f8       ??_C@_0BN@JDOGBOBP@Video?5Window?5Size?5TOO?5SMALL?4?$AA@ 100314f8     GAPI_Base.obj
+ 0003:0000151c       ??_C@_0CI@BNJPDKF@CTaksiGAPIBase?3?3RecordAVI_Start?5@ 1003151c     GAPI_Base.obj
+ 0003:0000154c       ??_C@_0CC@BDDCOBCP@CTaksiGAPIBase?3?3RecordAVI_Start?$AN@ 1003154c     GAPI_Base.obj
+ 0003:00001574       ??_C@_0BM@JGPNNIJH@AVI?5file?5recorded?4?5Stopped?4?$AA@ 10031574     GAPI_Base.obj
+ 0003:00001598       ??_C@_0CB@LPPECDPE@CTaksiGAPIBase?3?3RecordAVI_Stop?$AN?6@ 10031598     GAPI_Base.obj
+ 0003:000015c0       ??_C@_0CL@GAACADE@CTaksiGAPIBase?3?3RecordAVI_Frame?$CI@ 100315c0     GAPI_Base.obj
+ 0003:000015f4       ??_C@_0BN@GODOMABL@DrawIndicator?5FAILED?50x?$CFx?$CB?$AN?6?$AA@ 100315f4     GAPI_Base.obj
+ 0003:00001618       ??_C@_0CJ@NOEBOCOE@PresentFrameBegin?4GetFrameInfo?5F@ 10031618     GAPI_Base.obj
+ 0003:0000164c       ??_C@_0CK@NMJKFFLL@GAPIBase?4PresentFrameBegin?4GetFr@ 1003164c     GAPI_Base.obj
+ 0003:00001680       ??_C@_0CN@OKPIIBNN@PresentFrameBegin?3?5New?5Prime?5Foc@ 10031680     GAPI_Base.obj
+ 0003:000016b8       ??_C@_0BD@ODKMFICM@m_bHookedFunctions?$AA@ 100316b8     GAPI_Base.obj
+ 0003:000016d0       ??_C@_0DA@JNGMKPFH@PresentFrameEnd?3m_dwConfigChange@ 100316d0     GAPI_Base.obj
+ 0003:0000170c       ??_C@_0BN@DCOJPKPC@PresentFrameEnd?3StopGAPIs?4?$AN?6?$AA@ 1003170c     GAPI_Base.obj
+ 0003:00001730       ??_C@_0BC@MDOMPBBP@AttachGAPI?5?8?$CFs?8?$AN?6?$AA@ 10031730     GAPI_Base.obj
+ 0003:00001748       ??_C@_0N@PGIALKPL@IsValidDll?$CI?$CJ?$AA@ 10031748     GAPI_Base.obj
+ 0003:00001758       ??_C@_0BF@FMJIKDDP@AttachGAPI?5NO?5?8?$CFs?8?$AN?6?$AA@ 10031758     GAPI_Base.obj
+ 0003:000017f0       __real@3f800000            100317f0     GAPI_dx9.obj
+ 0003:000017f4       ??_C@_0BO@GIGAKNNI@CreateVB?$CI?$CFd?$CJ?5FAILED?4?5?$CI0x?$CFx?$CJ?$AN?6?$AA@ 100317f4     GAPI_dx9.obj
+ 0003:00001818       ??_C@_0BD@BDFBPIKD@CreateVB?$CI?$CJ?5done?4?$AN?6?$AA@ 10031818     GAPI_dx9.obj
+ 0003:00001830       ??_C@_0BM@KDNGOEGC@CreateVB?$CI?$CJ?5FAILED?4?5?$CI0x?$CFx?$CJ?$AN?6?$AA@ 10031830     GAPI_dx9.obj
+ 0003:00001854       ??_C@_0BN@OJLKGFPM@s_pVB?9?$DOLock?$CI?$CJ?5FAILED?4?50x?$CFx?$AN?6?$AA@ 10031854     GAPI_dx9.obj
+ 0003:00001878       ??_C@_0CE@NJPGDODH@CreateVertexBuffer?$CI?$CJ?5FAILED?4?50x?$CF@ 10031878     GAPI_dx9.obj
+ 0003:000018a4       ??_C@_07LMFHDJPI@pDevice?$AA@ 100318a4     GAPI_dx9.obj
+ 0003:000018b0       ??_C@_0GP@JCFPNOGJ@c?3?2users?2changxl?2documents?2visua@ 100318b0     GAPI_dx9.obj
+ 0003:00001938       ??_C@_0DA@CNBEPOPL@CTaksiGAPI_DX9?3InvalidateDeviceO@ 10031938     GAPI_dx9.obj
+ 0003:00001974       ??_C@_0DC@HMDEOEBP@CTaksiGAPI_DX9?3InvalidateDeviceO@ 10031974     GAPI_dx9.obj
+ 0003:000019b0       ??_C@_0DO@IKELEIMC@DX9?3GetFrameInfo?3m_pDevice?9?$DOGetC@ 100319b0     GAPI_dx9.obj
+ 0003:000019fc       ??_C@_0DG@ILEBGMKA@DX9?3GetFrameInfo?3m_pDevice?9?$DOGetB@ 100319fc     GAPI_dx9.obj
+ 0003:00001a3c       ??_C@_0DD@NDOKFKMI@GetFramePrep?3?5FAILED?5to?5lock?5sou@ 10031a3c     GAPI_dx9.obj
+ 0003:00001a80       ??_C@_0EG@HNFNDHNP@GetFramePrep?3?5GetRenderTargetDat@ 10031a80     GAPI_dx9.obj
+ 0003:00001ad4       ??_C@_0DF@FOIIBLMC@GetFramePrep?3?5FAILED?5to?5create?5i@ 10031ad4     GAPI_dx9.obj
+ 0003:00001b14       ??_C@_0CP@FMALNONC@GetFramePrep?3?5FAILED?5to?5get?5back@ 10031b14     GAPI_dx9.obj
+ 0003:00001b4c       ??_C@_0DH@ONLEFLLA@GetFrameFullSize?3?5surface?5format@ 10031b4c     GAPI_dx9.obj
+ 0003:00001b90       ??_C@_0EH@GLFPODAD@GetFrameFullSize?3?5source?5format?5@ 10031b90     GAPI_dx9.obj
+ 0003:00001be8       ??_C@_0DC@HFNBJMPP@GetFrameFullSize?3?5source?5format?5@ 10031be8     GAPI_dx9.obj
+ 0003:00001c24       ??_C@_0DE@DLOFNMPO@GetFrameFullSize?3?5source?5format?5@ 10031c24     GAPI_dx9.obj
+ 0003:00001c64       ??_C@_0DC@CGLEDAID@GetFrameFullSize?3?5source?5format?5@ 10031c64     GAPI_dx9.obj
+ 0003:00001ca0       ??_C@_07PODJEHHO@pSrcRow?$AA@ 10031ca0     GAPI_dx9.obj
+ 0003:00001cac       ??_C@_0BA@ECFBMDNO@frame?4m_pPixels?$AA@ 10031cac     GAPI_dx9.obj
+ 0003:00001cc0       ??_C@_09LFDHLLMD@iSrcPitch?$AA@ 10031cc0     GAPI_dx9.obj
+ 0003:00001ccc       ??_C@_0BP@JOOPGBO@RestoreDeviceObjects?$CI?$CJ?5done?4?$AN?6?$AA@ 10031ccc     GAPI_dx9.obj
+ 0003:00001cf4       ??_C@_0CG@DDJEBHF@RestoreDeviceObjects?$CI?$CJ?5FAILED?50x@ 10031cf4     GAPI_dx9.obj
+ 0003:00001d24       ??_C@_0CN@PPNAJLMG@eIndicate?5?$DO?$DN?50?5?$CG?$CG?5eIndicate?5?$DM?5CO@ 10031d24     GAPI_dx9.obj
+ 0003:00001d5c       ??_C@_09LDANIPIA@m_pDevice?$AA@ 10031d5c     GAPI_dx9.obj
+ 0003:00001d68       ??_C@_0CH@LPHPABJH@DX9_Release?3?5UNHOOK?5m_iRefCount?5@ 10031d68     GAPI_dx9.obj
+ 0003:00001d98       ??_C@_0CL@MFGLEEDE@DX9_Release?3?5about?5to?5call?5real?5@ 10031d98     GAPI_dx9.obj
+ 0003:00001dcc       ??_C@_0CA@JCMGKIMC@DX9_Release?3?5VTABLE?$FL2?$FN?5?$DN?5?$CF08x?$AN?6?$AA@ 10031dcc     GAPI_dx9.obj
+ 0003:00001df4       ??_C@_0CA@OFFIHKDC@DX9_Release?3?5VTABLE?$FL1?$FN?5?$DN?5?$CF08x?$AN?6?$AA@ 10031df4     GAPI_dx9.obj
+ 0003:00001e1c       ??_C@_0CA@HOPNDGFN@DX9_Release?3?5VTABLE?$FL0?$FN?5?$DN?5?$CF08x?$AN?6?$AA@ 10031e1c     GAPI_dx9.obj
+ 0003:00001e44       ??_C@_0BO@HECACNNM@DX9_Release?3?5pDevice?5?$DN?5?$CF08x?$AN?6?$AA@ 10031e44     GAPI_dx9.obj
+ 0003:00001e68       ??_C@_0BH@CLOCJINB@DX9_Release?3?5called?4?$AN?6?$AA@ 10031e68     GAPI_dx9.obj
+ 0003:00001e84       ??_C@_0CI@BNDCBIMA@?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL?$CL@ 10031e84     GAPI_dx9.obj
+ 0003:00001eb4       ??_C@_0BD@MOMDHMDC@DX9_Reset?3?5done?4?$AN?6?$AA@ 10031eb4     GAPI_dx9.obj
+ 0003:00001ecc       ??_C@_0BF@GFLKIJMD@DX9_Reset?3?5called?4?$AN?6?$AA@ 10031ecc     GAPI_dx9.obj
+ 0003:00001ee8       ??_C@_0DB@MLMHGLIE@DX9_HooksVerify?3?5pDevice?9?$DOReleas@ 10031ee8     GAPI_dx9.obj
+ 0003:00001f24       ??_C@_0DA@GAFMMCBA@DX9_HooksVerify?3?5pDevice?9?$DOAddRef@ 10031f24     GAPI_dx9.obj
+ 0003:00001f60       ??_C@_07INKNOLLJ@pVTable?$AA@ 10031f60     GAPI_dx9.obj
+ 0003:00001f6c       ??_C@_0BF@PFHJDBJP@DX9_Present?3?5done?4?$AN?6?$AA@ 10031f6c     GAPI_dx9.obj
+ 0003:00001f88       ??_C@_0BH@HGHOENPA@DX9_Present?3?5called?4?$AN?6?$AA@ 10031f88     GAPI_dx9.obj
+ 0003:00001fa4       ??_C@_0CD@OMECFFBM@?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9@ 10031fa4     GAPI_dx9.obj
+ 0003:00001fd0       ??_C@_0BK@MDDFPKJ@?$CKm_Hook_Release?5?5?$DN?5?$CF08x?$AN?6?$AA@ 10031fd0     GAPI_dx9.obj
+ 0003:00001ff0       ??_C@_0BJ@HALAFOEK@?$CKm_Hook_AddRef?5?5?$DN?5?$CF08x?$AN?6?$AA@ 10031ff0     GAPI_dx9.obj
+ 0003:00002010       ??_C@_0BH@FMCKNBCK@DX9_SCPresent?3?5done?4?$AN?6?$AA@ 10032010     GAPI_dx9.obj
+ 0003:0000202c       ??_C@_0CA@FDHCOGJP@DX9_SCPresent?3?5called?5?$CI?$CF08x?$CJ?4?$AN?6?$AA@ 1003202c     GAPI_dx9.obj
+ 0003:00002058       ??_7CTaksiGAPI_DX9@@6B@    10032058     GAPI_dx9.obj
+ 0003:00002084       ??_7CTaksiGAPIBase@@6B@    10032084     GAPI_dx9.obj
+ 0003:000020ac       ??_C@_0CG@PLLGEMCO@CTaksiGAPIBase?3?3HookFunctions?5do@ 100320ac     GAPI_dx9.obj
+ 0003:000020e0       ??_C@_0GO@DOFDPMIH@c?3?2users?2changxl?2documents?2visua@ 100320e0     GAPI_dx9.obj
+ 0003:00002164       ??_C@_0CC@BCGANDND@CTaksiGAPIBase?3?3UnhookFunctions?$AN@ 10032164     GAPI_dx9.obj
+ 0003:0000218c       ??_C@_08NIHLGCK@d3d9?4dll?$AA@ 1003218c     GAPI_dx9.obj
+ 0003:00002198       ??_C@_0FJ@PADEHPHF@CTaksiGAPI_DX9?3?3HookFunctions?3?5F@ 10032198     GAPI_dx9.obj
+ 0003:00002208       ??_C@_0FG@BHKGACIB@CTaksiGAPI_DX9?3?3HookFunctions?3?5F@ 10032208     GAPI_dx9.obj
+ 0003:00002270       ??_C@_0DK@OPKIIPFC@CTaksiGAPI_DX9?3?3HookFunctions?3?5c@ 10032270     GAPI_dx9.obj
+ 0003:000022b8       ??_C@_0EG@CDNMLMDC@CTaksiGAPI_DX9?3?3HookFunctions?3?5N@ 100322b8     GAPI_dx9.obj
+ 0003:0000230c       ??_C@_0CB@FKILCGC@CTaksiGAPI_DX9?3?3FreeDll?3?5done?4?$AN?6@ 1003230c     GAPI_dx9.obj
+ 0003:00002334       ??_C@_1BK@BGPFFOMH@?$AAm?$AA_?$AAp?$AAO?$AAb?$AAj?$AA?$DN?$AA?$DN?$AAN?$AAU?$AAL?$AAL?$AA?$AA@ 10032334     GAPI_dx9.obj
+ 0003:00002358       ??_C@_1NO@MJJCCBOF@?$AAc?$AA?3?$AA?2?$AAu?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAc?$AAh?$AAa?$AAn?$AAg?$AAx?$AAl?$AA?2?$AAd?$AAo?$AAc?$AAu?$AAm?$AAe?$AAn?$AAt?$AAs?$AA?2?$AAv?$AAi?$AAs?$AAu?$AAa@ 10032358     GAPI_dx9.obj
+ 0003:00002464       ??_C@_1O@EMNPFANI@?$AAm?$AA_?$AAp?$AAO?$AAb?$AAj?$AA?$AA@ 10032464     GAPI_dx9.obj
+ 0003:00002474       ??_C@_0BK@HIALBHCL@GetDIBits?5FAILED?5?$CI0x?$CFx?$CJ?$AN?6?$AA@ 10032474     GAPI_gdi.obj
+ 0003:00002494       ??_C@_0BF@CHGAFPCH@Bitmap?4get_HBitmap?$CI?$CJ?$AA@ 10032494     GAPI_gdi.obj
+ 0003:000024b0       ??_C@_0BN@LOMOACDL@?$CB?5g_Proc?4m_bIsProcessDesktop?$AA@ 100324b0     GAPI_gdi.obj
+ 0003:000024d8       ??_C@_0GP@LACACHMH@c?3?2users?2changxl?2documents?2visua@ 100324d8     GAPI_gdi.obj
+ 0003:00002560       ??_C@_0CG@FNPGIJNC@CTaksiGAPI_GDI?3?3WM_TIMER?5reentra@ 10032560     GAPI_gdi.obj
+ 0003:00002590       ??_C@_0CB@NPMJJMGB@CTaksiGAPI_GDI?3?3WM_DESTROY?50?$CFx?$AN?6@ 10032590     GAPI_gdi.obj
+ 0003:000025b8       ??_C@_0N@JAPCBKJB@g_GDI?4m_hWnd?$AA@ 100325b8     GAPI_gdi.obj
+ 0003:000025c8       ??_C@_0BD@EJCHEILE@g_GDI?4m_WndProcOld?$AA@ 100325c8     GAPI_gdi.obj
+ 0003:000025e0       ??_C@_0CO@LKAEJLGD@CTaksiGAPI_GDI?3?3HookFunctions?5Se@ 100325e0     GAPI_gdi.obj
+ 0003:00002618       __real@408f400000000000    10032618     GAPI_gdi.obj
+ 0003:00002628       ??_C@_0EC@JGFHMKBE@GetWindowLongPtr?$CI?5m_hWnd?0?5GWL_WN@ 10032628     GAPI_gdi.obj
+ 0003:00002678       ??_C@_0DG@IKEIGKDI@CTaksiGAPI_GDI?3?3HookFunctions?5Ge@ 10032678     GAPI_gdi.obj
+ 0003:000026b8       ??_C@_0BF@JFGGJPLB@m_WndProcOld?5?$DN?$DN?5NULL?$AA@ 100326b8     GAPI_gdi.obj
+ 0003:000026d4       ??_C@_0DC@DGDAAEAC@CTaksiGAPI_GDI?3?3HookFunctions?5Ge@ 100326d4     GAPI_gdi.obj
+ 0003:00002710       ??_C@_0DB@OGAEKEOH@CTaksiGAPI_GDI?3?3UnhookFunctions?5@ 10032710     GAPI_gdi.obj
+ 0003:0000274c       ??_C@_0CG@DLNNKGJL@_WndProcCur?5?$DN?$DN?5?$CILONG_PTR?$CJ?5WndPro@ 1003274c     GAPI_gdi.obj
+ 0003:0000277c       ??_C@_0BE@MBFKEFMJ@_WndProcCur?5?$CB?$DN?5NULL?$AA@ 1003277c     GAPI_gdi.obj
+ 0003:00002794       ??_C@_0BF@LOHCLLNF@m_WndProcOld?5?$CB?$DN?5NULL?$AA@ 10032794     GAPI_gdi.obj
+ 0003:000027b4       ??_7CTaksiGAPI_GDI@@6B@    100327b4     GAPI_gdi.obj
+ 0003:000027dc       ??_C@_0L@GMPLCCII@user32?4dll?$AA@ 100327dc     GAPI_gdi.obj
+ 0003:0000288c       __real@3e851eb8            1003288c     GAPI_ogl.obj
+ 0003:00002890       __real@3f07ae14            10032890     GAPI_ogl.obj
+ 0003:00002898       __real@4040000000000000    10032898     GAPI_ogl.obj
+ 0003:000028a8       __real@bff0000000000000    100328a8     GAPI_ogl.obj
+ 0003:000028b8       __real@3ff0000000000000    100328b8     GAPI_ogl.obj
+ 0003:000028c4       ??_C@_0CH@DEJJJHKC@OpenGL?5Multi?5texturing?5not?5suppo@ 100328c4     GAPI_ogl.obj
+ 0003:000028f4       ??_C@_0CD@DOPMOGCP@OpenGL?5Maximum?5texture?5units?3?5?$CFd@ 100328f4     GAPI_ogl.obj
+ 0003:00002920       ??_C@_0BO@EDKJHAGG@s_glActiveTextureARB?5?$DN?5?$CF08x?$AN?6?$AA@ 10032920     GAPI_ogl.obj
+ 0003:00002944       ??_C@_0BD@IKCKKKNH@glActiveTextureARB?$AA@ 10032944     GAPI_ogl.obj
+ 0003:0000295c       ??_C@_0BE@MEMOPMEA@GL_ARB_multitexture?$AA@ 1003295c     GAPI_ogl.obj
+ 0003:00002974       ??_C@_0BI@BAAFFJFP@OpenGL?5Extensions?3?5?$CFs?$AN?6?$AA@ 10032974     GAPI_ogl.obj
+ 0003:00002990       ??_C@_0BF@JPKOFGJD@OpenGL?5Version?3?5?$CFs?$AN?6?$AA@ 10032990     GAPI_ogl.obj
+ 0003:000029b0       ??_C@_0GP@COALHFM@c?3?2users?2changxl?2documents?2visua@ 100329b0     GAPI_ogl.obj
+ 0003:00002a38       ??_C@_0BP@HPBKGGGA@SwapColorComponents?3?5CALLED?4?$AN?6?$AA@ 10032a38     GAPI_ogl.obj
+ 0003:00002a60       ??_C@_0BO@CIFEOEPP@OGL_WglSwapBuffers?3?5called?4?$AN?6?$AA@ 10032a60     GAPI_ogl.obj
+ 0003:00002a84       ??_C@_0CA@ICLOPDI@OGL_WglDeleteContext?3?5called?4?$AN?6?$AA@ 10032a84     GAPI_ogl.obj
+ 0003:00002aac       ??_C@_0DJ@OLKGMKKK@CTaksiGAPI_OGL?3?3HookFunctions?3?5c@ 10032aac     GAPI_ogl.obj
+ 0003:00002af0       ??_C@_0L@KBLIPDFH@glViewport?$AA@ 10032af0     GAPI_ogl.obj
+ 0003:00002b00       ??_C@_0L@DIMCKAPO@glVertex2i?$AA@ 10032b00     GAPI_ogl.obj
+ 0003:00002b10       ??_C@_0N@NALMFHKN@glShadeModel?$AA@ 10032b10     GAPI_ogl.obj
+ 0003:00002b20       ??_C@_0N@CKFNNHOO@glReadPixels?$AA@ 10032b20     GAPI_ogl.obj
+ 0003:00002b30       ??_C@_0N@HFKHBECK@glReadBuffer?$AA@ 10032b30     GAPI_ogl.obj
+ 0003:00002b40       ??_C@_0N@IHFNHGBL@glPushMatrix?$AA@ 10032b40     GAPI_ogl.obj
+ 0003:00002b50       ??_C@_0N@KDMLHFJM@glPushAttrib?$AA@ 10032b50     GAPI_ogl.obj
+ 0003:00002b60       ??_C@_0M@JPEAAEEK@glPopMatrix?$AA@ 10032b60     GAPI_ogl.obj
+ 0003:00002b70       ??_C@_0M@LLNGAHMN@glPopAttrib?$AA@ 10032b70     GAPI_ogl.obj
+ 0003:00002b80       ??_C@_07DBAFHOII@glOrtho?$AA@ 10032b80     GAPI_ogl.obj
+ 0003:00002b8c       ??_C@_0N@KDLNHKEJ@glMatrixMode?$AA@ 10032b8c     GAPI_ogl.obj
+ 0003:00002b9c       ??_C@_0P@EJAFHEPO@glLoadIdentity?$AA@ 10032b9c     GAPI_ogl.obj
+ 0003:00002bb0       ??_C@_0M@OPOBFDCB@glGetString?$AA@ 10032bb0     GAPI_ogl.obj
+ 0003:00002bc0       ??_C@_0O@DHHDCCLF@glGetIntegerv?$AA@ 10032bc0     GAPI_ogl.obj
+ 0003:00002bd0       ??_C@_05OIBMBLHE@glEnd?$AA@ 10032bd0     GAPI_ogl.obj
+ 0003:00002bd8       ??_C@_08OOEHEKOP@glEnable?$AA@ 10032bd8     GAPI_ogl.obj
+ 0003:00002be4       ??_C@_09PPBNNDHA@glColor3f?$AA@ 10032be4     GAPI_ogl.obj
+ 0003:00002bf0       ??_C@_09MHGMIMKN@glDisable?$AA@ 10032bf0     GAPI_ogl.obj
+ 0003:00002bfc       ??_C@_07FCOIFMD@glBegin?$AA@ 10032bfc     GAPI_ogl.obj
+ 0003:00002c08       ??_C@_0BB@OGAIJNNO@wglDeleteContext?$AA@ 10032c08     GAPI_ogl.obj
+ 0003:00002c1c       ??_C@_0BC@FFKMKEGM@wglGetProcAddress?$AA@ 10032c1c     GAPI_ogl.obj
+ 0003:00002c34       ??_C@_0BA@BMKCDCKD@wglGetCurrentDC?$AA@ 10032c34     GAPI_ogl.obj
+ 0003:00002c48       ??_C@_0DE@JPNKFLFL@CTaksiGAPI_OGL?3?3HookFunctions?5Ge@ 10032c48     GAPI_ogl.obj
+ 0003:00002c88       ??_C@_0P@NIPKMJHJ@wglSwapBuffers?$AA@ 10032c88     GAPI_ogl.obj
+ 0003:00002c9c       ??_C@_0DE@DDAKHJAL@CTaksiGAPI_OGL?3?3HookFunctions?3?5h@ 10032c9c     GAPI_ogl.obj
+ 0003:00002cdc       ??_C@_0CB@GGCKCPMH@CTaksiGAPI_OGL?3?3FreeDll?3?5done?4?$AN?6@ 10032cdc     GAPI_ogl.obj
+ 0003:00002d08       ??_7CTaksiGAPI_OGL@@6B@    10032d08     GAPI_ogl.obj
+ 0003:00002d30       ??_C@_0N@DOKAJOHF@opengl32?4dll?$AA@ 10032d30     GAPI_ogl.obj
+ 0003:00002d48       ??_C@_0BK@ICKJNKEE@SetupDirectInput?3?5done?4?$AN?6?$AA@ 10032d48     HotKeys.obj
+ 0003:00002d68       ??_C@_0EB@BJNHNKLB@SetupDirectInput?3?5lookup?5for?5Dir@ 10032d68     HotKeys.obj
+ 0003:00002db8       ??_C@_0BD@IJCCAMHG@DirectInput8Create?$AA@ 10032db8     HotKeys.obj
+ 0003:00002dd0       ??_C@_0CH@DGEMOGOP@SetupDirectInput?3?5using?5DirectIn@ 10032dd0     HotKeys.obj
+ 0003:00002e00       ??_C@_0M@ONOEDIJO@dinput8?4dll?$AA@ 10032e00     HotKeys.obj
+ 0003:00002e10       ??_C@_0DL@BBOGBFHH@TaksiPresent?3?5s_lpDIDevice?9?$DOSetD@ 10032e10     HotKeys.obj
+ 0003:00002e58       ??_C@_0DE@CMNGJMCB@TaksiPresent?3?5s_lpDI?9?$DOCreateDevi@ 10032e58     HotKeys.obj
+ 0003:00002e98       ??_C@_0CC@LCENJNIH@DirectInput8Create?5failed?4?50x?$CFx?$AN@ 10032e98     HotKeys.obj
+ 0003:00002ec0       ??_C@_0BF@OIFMIDKG@s_DirectInput8Create?$AA@ 10032ec0     HotKeys.obj
+ 0003:00002edc       ??_C@_08GGGFFHOG@m_bSetup?$AA@ 10032edc     HotKeys.obj
+ 0003:00002ee8       ??_C@_0GO@HLHCLFI@c?3?2users?2changxl?2documents?2visua@ 10032ee8     HotKeys.obj
+ 0003:00002f6c       ??_C@_0CL@HHKJHMAA@CTaksiKeyboard?3?3InstallHookKeys?$CI@ 10032f6c     HotKeys.obj
+ 0003:00002fa0       ??_C@_0CH@PBBJIAML@CTaksiKeyboard?3?3InstallHookKeys?$CI@ 10032fa0     HotKeys.obj
+ 0003:00002fd0       ??_C@_0CJ@JIGBBMDN@CTaksiKeyboard?3?3UninstallHookKey@ 10032fd0     HotKeys.obj
+ 0003:00003004       ??_C@_0CE@NCHJNCEA@KeyboardProc?5HC_ACTION?5wParam?$DN0?$CF@ 10033004     HotKeys.obj
+ 0003:00003030       ??_C@_0DA@BGOAPHJD@CTaksiHotKeys?3?3DoHotKey?3?5VKEY_?$CK?5@ 10033030     HotKeys.obj
+ 0003:00003070       ??_C@_0EA@GJKEDGJJ@PresentFrameBegin?3?5KEYBOARD?5INIT@ 10033070     HotKeys.obj
+ 0003:000030bc       ??_C@_0CE@FLHKNJDB@CTaksiProcess?3?3AttachHotKeysToAp@ 100330bc     HotKeys.obj
+ 0003:000030e8       ??_C@_0BE@NCEIMGNN@?$CBm_bAttachedHotKeys?$AA@ 100330e8     HotKeys.obj
+ 0003:00003100       ??_C@_07NJHKKHOF@dbgview?$AA@ 10033100     TaksiDll.obj
+ 0003:0000310c       ??_C@_07GFIPCIJB@taskmgr?$AA@ 1003310c     TaksiDll.obj
+ 0003:00003118       ??_C@_07LAMOHCEE@monitor?$AA@ 10033118     TaksiDll.obj
+ 0003:00003124       ??_C@_06ILCMHDOJ@js7jit?$AA@ 10033124     TaksiDll.obj
+ 0003:0000312c       ??_C@_05NMDKABGM@dwwin?$AA@ 1003312c     TaksiDll.obj
+ 0003:00003134       ??_C@_06EBFPMJK@devenv?$AA@ 10033134     TaksiDll.obj
+ 0003:0000313c       ??_C@_06CPNKIJB@dbgmon?$AA@ 1003313c     TaksiDll.obj
+ 0003:00003158       ?sm_Props@CTaksiProcStats@@2QAY01$$CBGA 10033158     TaksiDll.obj
+ 0003:0000318c       ??_7CTaksiLogFile@@6B@     1003318c     TaksiDll.obj
+ 0003:000031a0       ??_C@_0CJ@LBIAPOA@eProp?5?$DO?$DN?50?5?$CG?$CG?5eProp?5?$DM?5TAKSI_PROC@ 100331a0     TaksiDll.obj
+ 0003:000031d8       ??_C@_0GM@CADFDEJH@c?3?2users?2changxl?2documents?2visua@ 100331d8     TaksiDll.obj
+ 0003:0000325c       ??_C@_0CM@FMBBLAJE@wEnd?5?$DO?50?5?$CG?$CG?5wEnd?5?$DM?$DN?5sizeof?$CICTaks@ 1003325c     TaksiDll.obj
+ 0003:00003290       ??_C@_0CN@DOMJEAFE@wSize?5?$DO?50?5?$CG?$CG?5wSize?5?$DM?5sizeof?$CICTak@ 10033290     TaksiDll.obj
+ 0003:000032c8       ??_C@_0DC@BEPCHHMN@wOffset?5?$DO?$DN?50?5?$CG?$CG?5wOffset?5?$DM?5sizeof@ 100332c8     TaksiDll.obj
+ 0003:00003308       __real@4130000000000000    10033308     TaksiDll.obj
+ 0003:00003314       ??_C@_0P@CGGKCOKF@Closing?5log?4?$AN?6?$AA@ 10033314     TaksiDll.obj
+ 0003:00003328       ??_C@_0M@EFICOIGB@Taksi?3?$CFs?3?$CFs?$AA@ 10033328     TaksiDll.obj
+ 0003:00003338       ??_C@_0CH@DPGCBECI@HookCBTProc?3?5nCode?$DN0x?$CFx?0?5wParam?$DN@ 10033338     TaksiDll.obj
+ 0003:00003368       ??_C@_0CL@POJOBLAM@HookCBT_Install?3?5hHookCBT?$DN0x?$CFx?0P@ 10033368     TaksiDll.obj
+ 0003:0000339c       ??_C@_0CN@NCOIEMFB@HookCBT_Install?3?5already?5install@ 1003339c     TaksiDll.obj
+ 0003:000033d4       ??_C@_0CH@DMCNGLMH@CTaksiShared?3?3HookCBT_Uninstall?5@ 100333d4     TaksiDll.obj
+ 0003:00003404       ??_C@_0DK@IHECNGIF@CTaksiShared?3?3HookCBT_Uninstall?3@ 10033404     TaksiDll.obj
+ 0003:0000344c       ??_C@_0CK@HCPLOJNF@HookCBT_Uninstall?3?5already?5unins@ 1003344c     TaksiDll.obj
+ 0003:00003480       ??_C@_0BM@JCCPGEID@g_Proc?4CheckProcessMaster?$CI?$CJ?$AA@ 10033480     TaksiDll.obj
+ 0003:000034a4       ??_C@_0BL@GMLIENED@g_Proc?4m_bIsProcessIgnored?$AA@ 100334a4     TaksiDll.obj
+ 0003:000034c4       ??_C@_0N@MJCBJIDF@m_hMasterWnd?$AA@ 100334c4     TaksiDll.obj
+ 0003:000034d8       ??_C@_0GP@LEDANOBC@c?3?2users?2changxl?2documents?2visua@ 100334d8     TaksiDll.obj
+ 0003:00003560       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 10033560     TaksiDll.obj
+ 0003:00003564       ??_C@_0N@OMMFFBOB@TaksiDll?4log?$AA@ 10033564     TaksiDll.obj
+ 0003:00003574       ??_C@_05CCMOGDN@?$CFs?3?$CFs?$AA@ 10033574     TaksiDll.obj
+ 0003:0000357c       ??_C@_0CD@GHLBNLN@CTaksiShared?3?3UpdateConfigCustom@ 1003357c     TaksiDll.obj
+ 0003:000035a8       ??_C@_0CK@MHHCNHB@Post?5message?5for?5Master?5to?5re?9ho@ 100335a8     TaksiDll.obj
+ 0003:000035dc       ??_C@_0DB@GNKHAENC@Post?5message?5for?5Master?5to?5re?9ho@ 100335dc     TaksiDll.obj
+ 0003:00003618       ??_C@_0BH@DNFLLDFB@sg_Shared?4m_hMasterWnd?$AA@ 10033618     TaksiDll.obj
+ 0003:00003634       ??_C@_0CK@HINIGHDJ@HotKey_HookModeToggle?5install?5CB@ 10033634     TaksiDll.obj
+ 0003:00003668       ??_C@_0CI@NBIIIDPG@CTaksiHotKeys?3?3DoHotKey?3CBT?5unho@ 10033668     TaksiDll.obj
+ 0003:00003698       ??_C@_0CE@FPLEECK@HotKey_HookModeToggle?5unhook?5CBT@ 10033698     TaksiDll.obj
+ 0003:000036c4       ??_C@_04IFJNELPM@hWnd?$AA@ 100336c4     TaksiDll.obj
+ 0003:000036cc       ??_C@_0BO@IBNIIBKC@CTaksiShared?3?3DestroyShared?$AN?6?$AA@ 100336cc     TaksiDll.obj
+ 0003:000036f0       ??_C@_08DNLFPECC@pszTitle?$AA@ 100336f0     TaksiDll.obj
+ 0003:000036fc       ??_C@_0BL@HFECENHI@CTaksiShared?3?3InitShared?$AN?6?$AA@ 100336fc     TaksiDll.obj
+ 0003:0000371c       ??_C@_07OCDHENKO@g_hInst?$AA@ 1003371c     TaksiDll.obj
+ 0003:00003728       ??_C@_0BB@CGEFFFJF@Last?5Error?3?5?$CFs?$AN?6?$AA@ 10033728     TaksiDll.obj
+ 0003:0000373c       ??_C@_0CG@FFOCDNPK@?$CFs?$CFs?9?$CFd?$CF02d?$CF02d?9?$CF02d?$CF02d?$CF02d?$CF01d@ 1003373c     TaksiDll.obj
+ 0003:0000376c       ??_C@_05HEHDDJJD@taksi?$AA@ 1003376c     TaksiDll.obj
+ 0003:00003774       ??_C@_0DB@KOGDIGDG@Taksi?4EXE?5App?5is?5NOT?5Loaded?$CB?5unl@ 10033774     TaksiDll.obj
+ 0003:000037b0       ??_C@_0CO@DBNDOGMM@CheckProcessCustom?3?5No?5custom?5co@ 100337b0     TaksiDll.obj
+ 0003:000037e8       ??_C@_0DJ@LAEKBCEC@FindCustomConfig?3?5FAILED?5to?5allo@ 100337e8     TaksiDll.obj
+ 0003:0000382c       ??_C@_0CA@MNOIGPHJ@FindCustomConfig?3?50?5framerate?$AN?6?$AA@ 1003382c     TaksiDll.obj
+ 0003:00003854       ??_C@_0DD@LGEAIABA@Using?5custom?5FrameRate?$DN?$CFg?5FPS?0?5F@ 10033854     TaksiDll.obj
+ 0003:00003894       ??_C@_0O@OFHDNDIM@?2explorer?4exe?$AA@ 10033894     TaksiDll.obj
+ 0003:000038a4       ??_C@_0BL@HMFIEAFE@uLen?5?$DM?5COUNTOF?$CIszExplorer?$CJ?$AA@ 100338a4     TaksiDll.obj
+ 0003:000038c4       ??_C@_0DC@GJPPIGDH@eGAPI?5?$DO?5TAKSI_GAPI_NONE?5?$CG?$CG?5eGAPI@ 100338c4     TaksiDll.obj
+ 0003:00003900       ??_C@_0BJ@LMJJPNAK@AttachGAPIs?3?5hWnd?$DN0x?$CFx?$AN?6?$AA@ 10033900     TaksiDll.obj
+ 0003:00003920       ??_C@_0BK@DEEMHPDN@sg_Shared?4m_hHookCBT?$DN?$CFd?$AN?6?$AA@ 10033920     TaksiDll.obj
+ 0003:00003940       ??_C@_0CB@OFHJBABN@sg_Config?4m_bUseDirectInput?$DN?$CFd?$AN?6@ 10033940     TaksiDll.obj
+ 0003:00003968       ??_C@_0BL@FDANAAPF@sg_Config?4m_bDebugLog?$DN?$CFd?$AN?6?$AA@ 10033968     TaksiDll.obj
+ 0003:00003988       ??_C@_0P@LFKDBIDC@Log?5started?4?$AN?6?$AA@ 10033988     TaksiDll.obj
+ 0003:0000399c       ??_C@_0BH@MEHHKJBL@Log?5start?5FAIL?4?50x?$CFx?$AN?6?$AA@ 1003399c     TaksiDll.obj
+ 0003:000039b8       ??_C@_0P@BLOMKPJG@?$CFsTaksi_?$CFs?4log?$AA@ 100339b8     TaksiDll.obj
+ 0003:000039cc       ??_C@_08BGDPCMOA@mapped?3?5?$AA@ 100339cc     TaksiDll.obj
+ 0003:000039d8       ??_C@_0BL@IIDCCFFD@Special?5process?5ignored?4?$AN?6?$AA@ 100339d8     TaksiDll.obj
+ 0003:000039f8       ??_C@_0DC@BOALPHLC@DLL_PROCESS_ATTACH?5?8?$CFs?8?5v0?4779?5?$CI@ 100339f8     TaksiDll.obj
+ 0003:00003a34       ??_C@_0CE@DJIGAAAL@InitShared?5BAD?5VERSION?50?$CFx?5?$CB?$DN?50?$CF@ 10033a34     TaksiDll.obj
+ 0003:00003a60       ??_C@_0BF@FLKFJPMP@InitShared?5FAILED?$CB?$AN?6?$AA@ 10033a60     TaksiDll.obj
+ 0003:00003a7c       ??_C@_04JLMDILM@?4exe?$AA@ 10033a7c     TaksiDll.obj
+ 0003:00003a84       ??_C@_0L@NLOKEDNA@unmapped?3?5?$AA@ 10033a84     TaksiDll.obj
+ 0003:00003a94       ??_C@_0BO@PAJCKCDB@DLL_PROCESS_DETACH?5?$CInum?$DN?$CFd?$CJ?$AN?6?$AA@ 10033a94     TaksiDll.obj
+ 0003:00003ab8       _GUID_MAX_POWER_SAVINGS    10033ab8     dxguid:dxguid.obj
+ 0003:00003acc       _GUID_MIN_POWER_SAVINGS    10033acc     dxguid:dxguid.obj
+ 0003:00003ae0       _GUID_TYPICAL_POWER_SAVINGS 10033ae0     dxguid:dxguid.obj
+ 0003:00003af4       _NO_SUBGROUP_GUID          10033af4     dxguid:dxguid.obj
+ 0003:00003b08       _ALL_POWERSCHEMES_GUID     10033b08     dxguid:dxguid.obj
+ 0003:00003b1c       _GUID_POWERSCHEME_PERSONALITY 10033b1c     dxguid:dxguid.obj
+ 0003:00003b30       _GUID_ACTIVE_POWERSCHEME   10033b30     dxguid:dxguid.obj
+ 0003:00003b44       _GUID_VIDEO_SUBGROUP       10033b44     dxguid:dxguid.obj
+ 0003:00003b58       _GUID_VIDEO_POWERDOWN_TIMEOUT 10033b58     dxguid:dxguid.obj
+ 0003:00003b6c       _GUID_VIDEO_ANNOYANCE_TIMEOUT 10033b6c     dxguid:dxguid.obj
+ 0003:00003b80       _GUID_VIDEO_ADAPTIVE_PERCENT_INCREASE 10033b80     dxguid:dxguid.obj
+ 0003:00003b94       _GUID_VIDEO_DIM_TIMEOUT    10033b94     dxguid:dxguid.obj
+ 0003:00003ba8       _GUID_VIDEO_ADAPTIVE_POWERDOWN 10033ba8     dxguid:dxguid.obj
+ 0003:00003bbc       _GUID_MONITOR_POWER_ON     10033bbc     dxguid:dxguid.obj
+ 0003:00003bd0       _GUID_DEVICE_POWER_POLICY_VIDEO_BRIGHTNESS 10033bd0     dxguid:dxguid.obj
+ 0003:00003be4       _GUID_DEVICE_POWER_POLICY_VIDEO_DIM_BRIGHTNESS 10033be4     dxguid:dxguid.obj
+ 0003:00003bf8       _GUID_VIDEO_CURRENT_MONITOR_BRIGHTNESS 10033bf8     dxguid:dxguid.obj
+ 0003:00003c0c       _GUID_VIDEO_ADAPTIVE_DISPLAY_BRIGHTNESS 10033c0c     dxguid:dxguid.obj
+ 0003:00003c20       _GUID_SESSION_DISPLAY_STATE 10033c20     dxguid:dxguid.obj
+ 0003:00003c34       _GUID_CONSOLE_DISPLAY_STATE 10033c34     dxguid:dxguid.obj
+ 0003:00003c48       _GUID_ALLOW_DISPLAY_REQUIRED 10033c48     dxguid:dxguid.obj
+ 0003:00003c5c       _GUID_DISK_SUBGROUP        10033c5c     dxguid:dxguid.obj
+ 0003:00003c70       _GUID_DISK_POWERDOWN_TIMEOUT 10033c70     dxguid:dxguid.obj
+ 0003:00003c84       _GUID_DISK_BURST_IGNORE_THRESHOLD 10033c84     dxguid:dxguid.obj
+ 0003:00003c98       _GUID_DISK_ADAPTIVE_POWERDOWN 10033c98     dxguid:dxguid.obj
+ 0003:00003cac       _GUID_SLEEP_SUBGROUP       10033cac     dxguid:dxguid.obj
+ 0003:00003cc0       _GUID_SLEEP_IDLE_THRESHOLD 10033cc0     dxguid:dxguid.obj
+ 0003:00003cd4       _GUID_STANDBY_TIMEOUT      10033cd4     dxguid:dxguid.obj
+ 0003:00003ce8       _GUID_UNATTEND_SLEEP_TIMEOUT 10033ce8     dxguid:dxguid.obj
+ 0003:00003cfc       _GUID_HIBERNATE_TIMEOUT    10033cfc     dxguid:dxguid.obj
+ 0003:00003d10       _GUID_HIBERNATE_FASTS4_POLICY 10033d10     dxguid:dxguid.obj
+ 0003:00003d24       _GUID_CRITICAL_POWER_TRANSITION 10033d24     dxguid:dxguid.obj
+ 0003:00003d38       _GUID_SYSTEM_AWAYMODE      10033d38     dxguid:dxguid.obj
+ 0003:00003d4c       _GUID_ALLOW_AWAYMODE       10033d4c     dxguid:dxguid.obj
+ 0003:00003d60       _GUID_ALLOW_STANDBY_STATES 10033d60     dxguid:dxguid.obj
+ 0003:00003d74       _GUID_ALLOW_RTC_WAKE       10033d74     dxguid:dxguid.obj
+ 0003:00003d88       _GUID_ALLOW_SYSTEM_REQUIRED 10033d88     dxguid:dxguid.obj
+ 0003:00003d9c       _GUID_SYSTEM_BUTTON_SUBGROUP 10033d9c     dxguid:dxguid.obj
+ 0003:00003db0       _GUID_POWERBUTTON_ACTION   10033db0     dxguid:dxguid.obj
+ 0003:00003dc4       _GUID_POWERBUTTON_ACTION_FLAGS 10033dc4     dxguid:dxguid.obj
+ 0003:00003dd8       _GUID_SLEEPBUTTON_ACTION   10033dd8     dxguid:dxguid.obj
+ 0003:00003dec       _GUID_SLEEPBUTTON_ACTION_FLAGS 10033dec     dxguid:dxguid.obj
+ 0003:00003e00       _GUID_USERINTERFACEBUTTON_ACTION 10033e00     dxguid:dxguid.obj
+ 0003:00003e14       _GUID_LIDCLOSE_ACTION      10033e14     dxguid:dxguid.obj
+ 0003:00003e28       _GUID_LIDCLOSE_ACTION_FLAGS 10033e28     dxguid:dxguid.obj
+ 0003:00003e3c       _GUID_LIDOPEN_POWERSTATE   10033e3c     dxguid:dxguid.obj
+ 0003:00003e50       _GUID_BATTERY_SUBGROUP     10033e50     dxguid:dxguid.obj
+ 0003:00003e64       _GUID_BATTERY_DISCHARGE_ACTION_0 10033e64     dxguid:dxguid.obj
+ 0003:00003e78       _GUID_BATTERY_DISCHARGE_LEVEL_0 10033e78     dxguid:dxguid.obj
+ 0003:00003e8c       _GUID_BATTERY_DISCHARGE_FLAGS_0 10033e8c     dxguid:dxguid.obj
+ 0003:00003ea0       _GUID_BATTERY_DISCHARGE_ACTION_1 10033ea0     dxguid:dxguid.obj
+ 0003:00003eb4       _GUID_BATTERY_DISCHARGE_LEVEL_1 10033eb4     dxguid:dxguid.obj
+ 0003:00003ec8       _GUID_BATTERY_DISCHARGE_FLAGS_1 10033ec8     dxguid:dxguid.obj
+ 0003:00003edc       _GUID_BATTERY_DISCHARGE_ACTION_2 10033edc     dxguid:dxguid.obj
+ 0003:00003ef0       _GUID_BATTERY_DISCHARGE_LEVEL_2 10033ef0     dxguid:dxguid.obj
+ 0003:00003f04       _GUID_BATTERY_DISCHARGE_FLAGS_2 10033f04     dxguid:dxguid.obj
+ 0003:00003f18       _GUID_BATTERY_DISCHARGE_ACTION_3 10033f18     dxguid:dxguid.obj
+ 0003:00003f2c       _GUID_BATTERY_DISCHARGE_LEVEL_3 10033f2c     dxguid:dxguid.obj
+ 0003:00003f40       _GUID_BATTERY_DISCHARGE_FLAGS_3 10033f40     dxguid:dxguid.obj
+ 0003:00003f54       _GUID_PROCESSOR_SETTINGS_SUBGROUP 10033f54     dxguid:dxguid.obj
+ 0003:00003f68       _GUID_PROCESSOR_THROTTLE_POLICY 10033f68     dxguid:dxguid.obj
+ 0003:00003f7c       _GUID_PROCESSOR_THROTTLE_MAXIMUM 10033f7c     dxguid:dxguid.obj
+ 0003:00003f90       _GUID_PROCESSOR_THROTTLE_MINIMUM 10033f90     dxguid:dxguid.obj
+ 0003:00003fa4       _GUID_PROCESSOR_ALLOW_THROTTLING 10033fa4     dxguid:dxguid.obj
+ 0003:00003fb8       _GUID_PROCESSOR_IDLESTATE_POLICY 10033fb8     dxguid:dxguid.obj
+ 0003:00003fcc       _GUID_PROCESSOR_PERFSTATE_POLICY 10033fcc     dxguid:dxguid.obj
+ 0003:00003fe0       _GUID_PROCESSOR_PERF_INCREASE_THRESHOLD 10033fe0     dxguid:dxguid.obj
+ 0003:00003ff4       _GUID_PROCESSOR_PERF_DECREASE_THRESHOLD 10033ff4     dxguid:dxguid.obj
+ 0003:00004008       _GUID_PROCESSOR_PERF_INCREASE_POLICY 10034008     dxguid:dxguid.obj
+ 0003:0000401c       _GUID_PROCESSOR_PERF_DECREASE_POLICY 1003401c     dxguid:dxguid.obj
+ 0003:00004030       _GUID_PROCESSOR_PERF_INCREASE_TIME 10034030     dxguid:dxguid.obj
+ 0003:00004044       _GUID_PROCESSOR_PERF_DECREASE_TIME 10034044     dxguid:dxguid.obj
+ 0003:00004058       _GUID_PROCESSOR_PERF_TIME_CHECK 10034058     dxguid:dxguid.obj
+ 0003:0000406c       _GUID_PROCESSOR_PERF_BOOST_POLICY 1003406c     dxguid:dxguid.obj
+ 0003:00004080       _GUID_PROCESSOR_IDLE_ALLOW_SCALING 10034080     dxguid:dxguid.obj
+ 0003:00004094       _GUID_PROCESSOR_IDLE_DISABLE 10034094     dxguid:dxguid.obj
+ 0003:000040a8       _GUID_PROCESSOR_IDLE_TIME_CHECK 100340a8     dxguid:dxguid.obj
+ 0003:000040bc       _GUID_PROCESSOR_IDLE_DEMOTE_THRESHOLD 100340bc     dxguid:dxguid.obj
+ 0003:000040d0       _GUID_PROCESSOR_IDLE_PROMOTE_THRESHOLD 100340d0     dxguid:dxguid.obj
+ 0003:000040e4       _GUID_PROCESSOR_CORE_PARKING_INCREASE_THRESHOLD 100340e4     dxguid:dxguid.obj
+ 0003:000040f8       _GUID_PROCESSOR_CORE_PARKING_DECREASE_THRESHOLD 100340f8     dxguid:dxguid.obj
+ 0003:0000410c       _GUID_PROCESSOR_CORE_PARKING_INCREASE_POLICY 1003410c     dxguid:dxguid.obj
+ 0003:00004120       _GUID_PROCESSOR_CORE_PARKING_DECREASE_POLICY 10034120     dxguid:dxguid.obj
+ 0003:00004134       _GUID_PROCESSOR_CORE_PARKING_MAX_CORES 10034134     dxguid:dxguid.obj
+ 0003:00004148       _GUID_PROCESSOR_CORE_PARKING_MIN_CORES 10034148     dxguid:dxguid.obj
+ 0003:0000415c       _GUID_PROCESSOR_CORE_PARKING_INCREASE_TIME 1003415c     dxguid:dxguid.obj
+ 0003:00004170       _GUID_PROCESSOR_CORE_PARKING_DECREASE_TIME 10034170     dxguid:dxguid.obj
+ 0003:00004184       _GUID_PROCESSOR_CORE_PARKING_AFFINITY_HISTORY_DECREASE_FACTOR 10034184     dxguid:dxguid.obj
+ 0003:00004198       _GUID_PROCESSOR_CORE_PARKING_AFFINITY_HISTORY_THRESHOLD 10034198     dxguid:dxguid.obj
+ 0003:000041ac       _GUID_PROCESSOR_CORE_PARKING_AFFINITY_WEIGHTING 100341ac     dxguid:dxguid.obj
+ 0003:000041c0       _GUID_PROCESSOR_CORE_PARKING_OVER_UTILIZATION_HISTORY_DECREASE_FACTOR 100341c0     dxguid:dxguid.obj
+ 0003:000041d4       _GUID_PROCESSOR_CORE_PARKING_OVER_UTILIZATION_HISTORY_THRESHOLD 100341d4     dxguid:dxguid.obj
+ 0003:000041e8       _GUID_PROCESSOR_CORE_PARKING_OVER_UTILIZATION_WEIGHTING 100341e8     dxguid:dxguid.obj
+ 0003:000041fc       _GUID_PROCESSOR_CORE_PARKING_OVER_UTILIZATION_THRESHOLD 100341fc     dxguid:dxguid.obj
+ 0003:00004210       _GUID_PROCESSOR_PARKING_CORE_OVERRIDE 10034210     dxguid:dxguid.obj
+ 0003:00004224       _GUID_PROCESSOR_PARKING_PERF_STATE 10034224     dxguid:dxguid.obj
+ 0003:00004238       _GUID_PROCESSOR_PERF_HISTORY 10034238     dxguid:dxguid.obj
+ 0003:0000424c       _GUID_SYSTEM_COOLING_POLICY 1003424c     dxguid:dxguid.obj
+ 0003:00004260       _GUID_LOCK_CONSOLE_ON_WAKE 10034260     dxguid:dxguid.obj
+ 0003:00004274       _GUID_DEVICE_IDLE_POLICY   10034274     dxguid:dxguid.obj
+ 0003:00004288       _GUID_ACDC_POWER_SOURCE    10034288     dxguid:dxguid.obj
+ 0003:0000429c       _GUID_LIDSWITCH_STATE_CHANGE 1003429c     dxguid:dxguid.obj
+ 0003:000042b0       _GUID_BATTERY_PERCENTAGE_REMAINING 100342b0     dxguid:dxguid.obj
+ 0003:000042c4       _GUID_IDLE_BACKGROUND_TASK 100342c4     dxguid:dxguid.obj
+ 0003:000042d8       _GUID_BACKGROUND_TASK_NOTIFICATION 100342d8     dxguid:dxguid.obj
+ 0003:000042ec       _GUID_APPLAUNCH_BUTTON     100342ec     dxguid:dxguid.obj
+ 0003:00004300       _GUID_PCIEXPRESS_SETTINGS_SUBGROUP 10034300     dxguid:dxguid.obj
+ 0003:00004314       _GUID_PCIEXPRESS_ASPM_POLICY 10034314     dxguid:dxguid.obj
+ 0003:00004328       _GUID_ENABLE_SWITCH_FORCED_SHUTDOWN 10034328     dxguid:dxguid.obj
+ 0003:0000433c       _PPM_PERFSTATE_CHANGE_GUID 1003433c     dxguid:dxguid.obj
+ 0003:00004350       _PPM_PERFSTATE_DOMAIN_CHANGE_GUID 10034350     dxguid:dxguid.obj
+ 0003:00004364       _PPM_IDLESTATE_CHANGE_GUID 10034364     dxguid:dxguid.obj
+ 0003:00004378       _PPM_PERFSTATES_DATA_GUID  10034378     dxguid:dxguid.obj
+ 0003:0000438c       _PPM_IDLESTATES_DATA_GUID  1003438c     dxguid:dxguid.obj
+ 0003:000043a0       _PPM_IDLE_ACCOUNTING_GUID  100343a0     dxguid:dxguid.obj
+ 0003:000043b4       _PPM_IDLE_ACCOUNTING_EX_GUID 100343b4     dxguid:dxguid.obj
+ 0003:000043c8       _PPM_THERMALCONSTRAINT_GUID 100343c8     dxguid:dxguid.obj
+ 0003:000043dc       _PPM_PERFMON_PERFSTATE_GUID 100343dc     dxguid:dxguid.obj
+ 0003:000043f0       _PPM_THERMAL_POLICY_CHANGE_GUID 100343f0     dxguid:dxguid.obj
+ 0003:00004404       _NETWORK_MANAGER_FIRST_IP_ADDRESS_ARRIVAL_GUID 10034404     dxguid:dxguid.obj
+ 0003:00004418       _NETWORK_MANAGER_LAST_IP_ADDRESS_REMOVAL_GUID 10034418     dxguid:dxguid.obj
+ 0003:0000442c       _DOMAIN_JOIN_GUID          1003442c     dxguid:dxguid.obj
+ 0003:00004440       _DOMAIN_LEAVE_GUID         10034440     dxguid:dxguid.obj
+ 0003:00004454       _FIREWALL_PORT_OPEN_GUID   10034454     dxguid:dxguid.obj
+ 0003:00004468       _FIREWALL_PORT_CLOSE_GUID  10034468     dxguid:dxguid.obj
+ 0003:0000447c       _MACHINE_POLICY_PRESENT_GUID 1003447c     dxguid:dxguid.obj
+ 0003:00004490       _USER_POLICY_PRESENT_GUID  10034490     dxguid:dxguid.obj
+ 0003:000044a4       _CLSID_DirectDraw          100344a4     dxguid:dxguid.obj
+ 0003:000044b8       _CLSID_DirectDraw7         100344b8     dxguid:dxguid.obj
+ 0003:000044cc       _CLSID_DirectDrawClipper   100344cc     dxguid:dxguid.obj
+ 0003:000044e0       _IID_IDirectDraw           100344e0     dxguid:dxguid.obj
+ 0003:000044f4       _IID_IDirectDraw2          100344f4     dxguid:dxguid.obj
+ 0003:00004508       _IID_IDirectDraw4          10034508     dxguid:dxguid.obj
+ 0003:0000451c       _IID_IDirectDraw7          1003451c     dxguid:dxguid.obj
+ 0003:00004530       _IID_IDirectDrawSurface    10034530     dxguid:dxguid.obj
+ 0003:00004544       _IID_IDirectDrawSurface2   10034544     dxguid:dxguid.obj
+ 0003:00004558       _IID_IDirectDrawSurface3   10034558     dxguid:dxguid.obj
+ 0003:0000456c       _IID_IDirectDrawSurface4   1003456c     dxguid:dxguid.obj
+ 0003:00004580       _IID_IDirectDrawSurface7   10034580     dxguid:dxguid.obj
+ 0003:00004594       _IID_IDirectDrawSurfaceNew 10034594     dxguid:dxguid.obj
+ 0003:000045a8       _CLSID_DirectDrawFactory2  100345a8     dxguid:dxguid.obj
+ 0003:000045bc       _IID_IDirectDrawFactory2   100345bc     dxguid:dxguid.obj
+ 0003:000045d0       _GUID_DirectDrawSurfaceStream 100345d0     dxguid:dxguid.obj
+ 0003:000045e4       _GUID_DirectDrawPaletteStream 100345e4     dxguid:dxguid.obj
+ 0003:000045f8       _IID_IDirectDrawOptSurface 100345f8     dxguid:dxguid.obj
+ 0003:0000460c       _IID_IDirectDrawPalette2   1003460c     dxguid:dxguid.obj
+ 0003:00004620       _IID_IDirectDrawPalette    10034620     dxguid:dxguid.obj
+ 0003:00004634       _IID_IDirectDrawClipper    10034634     dxguid:dxguid.obj
+ 0003:00004648       _IID_IDirectDrawColorControl 10034648     dxguid:dxguid.obj
+ 0003:0000465c       _IID_IDirectDrawGammaControl 1003465c     dxguid:dxguid.obj
+ 0003:00004670       _GUID_MiscellaneousCallbacks 10034670     dxguid:dxguid.obj
+ 0003:00004684       _GUID_VideoPortCallbacks   10034684     dxguid:dxguid.obj
+ 0003:00004698       _GUID_ColorControlCallbacks 10034698     dxguid:dxguid.obj
+ 0003:000046ac       _GUID_VideoPortCaps        100346ac     dxguid:dxguid.obj
+ 0003:000046c0       _GUID_D3DCallbacks2        100346c0     dxguid:dxguid.obj
+ 0003:000046d4       _GUID_D3DCallbacks3        100346d4     dxguid:dxguid.obj
+ 0003:000046e8       _GUID_NonLocalVidMemCaps   100346e8     dxguid:dxguid.obj
+ 0003:000046fc       _GUID_KernelCallbacks      100346fc     dxguid:dxguid.obj
+ 0003:00004710       _GUID_KernelCaps           10034710     dxguid:dxguid.obj
+ 0003:00004724       _GUID_D3DExtendedCaps      10034724     dxguid:dxguid.obj
+ 0003:00004738       _GUID_ZPixelFormats        10034738     dxguid:dxguid.obj
+ 0003:0000474c       _GUID_DDMoreSurfaceCaps    1003474c     dxguid:dxguid.obj
+ 0003:00004760       _GUID_DDStereoMode         10034760     dxguid:dxguid.obj
+ 0003:00004774       _GUID_OptSurfaceKmodeInfo  10034774     dxguid:dxguid.obj
+ 0003:00004788       _GUID_OptSurfaceUmodeInfo  10034788     dxguid:dxguid.obj
+ 0003:0000479c       _GUID_UserModeDriverInfo   1003479c     dxguid:dxguid.obj
+ 0003:000047b0       _GUID_UserModeDriverPassword 100347b0     dxguid:dxguid.obj
+ 0003:000047c4       _GUID_D3DParseUnknownCommandCallback 100347c4     dxguid:dxguid.obj
+ 0003:000047d8       _GUID_MotionCompCallbacks  100347d8     dxguid:dxguid.obj
+ 0003:000047ec       _GUID_NTCallbacks          100347ec     dxguid:dxguid.obj
+ 0003:00004800       _GUID_Miscellaneous2Callbacks 10034800     dxguid:dxguid.obj
+ 0003:00004814       _GUID_DDMoreCaps           10034814     dxguid:dxguid.obj
+ 0003:00004828       _IID_IDDVideoPortContainer 10034828     dxguid:dxguid.obj
+ 0003:0000483c       _IID_IDirectDrawVideoPort  1003483c     dxguid:dxguid.obj
+ 0003:00004850       _IID_IDirectDrawVideoPortNotify 10034850     dxguid:dxguid.obj
+ 0003:00004864       _DDVPTYPE_E_HREFH_VREFH    10034864     dxguid:dxguid.obj
+ 0003:00004878       _DDVPTYPE_E_HREFH_VREFL    10034878     dxguid:dxguid.obj
+ 0003:0000488c       _DDVPTYPE_E_HREFL_VREFH    1003488c     dxguid:dxguid.obj
+ 0003:000048a0       _DDVPTYPE_E_HREFL_VREFL    100348a0     dxguid:dxguid.obj
+ 0003:000048b4       _DDVPTYPE_CCIR656          100348b4     dxguid:dxguid.obj
+ 0003:000048c8       _DDVPTYPE_BROOKTREE        100348c8     dxguid:dxguid.obj
+ 0003:000048dc       _DDVPTYPE_PHILIPS          100348dc     dxguid:dxguid.obj
+ 0003:000048f0       _TID_D3DRMInfo             100348f0     dxguid:dxguid.obj
+ 0003:00004904       _TID_D3DRMMesh             10034904     dxguid:dxguid.obj
+ 0003:00004918       _TID_D3DRMVector           10034918     dxguid:dxguid.obj
+ 0003:0000492c       _TID_D3DRMMeshFace         1003492c     dxguid:dxguid.obj
+ 0003:00004940       _TID_D3DRMMaterial         10034940     dxguid:dxguid.obj
+ 0003:00004954       _TID_D3DRMMaterialArray    10034954     dxguid:dxguid.obj
+ 0003:00004968       _TID_D3DRMFrame            10034968     dxguid:dxguid.obj
+ 0003:0000497c       _TID_D3DRMFrameTransformMatrix 1003497c     dxguid:dxguid.obj
+ 0003:00004990       _TID_D3DRMMeshMaterialList 10034990     dxguid:dxguid.obj
+ 0003:000049a4       _TID_D3DRMMeshTextureCoords 100349a4     dxguid:dxguid.obj
+ 0003:000049b8       _TID_D3DRMMeshNormals      100349b8     dxguid:dxguid.obj
+ 0003:000049cc       _TID_D3DRMCoords2d         100349cc     dxguid:dxguid.obj
+ 0003:000049e0       _TID_D3DRMMatrix4x4        100349e0     dxguid:dxguid.obj
+ 0003:000049f4       _TID_D3DRMAnimation        100349f4     dxguid:dxguid.obj
+ 0003:00004a08       _TID_D3DRMAnimationSet     10034a08     dxguid:dxguid.obj
+ 0003:00004a1c       _TID_D3DRMAnimationKey     10034a1c     dxguid:dxguid.obj
+ 0003:00004a30       _TID_D3DRMFloatKeys        10034a30     dxguid:dxguid.obj
+ 0003:00004a44       _TID_D3DRMMaterialAmbientColor 10034a44     dxguid:dxguid.obj
+ 0003:00004a58       _TID_D3DRMMaterialDiffuseColor 10034a58     dxguid:dxguid.obj
+ 0003:00004a6c       _TID_D3DRMMaterialSpecularColor 10034a6c     dxguid:dxguid.obj
+ 0003:00004a80       _TID_D3DRMMaterialEmissiveColor 10034a80     dxguid:dxguid.obj
+ 0003:00004a94       _TID_D3DRMMaterialPower    10034a94     dxguid:dxguid.obj
+ 0003:00004aa8       _TID_D3DRMColorRGBA        10034aa8     dxguid:dxguid.obj
+ 0003:00004abc       _TID_D3DRMColorRGB         10034abc     dxguid:dxguid.obj
+ 0003:00004ad0       _TID_D3DRMGuid             10034ad0     dxguid:dxguid.obj
+ 0003:00004ae4       _TID_D3DRMTextureFilename  10034ae4     dxguid:dxguid.obj
+ 0003:00004af8       _TID_D3DRMTextureReference 10034af8     dxguid:dxguid.obj
+ 0003:00004b0c       _TID_D3DRMIndexedColor     10034b0c     dxguid:dxguid.obj
+ 0003:00004b20       _TID_D3DRMMeshVertexColors 10034b20     dxguid:dxguid.obj
+ 0003:00004b34       _TID_D3DRMMaterialWrap     10034b34     dxguid:dxguid.obj
+ 0003:00004b48       _TID_D3DRMBoolean          10034b48     dxguid:dxguid.obj
+ 0003:00004b5c       _TID_D3DRMMeshFaceWraps    10034b5c     dxguid:dxguid.obj
+ 0003:00004b70       _TID_D3DRMBoolean2d        10034b70     dxguid:dxguid.obj
+ 0003:00004b84       _TID_D3DRMTimedFloatKeys   10034b84     dxguid:dxguid.obj
+ 0003:00004b98       _TID_D3DRMAnimationOptions 10034b98     dxguid:dxguid.obj
+ 0003:00004bac       _TID_D3DRMFramePosition    10034bac     dxguid:dxguid.obj
+ 0003:00004bc0       _TID_D3DRMFrameVelocity    10034bc0     dxguid:dxguid.obj
+ 0003:00004bd4       _TID_D3DRMFrameRotation    10034bd4     dxguid:dxguid.obj
+ 0003:00004be8       _TID_D3DRMLight            10034be8     dxguid:dxguid.obj
+ 0003:00004bfc       _TID_D3DRMCamera           10034bfc     dxguid:dxguid.obj
+ 0003:00004c10       _TID_D3DRMAppData          10034c10     dxguid:dxguid.obj
+ 0003:00004c24       _TID_D3DRMLightUmbra       10034c24     dxguid:dxguid.obj
+ 0003:00004c38       _TID_D3DRMLightRange       10034c38     dxguid:dxguid.obj
+ 0003:00004c4c       _TID_D3DRMLightPenumbra    10034c4c     dxguid:dxguid.obj
+ 0003:00004c60       _TID_D3DRMLightAttenuation 10034c60     dxguid:dxguid.obj
+ 0003:00004c74       _TID_D3DRMInlineData       10034c74     dxguid:dxguid.obj
+ 0003:00004c88       _TID_D3DRMUrl              10034c88     dxguid:dxguid.obj
+ 0003:00004c9c       _TID_D3DRMProgressiveMesh  10034c9c     dxguid:dxguid.obj
+ 0003:00004cb0       _TID_D3DRMExternalVisual   10034cb0     dxguid:dxguid.obj
+ 0003:00004cc4       _TID_D3DRMStringProperty   10034cc4     dxguid:dxguid.obj
+ 0003:00004cd8       _TID_D3DRMPropertyBag      10034cd8     dxguid:dxguid.obj
+ 0003:00004cec       _TID_D3DRMRightHanded      10034cec     dxguid:dxguid.obj
+ 0003:00004d00       _CLSID_CDirectXFile        10034d00     dxguid:dxguid.obj
+ 0003:00004d14       _IID_IDirectXFile          10034d14     dxguid:dxguid.obj
+ 0003:00004d28       _IID_IDirectXFileEnumObject 10034d28     dxguid:dxguid.obj
+ 0003:00004d3c       _IID_IDirectXFileSaveObject 10034d3c     dxguid:dxguid.obj
+ 0003:00004d50       _IID_IDirectXFileObject    10034d50     dxguid:dxguid.obj
+ 0003:00004d64       _IID_IDirectXFileData      10034d64     dxguid:dxguid.obj
+ 0003:00004d78       _IID_IDirectXFileDataReference 10034d78     dxguid:dxguid.obj
+ 0003:00004d8c       _IID_IDirectXFileBinary    10034d8c     dxguid:dxguid.obj
+ 0003:00004da0       _TID_DXFILEHeader          10034da0     dxguid:dxguid.obj
+ 0003:00004db4       _CLSID_DirectInput         10034db4     dxguid:dxguid.obj
+ 0003:00004dc8       _CLSID_DirectInputDevice   10034dc8     dxguid:dxguid.obj
+ 0003:00004ddc       _CLSID_DirectInput8        10034ddc     dxguid:dxguid.obj
+ 0003:00004df0       _CLSID_DirectInputDevice8  10034df0     dxguid:dxguid.obj
+ 0003:00004e04       _IID_IDirectInputA         10034e04     dxguid:dxguid.obj
+ 0003:00004e18       _IID_IDirectInputW         10034e18     dxguid:dxguid.obj
+ 0003:00004e2c       _IID_IDirectInput2A        10034e2c     dxguid:dxguid.obj
+ 0003:00004e40       _IID_IDirectInput2W        10034e40     dxguid:dxguid.obj
+ 0003:00004e54       _IID_IDirectInput7A        10034e54     dxguid:dxguid.obj
+ 0003:00004e68       _IID_IDirectInput7W        10034e68     dxguid:dxguid.obj
+ 0003:00004e7c       _IID_IDirectInput8A        10034e7c     dxguid:dxguid.obj
+ 0003:00004e90       _IID_IDirectInput8W        10034e90     dxguid:dxguid.obj
+ 0003:00004ea4       _IID_IDirectInputDeviceA   10034ea4     dxguid:dxguid.obj
+ 0003:00004eb8       _IID_IDirectInputDeviceW   10034eb8     dxguid:dxguid.obj
+ 0003:00004ecc       _IID_IDirectInputDevice2A  10034ecc     dxguid:dxguid.obj
+ 0003:00004ee0       _IID_IDirectInputDevice2W  10034ee0     dxguid:dxguid.obj
+ 0003:00004ef4       _IID_IDirectInputDevice7A  10034ef4     dxguid:dxguid.obj
+ 0003:00004f08       _IID_IDirectInputDevice7W  10034f08     dxguid:dxguid.obj
+ 0003:00004f1c       _IID_IDirectInputDevice8A  10034f1c     dxguid:dxguid.obj
+ 0003:00004f30       _IID_IDirectInputDevice8W  10034f30     dxguid:dxguid.obj
+ 0003:00004f44       _IID_IDirectInputEffect    10034f44     dxguid:dxguid.obj
+ 0003:00004f58       _GUID_XAxis                10034f58     dxguid:dxguid.obj
+ 0003:00004f6c       _GUID_YAxis                10034f6c     dxguid:dxguid.obj
+ 0003:00004f80       _GUID_ZAxis                10034f80     dxguid:dxguid.obj
+ 0003:00004f94       _GUID_RxAxis               10034f94     dxguid:dxguid.obj
+ 0003:00004fa8       _GUID_RyAxis               10034fa8     dxguid:dxguid.obj
+ 0003:00004fbc       _GUID_RzAxis               10034fbc     dxguid:dxguid.obj
+ 0003:00004fd0       _GUID_Slider               10034fd0     dxguid:dxguid.obj
+ 0003:00004fe4       _GUID_Button               10034fe4     dxguid:dxguid.obj
+ 0003:00004ff8       _GUID_Key                  10034ff8     dxguid:dxguid.obj
+ 0003:0000500c       _GUID_POV                  1003500c     dxguid:dxguid.obj
+ 0003:00005020       _GUID_Unknown              10035020     dxguid:dxguid.obj
+ 0003:00005034       _GUID_SysMouse             10035034     dxguid:dxguid.obj
+ 0003:00005048       _GUID_SysKeyboard          10035048     dxguid:dxguid.obj
+ 0003:0000505c       _GUID_Joystick             1003505c     dxguid:dxguid.obj
+ 0003:00005070       _GUID_SysMouseEm           10035070     dxguid:dxguid.obj
+ 0003:00005084       _GUID_SysMouseEm2          10035084     dxguid:dxguid.obj
+ 0003:00005098       _GUID_SysKeyboardEm        10035098     dxguid:dxguid.obj
+ 0003:000050ac       _GUID_SysKeyboardEm2       100350ac     dxguid:dxguid.obj
+ 0003:000050c0       _GUID_ConstantForce        100350c0     dxguid:dxguid.obj
+ 0003:000050d4       _GUID_RampForce            100350d4     dxguid:dxguid.obj
+ 0003:000050e8       _GUID_Square               100350e8     dxguid:dxguid.obj
+ 0003:000050fc       _GUID_Sine                 100350fc     dxguid:dxguid.obj
+ 0003:00005110       _GUID_Triangle             10035110     dxguid:dxguid.obj
+ 0003:00005124       _GUID_SawtoothUp           10035124     dxguid:dxguid.obj
+ 0003:00005138       _GUID_SawtoothDown         10035138     dxguid:dxguid.obj
+ 0003:0000514c       _GUID_Spring               1003514c     dxguid:dxguid.obj
+ 0003:00005160       _GUID_Damper               10035160     dxguid:dxguid.obj
+ 0003:00005174       _GUID_Inertia              10035174     dxguid:dxguid.obj
+ 0003:00005188       _GUID_Friction             10035188     dxguid:dxguid.obj
+ 0003:0000519c       _GUID_CustomForce          1003519c     dxguid:dxguid.obj
+ 0003:000051b0       _IID_IDirectInputEffectDriver 100351b0     dxguid:dxguid.obj
+ 0003:000051c4       _IID_IDirectInputJoyConfig 100351c4     dxguid:dxguid.obj
+ 0003:000051d8       _IID_IDirectInputPIDDriver 100351d8     dxguid:dxguid.obj
+ 0003:000051ec       _IID_IDirectInputJoyConfig8 100351ec     dxguid:dxguid.obj
+ 0003:00005200       _GUID_KeyboardClass        10035200     dxguid:dxguid.obj
+ 0003:00005214       _GUID_MediaClass           10035214     dxguid:dxguid.obj
+ 0003:00005228       _GUID_MouseClass           10035228     dxguid:dxguid.obj
+ 0003:0000523c       _GUID_HIDClass             1003523c     dxguid:dxguid.obj
+ 0003:00005250       _CLSID_DirectSound         10035250     dxguid:dxguid.obj
+ 0003:00005264       _CLSID_DirectSound8        10035264     dxguid:dxguid.obj
+ 0003:00005278       _CLSID_DirectSoundCapture  10035278     dxguid:dxguid.obj
+ 0003:0000528c       _CLSID_DirectSoundCapture8 1003528c     dxguid:dxguid.obj
+ 0003:000052a0       _CLSID_DirectSoundFullDuplex 100352a0     dxguid:dxguid.obj
+ 0003:000052b4       _DSDEVID_DefaultPlayback   100352b4     dxguid:dxguid.obj
+ 0003:000052c8       _DSDEVID_DefaultCapture    100352c8     dxguid:dxguid.obj
+ 0003:000052dc       _DSDEVID_DefaultVoicePlayback 100352dc     dxguid:dxguid.obj
+ 0003:000052f0       _DSDEVID_DefaultVoiceCapture 100352f0     dxguid:dxguid.obj
+ 0003:00005304       _IID_IReferenceClock       10035304     dxguid:dxguid.obj
+ 0003:00005318       _IID_IDirectSound          10035318     dxguid:dxguid.obj
+ 0003:0000532c       _IID_IDirectSound8         1003532c     dxguid:dxguid.obj
+ 0003:00005340       _IID_IDirectSoundBuffer    10035340     dxguid:dxguid.obj
+ 0003:00005354       _IID_IDirectSoundBuffer8   10035354     dxguid:dxguid.obj
+ 0003:00005368       _GUID_All_Objects          10035368     dxguid:dxguid.obj
+ 0003:0000537c       _IID_IDirectSound3DListener 1003537c     dxguid:dxguid.obj
+ 0003:00005390       _IID_IDirectSound3DBuffer  10035390     dxguid:dxguid.obj
+ 0003:000053a4       _IID_IDirectSoundCapture   100353a4     dxguid:dxguid.obj
+ 0003:000053b8       _IID_IDirectSoundCaptureBuffer 100353b8     dxguid:dxguid.obj
+ 0003:000053cc       _IID_IDirectSoundCaptureBuffer8 100353cc     dxguid:dxguid.obj
+ 0003:000053e0       _IID_IDirectSoundNotify    100353e0     dxguid:dxguid.obj
+ 0003:000053f4       _IID_IKsPropertySet        100353f4     dxguid:dxguid.obj
+ 0003:00005408       _IID_IDirectSoundFXGargle  10035408     dxguid:dxguid.obj
+ 0003:0000541c       _IID_IDirectSoundFXChorus  1003541c     dxguid:dxguid.obj
+ 0003:00005430       _IID_IDirectSoundFXFlanger 10035430     dxguid:dxguid.obj
+ 0003:00005444       _IID_IDirectSoundFXEcho    10035444     dxguid:dxguid.obj
+ 0003:00005458       _IID_IDirectSoundFXDistortion 10035458     dxguid:dxguid.obj
+ 0003:0000546c       _IID_IDirectSoundFXCompressor 1003546c     dxguid:dxguid.obj
+ 0003:00005480       _IID_IDirectSoundFXParamEq 10035480     dxguid:dxguid.obj
+ 0003:00005494       _IID_IDirectSoundFXI3DL2Reverb 10035494     dxguid:dxguid.obj
+ 0003:000054a8       _IID_IDirectSoundFXWavesReverb 100354a8     dxguid:dxguid.obj
+ 0003:000054bc       _IID_IDirectSoundCaptureFXAec 100354bc     dxguid:dxguid.obj
+ 0003:000054d0       _IID_IDirectSoundCaptureFXNoiseSuppress 100354d0     dxguid:dxguid.obj
+ 0003:000054e4       _IID_IDirectSoundFullDuplex 100354e4     dxguid:dxguid.obj
+ 0003:000054f8       _DS3DALG_NO_VIRTUALIZATION 100354f8     dxguid:dxguid.obj
+ 0003:0000550c       _DS3DALG_HRTF_FULL         1003550c     dxguid:dxguid.obj
+ 0003:00005520       _DS3DALG_HRTF_LIGHT        10035520     dxguid:dxguid.obj
+ 0003:00005534       _GUID_DSFX_STANDARD_GARGLE 10035534     dxguid:dxguid.obj
+ 0003:00005548       _GUID_DSFX_STANDARD_CHORUS 10035548     dxguid:dxguid.obj
+ 0003:0000555c       _GUID_DSFX_STANDARD_FLANGER 1003555c     dxguid:dxguid.obj
+ 0003:00005570       _GUID_DSFX_STANDARD_ECHO   10035570     dxguid:dxguid.obj
+ 0003:00005584       _GUID_DSFX_STANDARD_DISTORTION 10035584     dxguid:dxguid.obj
+ 0003:00005598       _GUID_DSFX_STANDARD_COMPRESSOR 10035598     dxguid:dxguid.obj
+ 0003:000055ac       _GUID_DSFX_STANDARD_PARAMEQ 100355ac     dxguid:dxguid.obj
+ 0003:000055c0       _GUID_DSFX_STANDARD_I3DL2REVERB 100355c0     dxguid:dxguid.obj
+ 0003:000055d4       _GUID_DSFX_WAVES_REVERB    100355d4     dxguid:dxguid.obj
+ 0003:000055e8       _GUID_DSCFX_CLASS_AEC      100355e8     dxguid:dxguid.obj
+ 0003:000055fc       _GUID_DSCFX_MS_AEC         100355fc     dxguid:dxguid.obj
+ 0003:00005610       _GUID_DSCFX_SYSTEM_AEC     10035610     dxguid:dxguid.obj
+ 0003:00005624       _GUID_DSCFX_CLASS_NS       10035624     dxguid:dxguid.obj
+ 0003:00005638       _GUID_DSCFX_MS_NS          10035638     dxguid:dxguid.obj
+ 0003:0000564c       _GUID_DSCFX_SYSTEM_NS      1003564c     dxguid:dxguid.obj
+ 0003:00005660       _CLSID_DxDiagProvider      10035660     dxguid:dxguid.obj
+ 0003:00005674       _IID_IDxDiagProvider       10035674     dxguid:dxguid.obj
+ 0003:00005688       _IID_IDxDiagContainer      10035688     dxguid:dxguid.obj
+ 0003:0000588c       _c_dfDIKeyboard            1003588c     dinput8:dilib2.obj
+ 0003:00005910       __sz_gdiplus_dll           10035910     gdiplus:gdiplus.dll
+ 0003:00005924       ??_7type_info@@6B@         10035924     MSVCRTD:ti_inst.obj
+ 0003:0000592c       __pRawDllMain              1003592c     MSVCRTD:crtdll.obj
+ 0003:0000592c       __pDefaultRawDllMain       1003592c     MSVCRTD:crtdll.obj
+ 0003:00005930       ??_C@_0DA@FJPPCPEH@f?3?2dd?2vctools?2crt_bld?2self_x86?2c@ 10035930     MSVCRTD:crtdll.obj
+ 0003:0000596c       ??_C@_0BO@GNIAFIKK@Unknown?5Runtime?5Check?5Error?6?$AN?$AA@ 1003596c     MSVCRTD:_error_.obj
+ 0003:00005990       ??_C@_0CM@NGINOKPC@Stack?5memory?5around?5_alloca?5was?5@ 10035990     MSVCRTD:_error_.obj
+ 0003:000059c4       ??_C@_0DG@HKJMLLLP@A?5local?5variable?5was?5used?5before@ 100359c4     MSVCRTD:_error_.obj
+ 0003:00005a04       ??_C@_0BN@FFOINMNJ@Stack?5memory?5was?5corrupted?6?$AN?$AA@ 10035a04     MSVCRTD:_error_.obj
+ 0003:00005a28       ??_C@_0BBN@GPMLNJCF@A?5cast?5to?5a?5smaller?5data?5type?5ha@ 10035a28     MSVCRTD:_error_.obj
+ 0003:00005b80       ??_C@_0NN@NGPKDKPD@The?5value?5of?5ESP?5was?5not?5properl@ 10035b80     MSVCRTD:_error_.obj
+ 0003:00005d48       ??_C@_0CA@IODNCDPG@Run?9Time?5Check?5Failure?5?$CD?$CFd?5?9?5?$CFs?$AA@ 10035d48     MSVCRTD:_error_.obj
+ 0003:00005d70       ??_C@_0BE@GNBOBNCK@Unknown?5Module?5Name?$AA@ 10035d70     MSVCRTD:_error_.obj
+ 0003:00005d88       ??_C@_0BB@PFFGGCJP@Unknown?5Filename?$AA@ 10035d88     MSVCRTD:_error_.obj
+ 0003:00005da0       ??_C@_1EA@NFKNIFJP@?$AAR?$AAu?$AAn?$AA?9?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AA?5?$AA?$CD?$AA?$CF?$AAd?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 10035da0     MSVCRTD:_error_.obj
+ 0003:00005df0       ??_C@_1GM@OLMCBDMB@?$AAR?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?4?$AA?6?$AA?$AN?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo@ 10035df0     MSVCRTD:_error_.obj
+ 0003:00005e74       ??_C@_0CG@IAFNJNEE@Stack?5corrupted?5near?5unknown?5var@ 10035e74     MSVCRTD:_error_.obj
+ 0003:00005ea8       ??_C@_0EJ@LJKNEOLN@Stack?5area?5around?5_alloca?5memory@ 10035ea8     MSVCRTD:_error_.obj
+ 0003:00005f00       ??_C@_08KJEDNCKC@?$CFs?$CFs?$CFs?$CFs?$AA@ 10035f00     MSVCRTD:_error_.obj
+ 0003:00005f0c       ??_C@_02LLMPMKNF@?$DO?5?$AA@ 10035f0c     MSVCRTD:_error_.obj
+ 0003:00005f10       ??_C@_01EEMJAFIK@?6?$AA@   10035f10     MSVCRTD:_error_.obj
+ 0003:00005f14       ??_C@_0BC@KIBAILCI@?$CFs?$CFs?$CFp?$CFs?$CFld?$CFs?$CFd?$CFs?$AA@ 10035f14     MSVCRTD:_error_.obj
+ 0003:00005f30       ??_C@_0EI@CLEPFNGI@Stack?5area?5around?5_alloca?5memory@ 10035f30     MSVCRTD:_error_.obj
+ 0003:00005f88       ??_C@_0N@MHFFIMFG@?6Address?3?50x?$AA@ 10035f88     MSVCRTD:_error_.obj
+ 0003:00005f98       ??_C@_07DFDJCKFN@?6Size?3?5?$AA@ 10035f98     MSVCRTD:_error_.obj
+ 0003:00005fa4       ??_C@_0CK@DKGBICFE@?6Allocation?5number?5within?5this?5f@ 10035fa4     MSVCRTD:_error_.obj
+ 0003:00005fd8       ??_C@_08OMAHNMHJ@?6Data?3?5?$DM?$AA@ 10035fd8     MSVCRTD:_error_.obj
+ 0003:00005fe4       ??_C@_09FOPFMPEJ@wsprintfA?$AA@ 10035fe4     MSVCRTD:_error_.obj
+ 0003:00005ff0       ??_C@_1BG@OILDLIOJ@?$AAu?$AAs?$AAe?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 10035ff0     MSVCRTD:_error_.obj
+ 0003:0000600c       ??_C@_05MKKEDADM@?$CF?42X?5?$AA@ 1003600c     MSVCRTD:_error_.obj
+ 0003:00006014       ??_C@_0DE@OHJBPMBP@A?5variable?5is?5being?5used?5without@ 10036014     MSVCRTD:_error_.obj
+ 0003:00006054       ??_C@_0BP@OGBCLIBO@Stack?5around?5_alloca?5corrupted?$AA@ 10036054     MSVCRTD:_userapi_.obj
+ 0003:0000607c       ??_C@_0CK@CNLNOEPB@Local?5variable?5used?5before?5initi@ 1003607c     MSVCRTD:_userapi_.obj
+ 0003:000060b0       ??_C@_0BI@CIGMDCBH@Stack?5memory?5corruption?$AA@ 100360b0     MSVCRTD:_userapi_.obj
+ 0003:000060cc       ??_C@_0CK@FEGOIOPB@Cast?5to?5smaller?5type?5causing?5los@ 100360cc     MSVCRTD:_userapi_.obj
+ 0003:00006100       ??_C@_0BJ@HEGAHDFO@Stack?5pointer?5corruption?$AA@ 10036100     MSVCRTD:_userapi_.obj
+ 0003:00006144       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 10036144     MSVCRTD:tncleanup.obj
+ 0003:00006148       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 10036148     MSVCRTD:tncleanup.obj
+ 0003:0000614c       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 1003614c     MSVCRTD:tncleanup.obj
+ 0003:00006150       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 10036150     MSVCRTD:tncleanup.obj
+ 0003:00006154       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 10036154     MSVCRTD:tncleanup.obj
+ 0003:00006178       ??_C@_01KDCPPGHE@r?$AA@    10036178     MSVCRTD:_pdblkup_.obj
+ 0003:0000617c       ??_C@_0BB@KCIACLNC@PDBOpenValidate5?$AA@ 1003617c     MSVCRTD:_pdblkup_.obj
+ 0003:00006190       ??_C@_1CK@HHHCOJPD@?$AAE?$AAn?$AAv?$AAi?$AAr?$AAo?$AAn?$AAm?$AAe?$AAn?$AAt?$AAD?$AAi?$AAr?$AAe?$AAc?$AAt?$AAo?$AAr?$AAy?$AA?$AA@ 10036190     MSVCRTD:_pdblkup_.obj
+ 0003:000061c8       ??_C@_1FM@DNCABAP@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAV?$AAi?$AAs?$AAu?$AAa?$AAl?$AAS?$AAt?$AAu?$AAd?$AAi?$AAo?$AA?2@ 100361c8     MSVCRTD:_pdblkup_.obj
+ 0003:00006238       ??_C@_0M@HLOHPNFA@RegCloseKey?$AA@ 10036238     MSVCRTD:_pdblkup_.obj
+ 0003:00006248       ??_C@_0BB@GLNAEDBD@RegQueryValueExW?$AA@ 10036248     MSVCRTD:_pdblkup_.obj
+ 0003:0000625c       ??_C@_0O@COHOBMLB@RegOpenKeyExW?$AA@ 1003625c     MSVCRTD:_pdblkup_.obj
+ 0003:0000626c       ??_C@_1BK@GAEMIDIL@?$AAA?$AAD?$AAV?$AAA?$AAP?$AAI?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 1003626c     MSVCRTD:_pdblkup_.obj
+ 0003:000066f8       ??_R4CTaksiConfig@@6B@     100366f8     config.obj
+ 0003:00006710       ??_R3CTaksiConfig@@8       10036710     config.obj
+ 0003:00006724       ??_R2CTaksiConfig@@8       10036724     config.obj
+ 0003:00006734       ??_R1A@?0A@EA@CTaksiConfig@@8 10036734     config.obj
+ 0003:00006758       ??_R1A@?0A@EA@CIniObject@@8 10036758     config.obj
+ 0003:0000677c       ??_R3CIniObject@@8         1003677c     config.obj
+ 0003:00006790       ??_R2CIniObject@@8         10036790     config.obj
+ 0003:00006798       ??_R17?0A@EA@CTaksiConfigData@@8 10036798     config.obj
+ 0003:000067bc       ??_R3CTaksiConfigData@@8   100367bc     config.obj
+ 0003:000067d0       ??_R2CTaksiConfigData@@8   100367d0     config.obj
+ 0003:000067d8       ??_R1A@?0A@EA@CTaksiConfigData@@8 100367d8     config.obj
+ 0003:000067fc       ??_R4CTaksiConfigCustom@@6B@ 100367fc     config.obj
+ 0003:00006814       ??_R3CTaksiConfigCustom@@8 10036814     config.obj
+ 0003:00006828       ??_R2CTaksiConfigCustom@@8 10036828     config.obj
+ 0003:00006834       ??_R1A@?0A@EA@CTaksiConfigCustom@@8 10036834     config.obj
+ 0003:00006858       ??_R4Bitmap@Gdiplus@@6B@   10036858     GAPI_Base.obj
+ 0003:00006870       ??_R3Bitmap@Gdiplus@@8     10036870     GAPI_Base.obj
+ 0003:00006884       ??_R2Bitmap@Gdiplus@@8     10036884     GAPI_Base.obj
+ 0003:00006894       ??_R1A@?0A@EA@Bitmap@Gdiplus@@8 10036894     GAPI_Base.obj
+ 0003:000068b8       ??_R1A@?0A@EA@Image@Gdiplus@@8 100368b8     GAPI_Base.obj
+ 0003:000068dc       ??_R3Image@Gdiplus@@8      100368dc     GAPI_Base.obj
+ 0003:000068f0       ??_R2Image@Gdiplus@@8      100368f0     GAPI_Base.obj
+ 0003:000068fc       ??_R13?0A@EA@GdiplusBase@Gdiplus@@8 100368fc     GAPI_Base.obj
+ 0003:00006920       ??_R3GdiplusBase@Gdiplus@@8 10036920     GAPI_Base.obj
+ 0003:00006934       ??_R2GdiplusBase@Gdiplus@@8 10036934     GAPI_Base.obj
+ 0003:0000693c       ??_R1A@?0A@EA@GdiplusBase@Gdiplus@@8 1003693c     GAPI_Base.obj
+ 0003:00006960       ??_R4Image@Gdiplus@@6B@    10036960     GAPI_Base.obj
+ 0003:00006978       ??_R4CTaksiGAPI_DX9@@6B@   10036978     GAPI_dx9.obj
+ 0003:00006990       ??_R3CTaksiGAPI_DX9@@8     10036990     GAPI_dx9.obj
+ 0003:000069a4       ??_R2CTaksiGAPI_DX9@@8     100369a4     GAPI_dx9.obj
+ 0003:000069b4       ??_R1A@?0A@EA@CTaksiGAPI_DX9@@8 100369b4     GAPI_dx9.obj
+ 0003:000069d8       ??_R1A@?0A@EA@CTaksiGAPIBase@@8 100369d8     GAPI_dx9.obj
+ 0003:000069fc       ??_R3CTaksiGAPIBase@@8     100369fc     GAPI_dx9.obj
+ 0003:00006a10       ??_R2CTaksiGAPIBase@@8     10036a10     GAPI_dx9.obj
+ 0003:00006a1c       ??_R13?0A@EA@CDllFile@@8   10036a1c     GAPI_dx9.obj
+ 0003:00006a40       ??_R3CDllFile@@8           10036a40     GAPI_dx9.obj
+ 0003:00006a54       ??_R2CDllFile@@8           10036a54     GAPI_dx9.obj
+ 0003:00006a5c       ??_R1A@?0A@EA@CDllFile@@8  10036a5c     GAPI_dx9.obj
+ 0003:00006a80       ??_R4CTaksiGAPIBase@@6B@   10036a80     GAPI_dx9.obj
+ 0003:00006a98       ??_R4CTaksiGAPI_GDI@@6B@   10036a98     GAPI_gdi.obj
+ 0003:00006ab0       ??_R3CTaksiGAPI_GDI@@8     10036ab0     GAPI_gdi.obj
+ 0003:00006ac4       ??_R2CTaksiGAPI_GDI@@8     10036ac4     GAPI_gdi.obj
+ 0003:00006ad4       ??_R1A@?0A@EA@CTaksiGAPI_GDI@@8 10036ad4     GAPI_gdi.obj
+ 0003:00006af8       ??_R4CTaksiGAPI_OGL@@6B@   10036af8     GAPI_ogl.obj
+ 0003:00006b10       ??_R3CTaksiGAPI_OGL@@8     10036b10     GAPI_ogl.obj
+ 0003:00006b24       ??_R2CTaksiGAPI_OGL@@8     10036b24     GAPI_ogl.obj
+ 0003:00006b34       ??_R1A@?0A@EA@CTaksiGAPI_OGL@@8 10036b34     GAPI_ogl.obj
+ 0003:00006b58       ??_R4CTaksiLogFile@@6B@    10036b58     TaksiDll.obj
+ 0003:00006b70       ??_R3CTaksiLogFile@@8      10036b70     TaksiDll.obj
+ 0003:00006b84       ??_R2CTaksiLogFile@@8      10036b84     TaksiDll.obj
+ 0003:00006b94       ??_R1A@?0A@EA@CTaksiLogFile@@8 10036b94     TaksiDll.obj
+ 0003:00006bb8       ??_R1A@?0A@EA@CLogFiltered@@8 10036bb8     TaksiDll.obj
+ 0003:00006bdc       ??_R3CLogFiltered@@8       10036bdc     TaksiDll.obj
+ 0003:00006bf0       ??_R2CLogFiltered@@8       10036bf0     TaksiDll.obj
+ 0003:00006bfc       ??_R1A@?0A@EA@CLogBase@@8  10036bfc     TaksiDll.obj
+ 0003:00006c20       ??_R3CLogBase@@8           10036c20     TaksiDll.obj
+ 0003:00006c34       ??_R2CLogBase@@8           10036c34     TaksiDll.obj
+ 0003:00006c3c       ??_R4type_info@@6B@        10036c3c     MSVCRTD:ti_inst.obj
+ 0003:00006c54       ??_R3type_info@@8          10036c54     MSVCRTD:ti_inst.obj
+ 0003:00006c68       ??_R2type_info@@8          10036c68     MSVCRTD:ti_inst.obj
+ 0003:00006c70       ??_R1A@?0A@EA@type_info@@8 10036c70     MSVCRTD:ti_inst.obj
+ 0003:00006dbc       ___rtc_iaa                 10036dbc     MSVCRTD:_initsect_.obj
+ 0003:00006fe4       ___rtc_izz                 10036fe4     MSVCRTD:_initsect_.obj
+ 0003:000070e8       ___rtc_taa                 100370e8     MSVCRTD:_initsect_.obj
+ 0003:00007310       ___rtc_tzz                 10037310     MSVCRTD:_initsect_.obj
+ 0004:00000000       ?__LINE__Var@?1??InitFreqUnits@CTaksiFrameRate@@QAE_NXZ@4JA 10039000     AVI.obj
+ 0004:00000004       ?__LINE__Var@?1??CheckFrameRate@CTaksiFrameRate@@QAEKXZ@4JA 10039004     AVI.obj
+ 0004:00000008       ?__LINE__Var@?1??ThreadRun@CAVIThread@@AAEKXZ@4JA 10039008     AVI.obj
+ 0004:0000000c       ?__LINE__Var@?1??ThreadEntryProc@CAVIThread@@CGKPAX@Z@4JA@4251b6bb 1003900c     AVI.obj
+ 0004:00000010       ?__LINE__Var@?1??WaitForAllFrames@CAVIThread@@QAEXXZ@4JA 10039010     AVI.obj
+ 0004:00000014       ?__LINE__Var@?1??WaitForNextFrame@CAVIThread@@QAEPAUCAVIFrame@@XZ@4JA 10039014     AVI.obj
+ 0004:00000018       ?__LINE__Var@?1??SignalFrameAdd@CAVIThread@@QAEXPAUCAVIFrame@@K@Z@4JA 10039018     AVI.obj
+ 0004:0000001c       ?__LINE__Var@?1??WriteAVIAudioBlock@CAVIThread@@AAEJPAEK_N@Z@4JA 1003901c     AVI.obj
+ 0004:00000020       ?__LINE__Var@?1??AudioInProc@CAVIThread@@CGXPAUHWAVEIN__@@IKKK@Z@4JA@4251b6bb 10039020     AVI.obj
+ 0004:00000024       ?__LINE__Var@?1??OpenAudioInputDevice@CAVIThread@@QAEJIAAVCWaveFormat@@@Z@4JA 10039024     AVI.obj
+ 0004:00000028       ?__LINE__Var@?1??StopAVIThread@CAVIThread@@QAEJXZ@4JA 10039028     AVI.obj
+ 0004:00000030       ?sm_Props@CTaksiConfig@@2PAPBDA 10039030     config.obj
+ 0004:000000a8       ?sm_Props@CTaksiConfigCustom@@2PAPBDA 100390a8     config.obj
+ 0004:000000d4       ?__LINE__Var@?1??PropGet@CTaksiConfigCustom@@UBEHHPADH@Z@4JA 100390d4     config.obj
+ 0004:000000d8       ?__LINE__Var@?1??PropSet@CTaksiConfigCustom@@UAE_NHPBD@Z@4JA 100390d8     config.obj
+ 0004:000000dc       ??_R0?AUCTaksiConfig@@@8   100390dc     config.obj
+ 0004:000000fc       ??_R0?AUCIniObject@@@8     100390fc     config.obj
+ 0004:0000011c       ??_R0?AUCTaksiConfigData@@@8 1003911c     config.obj
+ 0004:00000144       ?__LINE__Var@?1??PropGet@CTaksiConfig@@UBEHHPADH@Z@4JA 10039144     config.obj
+ 0004:00000148       ?__LINE__Var@?1??PropSet@CTaksiConfig@@UAE_NHPBD@Z@4JA 10039148     config.obj
+ 0004:0000014c       ??_R0?AUCTaksiConfigCustom@@@8 1003914c     config.obj
+ 0004:00000174       ??_R0?AVBitmap@Gdiplus@@@8 10039174     GAPI_Base.obj
+ 0004:00000198       ??_R0?AVImage@Gdiplus@@@8  10039198     GAPI_Base.obj
+ 0004:000001bc       ??_R0?AVGdiplusBase@Gdiplus@@@8 100391bc     GAPI_Base.obj
+ 0004:000001e4       ?__LINE__Var@?1??RecordAVI_Start@CTaksiGAPIBase@@AAEJXZ@4JA 100391e4     GAPI_Base.obj
+ 0004:000001e8       ?__LINE__Var@?1??RecordAVI_Frame@CTaksiGAPIBase@@AAE_NXZ@4JA 100391e8     GAPI_Base.obj
+ 0004:000001ec       ?__LINE__Var@?1??PresentFrameBegin@CTaksiGAPIBase@@QAEX_N@Z@4JA 100391ec     GAPI_Base.obj
+ 0004:000001f0       ?__LINE__Var@?1??AttachGAPI@CTaksiGAPIBase@@QAEJXZ@4JA 100391f0     GAPI_Base.obj
+ 0004:00000258       ?__LINE__Var@?1??CreateVB@@YAJPAUIDirect3DDevice9@@AAV?$IRefPtr@UIDirect3DVertexBuffer9@@@@PBUCUSTOMVERTEX@@H@Z@4JA@8d50f2cc 10039258     GAPI_dx9.obj
+ 0004:0000025c       ?__LINE__Var@?1??GetFrameFullSize@@YAJAAU_D3DLOCKED_RECT@@AAUCVideoFrame@@@Z@4JA@8d50f2cc 1003925c     GAPI_dx9.obj
+ 0004:00000260       ?__LINE__Var@?1??GetFrameHalfSize@@YAJAAU_D3DLOCKED_RECT@@AAUCVideoFrame@@@Z@4JA@8d50f2cc 10039260     GAPI_dx9.obj
+ 0004:00000264       ?__LINE__Var@?1??DrawIndicator@CTaksiGAPI_DX9@@UAEJW4TAKSI_INDICATE_TYPE@@@Z@4JA 10039264     GAPI_dx9.obj
+ 0004:00000268       ?__LINE__Var@?1??DX9_HooksVerify@@YAXPAUIDirect3DDevice9@@@Z@4JA@8d50f2cc 10039268     GAPI_dx9.obj
+ 0004:0000026c       ?__LINE__Var@?1??DX9_HooksInit@@YAXPAUIDirect3DDevice9@@@Z@4JA@8d50f2cc 1003926c     GAPI_dx9.obj
+ 0004:00000270       ??_R0?AUCTaksiGAPI_DX9@@@8 10039270     GAPI_dx9.obj
+ 0004:00000294       ??_R0?AUCTaksiGAPIBase@@@8 10039294     GAPI_dx9.obj
+ 0004:000002b8       ??_R0?AUCDllFile@@@8       100392b8     GAPI_dx9.obj
+ 0004:000002d4       ?__LINE__Var@?1??HookFunctions@CTaksiGAPI_DX9@@UAEJXZ@4JA 100392d4     GAPI_dx9.obj
+ 0004:000002d8       ?__LINE__Var@?1??GetFrame@CTaksiGAPI_GDI@@UAEJAAUCVideoFrame@@_N@Z@4JA 100392d8     GAPI_gdi.obj
+ 0004:000002dc       ?__LINE__Var@?1??OnTick@CTaksiGAPI_GDI@@QAEJPAUHWND__@@IIJ@Z@4JA 100392dc     GAPI_gdi.obj
+ 0004:000002e0       ?__LINE__Var@?1??WndProcHook@CTaksiGAPI_GDI@@CGJPAUHWND__@@IIJ@Z@4JA@f0bfe57a 100392e0     GAPI_gdi.obj
+ 0004:000002e4       ?__LINE__Var@?1??HookFunctions@CTaksiGAPI_GDI@@UAEJXZ@4JA 100392e4     GAPI_gdi.obj
+ 0004:000002e8       ?__LINE__Var@?1??UnhookFunctions@CTaksiGAPI_GDI@@UAEXXZ@4JA 100392e8     GAPI_gdi.obj
+ 0004:000002ec       ??_R0?AUCTaksiGAPI_GDI@@@8 100392ec     GAPI_gdi.obj
+ 0004:00000310       ?__LINE__Var@?1??DrawIndicator@CTaksiGAPI_OGL@@UAEJW4TAKSI_INDICATE_TYPE@@@Z@4JA 10039310     GAPI_ogl.obj
+ 0004:00000314       ?__LINE__Var@?1??HookFunctions@CTaksiGAPI_OGL@@UAEJXZ@4JA 10039314     GAPI_ogl.obj
+ 0004:00000318       ??_R0?AUCTaksiGAPI_OGL@@@8 10039318     GAPI_ogl.obj
+ 0004:0000033c       ?__LINE__Var@?1??ProcessDirectInput@CTaksiDI@@QAEXXZ@4JA 1003933c     HotKeys.obj
+ 0004:00000340       ?__LINE__Var@?1??DoHotKey@CTaksiHotKeys@@QAEXW4TAKSI_HOTKEY_TYPE@@@Z@4JA 10039340     HotKeys.obj
+ 0004:00000344       ?__LINE__Var@?1??AttachHotKeysToApp@CTaksiHotKeys@@QAEJXZ@4JA 10039344     HotKeys.obj
+ 0004:0000036c       ??_R0?AUCTaksiLogFile@@@8  1003936c     TaksiDll.obj
+ 0004:00000390       ??_R0?AVCLogFiltered@@@8   10039390     TaksiDll.obj
+ 0004:000003b0       ??_R0?AVCLogBase@@@8       100393b0     TaksiDll.obj
+ 0004:000003cc       ?__LINE__Var@?1??OnMasterTick@CTaksiShared@@QAEXXZ@4JA 100393cc     TaksiDll.obj
+ 0004:000003d0       ?__LINE__Var@?1??HotKey_ConfigOpen@CTaksiShared@@QAEXXZ@4JA 100393d0     TaksiDll.obj
+ 0004:000003d4       ?__LINE__Var@?1??InitMasterWnd@CTaksiShared@@QAE_NPAUHWND__@@@Z@4JA 100393d4     TaksiDll.obj
+ 0004:000003d8       ?__LINE__Var@?1??InitShared@CTaksiShared@@QAE_NXZ@4JA 100393d8     TaksiDll.obj
+ 0004:000003dc       ?__LINE__Var@?1??CheckProcessCustom@CTaksiProcess@@QAEXXZ@4JA 100393dc     TaksiDll.obj
+ 0004:000003e0       ?__LINE__Var@?1??StartGAPI@CTaksiProcess@@QAE_NW4TAKSI_GAPI_TYPE@@@Z@4JA 100393e0     TaksiDll.obj
+ 0004:000003e4       ?__LINE__Var@?1??OnDllProcessAttach@CTaksiProcess@@QAE_NXZ@4JA 100393e4     TaksiDll.obj
+ 0004:000003e8       _CLSID_XACTEngine          100393e8     dxguid:dxguid.obj
+ 0004:000003fc       _CLSID_XACTAuditionEngine  100393fc     dxguid:dxguid.obj
+ 0004:00000410       _CLSID_XACTDebugEngine     10039410     dxguid:dxguid.obj
+ 0004:00000424       _IID_IXACT3Engine          10039424     dxguid:dxguid.obj
+ 0004:00000438       _CLSID_XAudio2             10039438     dxguid:dxguid.obj
+ 0004:0000044c       _CLSID_XAudio2_Debug       1003944c     dxguid:dxguid.obj
+ 0004:00000460       _IID_IXAudio2              10039460     dxguid:dxguid.obj
+ 0004:00000474       _CLSID_AudioVolumeMeter    10039474     dxguid:dxguid.obj
+ 0004:00000488       _CLSID_AudioVolumeMeter_Debug 10039488     dxguid:dxguid.obj
+ 0004:0000049c       _CLSID_AudioReverb         1003949c     dxguid:dxguid.obj
+ 0004:000004b0       _CLSID_AudioReverb_Debug   100394b0     dxguid:dxguid.obj
+ 0004:00001800       ___security_cookie         1003a800     MSVCRTD:gs_cookie.obj
+ 0004:00001804       ___security_cookie_complement 1003a804     MSVCRTD:gs_cookie.obj
+ 0004:00001808       ??_R0?AVtype_info@@@8      1003a808     MSVCRTD:ti_inst.obj
+ 0004:00001824       ?_RTC_ErrorLevels@@3PAHA   1003a824     MSVCRTD:_error_.obj
+ 0004:0000183c       ___native_dllmain_reason   1003a83c     MSVCRTD:natstart.obj
+ 0004:00001840       ___native_vcclrit_reason   1003a840     MSVCRTD:natstart.obj
+ 0004:00001988       ?g_FrameRate@@3UCTaksiFrameRate@@A 1003a988     AVI.obj
+ 0004:000019a8       ?g_AVIFile@@3UCAVIFile@@A  1003a9a8     AVI.obj
+ 0004:00001b68       ?g_AVIThread@@3UCAVIThread@@A 1003ab68     AVI.obj
+ 0004:00001e68       ?g_DX9@@3UCTaksiGAPI_DX9@@A 1003ae68     GAPI_dx9.obj
+ 0004:00001ef8       ?g_GDI@@3UCTaksiGAPI_GDI@@A 1003aef8     GAPI_gdi.obj
+ 0004:00001fa0       ?g_OGL@@3UCTaksiGAPI_OGL@@A 1003afa0     GAPI_ogl.obj
+ 0004:00002010       ?g_HotKeys@@3UCTaksiHotKeys@@A 1003b010     HotKeys.obj
+ 0004:00002018       ?g_UserKeyboard@@3UCTaksiKeyboard@@A 1003b018     HotKeys.obj
+ 0004:00002020       ?g_UserDI@@3UCTaksiDI@@A   1003b020     HotKeys.obj
+ 0004:00002048       ___@@_PchSym_@00@UfhvihUxszmtcoUwlxfnvmghUerhfzoLhgfwrlLCABAUkilqvxghUgzphrRxlwvRBIHUgzphrRxlwvRBIHUnzrmUhixUwvyftJUgzphrwooUgzphrwooOlyq@ 1003b048     TaksiDll.obj
+ 0004:00002080       ?g_hInst@@3PAUHINSTANCE__@@A 1003b080     TaksiDll.obj
+ 0004:00002088       ?g_Proc@@3UCTaksiProcess@@A 1003b088     TaksiDll.obj
+ 0004:000023d0       ?g_Log@@3UCTaksiLogFile@@A 1003b3d0     TaksiDll.obj
+ 0004:00002498       __hmod__gdiplus_dll        1003b498     gdiplus:gdiplus.dll
+ 0004:0000249c       ___puiHead                 1003b49c     delayimp:delayhlp.obj
+ 0004:000024a0       ___pfnDliFailureHook2      1003b4a0     delayimp:delayhk1.obj
+ 0004:000024a4       ___pfnDliNotifyHook2       1003b4a4     delayimp:delayhk2.obj
+ 0004:000024b0       ?wsprintffp@@3P6AHPADPBDZZA 1003b4b0     MSVCRTD:_error_.obj
+ 0004:00002884       ?__type_info_root_node@@3U__type_info_node@@A 1003b884     MSVCRTD:tncleanup.obj
+ 0004:00002898       ___native_startup_state    1003b898     <common>
+ 0004:000028a8       ___native_startup_lock     1003b8a8     <common>
+ 0004:000028ac       ___dyn_tls_init_callback   1003b8ac     <common>
+ 0004:000028b8       ___onexitend               1003b8b8     <common>
+ 0004:000028c8       ___onexitbegin             1003b8c8     <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_KERNEL32 1003c000     kernel32:KERNEL32.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_USER32 1003c014     user32:USER32.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_GDI32  1003c028     gdi32:GDI32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_TaksiCommon 1003c03c     TaksiCommon:TaksiCommon.dll
+ 0005:00000050       __IMPORT_DESCRIPTOR_MSVCR100D 1003c050     MSVCRTD:MSVCR100D.dll
+ 0005:00000064       __NULL_IMPORT_DESCRIPTOR   1003c064     kernel32:KERNEL32.dll
+ 0005:000005d8       __imp__GetDIBits@28        1003c5d8     gdi32:GDI32.dll
+ 0005:000005dc       __imp__BitBlt@36           1003c5dc     gdi32:GDI32.dll
+ 0005:000005e0       __imp__StretchBlt@44       1003c5e0     gdi32:GDI32.dll
+ 0005:000005e4       __imp__DeleteObject@4      1003c5e4     gdi32:GDI32.dll
+ 0005:000005e8       \177GDI32_NULL_THUNK_DATA  1003c5e8     gdi32:GDI32.dll
+ 0005:00000614       __imp__GetCurrentThreadId@0 1003c614     kernel32:KERNEL32.dll
+ 0005:00000618       __imp__CreateThread@24     1003c618     kernel32:KERNEL32.dll
+ 0005:0000061c       __imp__CreateEventA@16     1003c61c     kernel32:KERNEL32.dll
+ 0005:00000620       __imp__SetEvent@4          1003c620     kernel32:KERNEL32.dll
+ 0005:00000624       __imp__ResetEvent@4        1003c624     kernel32:KERNEL32.dll
+ 0005:00000628       __imp__lstrcpyA@8          1003c628     kernel32:KERNEL32.dll
+ 0005:0000062c       __imp__lstrcatA@8          1003c62c     kernel32:KERNEL32.dll
+ 0005:00000630       __imp__GetModuleFileNameA@12 1003c630     kernel32:KERNEL32.dll
+ 0005:00000634       __imp__lstrlenA@4          1003c634     kernel32:KERNEL32.dll
+ 0005:00000638       __imp__lstrcmpA@8          1003c638     kernel32:KERNEL32.dll
+ 0005:0000063c       __imp__ReadFile@20         1003c63c     kernel32:KERNEL32.dll
+ 0005:00000640       __imp__GetFileSize@8       1003c640     kernel32:KERNEL32.dll
+ 0005:00000644       __imp__CreateFileA@28      1003c644     kernel32:KERNEL32.dll
+ 0005:00000648       __imp__GetLastError@0      1003c648     kernel32:KERNEL32.dll
+ 0005:0000064c       __imp__MultiByteToWideChar@24 1003c64c     kernel32:KERNEL32.dll
+ 0005:00000650       __imp__GetModuleHandleA@4  1003c650     kernel32:KERNEL32.dll
+ 0005:00000654       __imp__GetTickCount@0      1003c654     kernel32:KERNEL32.dll
+ 0005:00000658       __imp__SetFilePointer@16   1003c658     kernel32:KERNEL32.dll
+ 0005:0000065c       __imp__WriteFile@20        1003c65c     kernel32:KERNEL32.dll
+ 0005:00000660       __imp__GetCurrentProcessId@0 1003c660     kernel32:KERNEL32.dll
+ 0005:00000664       __imp__GetCurrentDirectoryA@8 1003c664     kernel32:KERNEL32.dll
+ 0005:00000668       __imp__GetLocalTime@4      1003c668     kernel32:KERNEL32.dll
+ 0005:0000066c       __imp__lstrcmpiA@8         1003c66c     kernel32:KERNEL32.dll
+ 0005:00000670       __imp__GetProcessHeap@0    1003c670     kernel32:KERNEL32.dll
+ 0005:00000674       __imp__GetWindowsDirectoryA@8 1003c674     kernel32:KERNEL32.dll
+ 0005:00000678       __imp__LocalAlloc@8        1003c678     kernel32:KERNEL32.dll
+ 0005:0000067c       __imp__LocalFree@4         1003c67c     kernel32:KERNEL32.dll
+ 0005:00000680       __imp__GetProcAddress@8    1003c680     kernel32:KERNEL32.dll
+ 0005:00000684       __imp__FreeLibrary@4       1003c684     kernel32:KERNEL32.dll
+ 0005:00000688       __imp__InterlockedExchange@8 1003c688     kernel32:KERNEL32.dll
+ 0005:0000068c       __imp__LoadLibraryA@4      1003c68c     kernel32:KERNEL32.dll
+ 0005:00000690       __imp__RaiseException@16   1003c690     kernel32:KERNEL32.dll
+ 0005:00000694       __imp__VirtualQuery@12     1003c694     kernel32:KERNEL32.dll
+ 0005:00000698       __imp__GetModuleFileNameW@12 1003c698     kernel32:KERNEL32.dll
+ 0005:0000069c       __imp__GetSystemTimeAsFileTime@4 1003c69c     kernel32:KERNEL32.dll
+ 0005:000006a0       __imp__QueryPerformanceCounter@4 1003c6a0     kernel32:KERNEL32.dll
+ 0005:000006a4       __imp__SetUnhandledExceptionFilter@4 1003c6a4     kernel32:KERNEL32.dll
+ 0005:000006a8       __imp__UnhandledExceptionFilter@4 1003c6a8     kernel32:KERNEL32.dll
+ 0005:000006ac       __imp__GetCurrentProcess@0 1003c6ac     kernel32:KERNEL32.dll
+ 0005:000006b0       __imp__TerminateProcess@8  1003c6b0     kernel32:KERNEL32.dll
+ 0005:000006b4       __imp__LoadLibraryW@4      1003c6b4     kernel32:KERNEL32.dll
+ 0005:000006b8       __imp__IsDebuggerPresent@0 1003c6b8     kernel32:KERNEL32.dll
+ 0005:000006bc       __imp__WideCharToMultiByte@32 1003c6bc     kernel32:KERNEL32.dll
+ 0005:000006c0       __imp__InterlockedCompareExchange@12 1003c6c0     kernel32:KERNEL32.dll
+ 0005:000006c4       __imp__Sleep@4             1003c6c4     kernel32:KERNEL32.dll
+ 0005:000006c8       __imp__DecodePointer@4     1003c6c8     kernel32:KERNEL32.dll
+ 0005:000006cc       __imp__EncodePointer@4     1003c6cc     kernel32:KERNEL32.dll
+ 0005:000006d0       __imp__HeapAlloc@12        1003c6d0     kernel32:KERNEL32.dll
+ 0005:000006d4       __imp__WaitForSingleObject@8 1003c6d4     kernel32:KERNEL32.dll
+ 0005:000006d8       __imp__HeapFree@12         1003c6d8     kernel32:KERNEL32.dll
+ 0005:000006dc       __imp__lstrcpynA@12        1003c6dc     kernel32:KERNEL32.dll
+ 0005:000006e0       __imp__QueryPerformanceFrequency@4 1003c6e0     kernel32:KERNEL32.dll
+ 0005:000006e4       \177KERNEL32_NULL_THUNK_DATA 1003c6e4     kernel32:KERNEL32.dll
+ 0005:00000738       __imp____CppXcptFilter     1003c738     MSVCRTD:MSVCR100D.dll
+ 0005:0000073c       __imp___amsg_exit          1003c73c     MSVCRTD:MSVCR100D.dll
+ 0005:00000740       __imp___initterm_e         1003c740     MSVCRTD:MSVCR100D.dll
+ 0005:00000744       __imp___initterm           1003c744     MSVCRTD:MSVCR100D.dll
+ 0005:00000748       __imp___crt_debugger_hook  1003c748     MSVCRTD:MSVCR100D.dll
+ 0005:0000074c       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1003c74c     MSVCRTD:MSVCR100D.dll
+ 0005:00000750       __imp____clean_type_info_names_internal 1003c750     MSVCRTD:MSVCR100D.dll
+ 0005:00000754       __imp___except_handler4_common 1003c754     MSVCRTD:MSVCR100D.dll
+ 0005:00000758       __imp___CrtSetCheckCount   1003c758     MSVCRTD:MSVCR100D.dll
+ 0005:0000075c       __imp___encoded_null       1003c75c     MSVCRTD:MSVCR100D.dll
+ 0005:00000760       __imp___free_dbg           1003c760     MSVCRTD:MSVCR100D.dll
+ 0005:00000764       __imp___malloc_dbg         1003c764     MSVCRTD:MSVCR100D.dll
+ 0005:00000768       __imp___onexit             1003c768     MSVCRTD:MSVCR100D.dll
+ 0005:0000076c       __imp___lock               1003c76c     MSVCRTD:MSVCR100D.dll
+ 0005:00000770       __imp____dllonexit         1003c770     MSVCRTD:MSVCR100D.dll
+ 0005:00000774       __imp___unlock             1003c774     MSVCRTD:MSVCR100D.dll
+ 0005:00000778       __imp_?terminate@@YAXXZ    1003c778     MSVCRTD:MSVCR100D.dll
+ 0005:0000077c       __imp___CRT_RTC_INITW      1003c77c     MSVCRTD:MSVCR100D.dll
+ 0005:00000780       __imp_??_V@YAXPAX@Z        1003c780     MSVCRTD:MSVCR100D.dll
+ 0005:00000784       __imp_??3@YAXPAX@Z         1003c784     MSVCRTD:MSVCR100D.dll
+ 0005:00000788       __imp___wassert            1003c788     MSVCRTD:MSVCR100D.dll
+ 0005:0000078c       __imp___purecall           1003c78c     MSVCRTD:MSVCR100D.dll
+ 0005:00000790       __imp___mbschr             1003c790     MSVCRTD:MSVCR100D.dll
+ 0005:00000794       __imp___mbslwr             1003c794     MSVCRTD:MSVCR100D.dll
+ 0005:00000798       __imp__fprintf             1003c798     MSVCRTD:MSVCR100D.dll
+ 0005:0000079c       __imp__strstr              1003c79c     MSVCRTD:MSVCR100D.dll
+ 0005:000007a0       __imp__fopen               1003c7a0     MSVCRTD:MSVCR100D.dll
+ 0005:000007a4       __imp__fgets               1003c7a4     MSVCRTD:MSVCR100D.dll
+ 0005:000007a8       __imp__feof                1003c7a8     MSVCRTD:MSVCR100D.dll
+ 0005:000007ac       __imp__fclose              1003c7ac     MSVCRTD:MSVCR100D.dll
+ 0005:000007b0       __imp__sscanf              1003c7b0     MSVCRTD:MSVCR100D.dll
+ 0005:000007b4       __imp__strtol              1003c7b4     MSVCRTD:MSVCR100D.dll
+ 0005:000007b8       __imp__atoi                1003c7b8     MSVCRTD:MSVCR100D.dll
+ 0005:000007bc       __imp___mbsstr             1003c7bc     MSVCRTD:MSVCR100D.dll
+ 0005:000007c0       __imp___mbsnbcpy           1003c7c0     MSVCRTD:MSVCR100D.dll
+ 0005:000007c4       __imp__strchr              1003c7c4     MSVCRTD:MSVCR100D.dll
+ 0005:000007c8       __imp__strncpy             1003c7c8     MSVCRTD:MSVCR100D.dll
+ 0005:000007cc       __imp__atof                1003c7cc     MSVCRTD:MSVCR100D.dll
+ 0005:000007d0       __imp___snprintf           1003c7d0     MSVCRTD:MSVCR100D.dll
+ 0005:000007d4       __imp__memcpy              1003c7d4     MSVCRTD:MSVCR100D.dll
+ 0005:000007d8       __imp__memset              1003c7d8     MSVCRTD:MSVCR100D.dll
+ 0005:000007dc       __imp____CxxFrameHandler3  1003c7dc     MSVCRTD:MSVCR100D.dll
+ 0005:000007e0       __imp__strnicmp            1003c7e0     MSVCRTD:MSVCR100D.dll
+ 0005:000007e0       __imp___strnicmp           1003c7e0     MSVCRTD:MSVCR100D.dll
+ 0005:000007e4       \177MSVCR100D_NULL_THUNK_DATA 1003c7e4     MSVCRTD:MSVCR100D.dll
+ 0005:00000830       __imp_?AttachData@CWaveHeaderBase@@QAEXPADK@Z 1003c830     TaksiCommon:TaksiCommon.dll
+ 0005:00000834       __imp_?CvtBlocksToBytes@CWaveFormat@@QBEKK@Z 1003c834     TaksiCommon:TaksiCommon.dll
+ 0005:00000838       __imp_?CvtmSecToBlocks@CWaveFormat@@QBEKK@Z 1003c838     TaksiCommon:TaksiCommon.dll
+ 0005:0000083c       __imp_?IsValidFormat@CWaveFormat@@QBE_NXZ 1003c83c     TaksiCommon:TaksiCommon.dll
+ 0005:00000840       __imp_?DetachData@CWaveHeaderBase@@QAEXXZ 1003c840     TaksiCommon:TaksiCommon.dll
+ 0005:00000844       __imp_?CloseHandle@CNTHandle@@QAE_NXZ 1003c844     TaksiCommon:TaksiCommon.dll
+ 0005:00000848       __imp_?HRes_GetLastErrorDef@@YAJJ@Z 1003c848     TaksiCommon:TaksiCommon.dll
+ 0005:0000084c       __imp_?AttachHandle@CNTHandle@@QAEXPAX@Z 1003c84c     TaksiCommon:TaksiCommon.dll
+ 0005:00000850       __imp_??0CAVIFile@@QAE@XZ  1003c850     TaksiCommon:TaksiCommon.dll
+ 0005:00000854       __imp_??1CAVIFile@@QAE@XZ  1003c854     TaksiCommon:TaksiCommon.dll
+ 0005:00000858       __imp_?InitFormatEmpty@CWaveFormat@@QAEXXZ 1003c858     TaksiCommon:TaksiCommon.dll
+ 0005:0000085c       __imp_?InitCodec@CVideoCodec@@QAEXXZ 1003c85c     TaksiCommon:TaksiCommon.dll
+ 0005:00000860       __imp_?SetFormat@CWaveFormat@@QAE_NPBUtWAVEFORMATEX@@@Z 1003c860     TaksiCommon:TaksiCommon.dll
+ 0005:00000864       __imp_??BCWaveFormat@@QBEPBUtWAVEFORMATEX@@XZ 1003c864     TaksiCommon:TaksiCommon.dll
+ 0005:00000868       __imp_?CopyCodec@CVideoCodec@@QAEXABU1@@Z 1003c868     TaksiCommon:TaksiCommon.dll
+ 0005:0000086c       __imp_?CreateDirectoryX@@YAJPBD@Z 1003c86c     TaksiCommon:TaksiCommon.dll
+ 0005:00000870       __imp_?GetFileTitlePtr@@YAPADPAD@Z 1003c870     TaksiCommon:TaksiCommon.dll
+ 0005:00000874       __imp_?PropsInit@CIniObject@@QAEXXZ 1003c874     TaksiCommon:TaksiCommon.dll
+ 0005:00000878       __imp_??0CIniObject@@QAE@XZ 1003c878     TaksiCommon:TaksiCommon.dll
+ 0005:0000087c       __imp_?DestroyCodec@CVideoCodec@@QAEXXZ 1003c87c     TaksiCommon:TaksiCommon.dll
+ 0005:00000880       __imp_?Mem_ConvertToString@@YAHPADHPBEH@Z 1003c880     TaksiCommon:TaksiCommon.dll
+ 0005:00000884       __imp_?get_WF@CWaveFormat@@QBEPAUtWAVEFORMATEX@@XZ 1003c884     TaksiCommon:TaksiCommon.dll
+ 0005:00000888       __imp_?OnHeaderReturn@CWaveDevice@@SGPAVCWaveHeaderBase@@PAUwavehdr_tag@@@Z 1003c888     TaksiCommon:TaksiCommon.dll
+ 0005:0000088c       __imp_?GetStr@CVideoCodec@@QBEHPADH@Z 1003c88c     TaksiCommon:TaksiCommon.dll
+ 0005:00000890       __imp_?SetFormatBytes@CWaveFormat@@QAE_NPBEH@Z 1003c890     TaksiCommon:TaksiCommon.dll
+ 0005:00000894       __imp_?Mem_ReadFromString@@YAHPAEHPBD@Z 1003c894     TaksiCommon:TaksiCommon.dll
+ 0005:00000898       __imp_?put_Str@CVideoCodec@@QAE_NPBD@Z 1003c898     TaksiCommon:TaksiCommon.dll
+ 0005:0000089c       __imp_?PropSetName@CIniObject@@QAE_NPBD0@Z 1003c89c     TaksiCommon:TaksiCommon.dll
+ 0005:000008a0       __imp_?Str_SkipSpace@@YAPADPBD@Z 1003c8a0     TaksiCommon:TaksiCommon.dll
+ 0005:000008a4       __imp_?PropWriteName@CIniObject@@QAE_NPAU_iobuf@@PBD@Z 1003c8a4     TaksiCommon:TaksiCommon.dll
+ 0005:000008a8       __imp_?Str_IsSpace@@YA_ND@Z 1003c8a8     TaksiCommon:TaksiCommon.dll
+ 0005:000008ac       __imp_?PropsWrite@CIniObject@@QAEXPAU_iobuf@@@Z 1003c8ac     TaksiCommon:TaksiCommon.dll
+ 0005:000008b0       __imp_?DetachGDIPInt@CImageGDIPInt@@QAEXXZ 1003c8b0     TaksiCommon:TaksiCommon.dll
+ 0005:000008b4       __imp_?SetupBITMAPINFOHEADER@CVideoFrame@@QBEXAAUtagBITMAPINFOHEADER@@@Z 1003c8b4     TaksiCommon:TaksiCommon.dll
+ 0005:000008b8       __imp_?GetEncoderClsid@CImageGDIPInt@@QAEJPBDPAU_GUID@@@Z 1003c8b8     TaksiCommon:TaksiCommon.dll
+ 0005:000008bc       __imp_?AttachGDIPInt@CImageGDIPInt@@QAE_NXZ 1003c8bc     TaksiCommon:TaksiCommon.dll
+ 0005:000008c0       __imp_?g_gdiplus@@3VCImageGDIPInt@@A 1003c8c0     TaksiCommon:TaksiCommon.dll
+ 0005:000008c4       __imp_?SaveAsBMP@CVideoFrame@@QBEJPBD@Z 1003c8c4     TaksiCommon:TaksiCommon.dll
+ 0005:000008c8       __imp_?AllocPadXY@CVideoFrame@@QAE_NHHHH@Z 1003c8c8     TaksiCommon:TaksiCommon.dll
+ 0005:000008cc       __imp_?CloseAVI@CAVIFile@@QAEJ_N@Z 1003c8cc     TaksiCommon:TaksiCommon.dll
+ 0005:000008d0       __imp_?OpenAVIFile@CAVIFile@@QAEJPBD@Z 1003c8d0     TaksiCommon:TaksiCommon.dll
+ 0005:000008d4       __imp_?OpenAVICodec@CAVIFile@@QAEJAAUCVideoFrameForm@@NABUCVideoCodec@@PBVCWaveFormat@@@Z 1003c8d4     TaksiCommon:TaksiCommon.dll
+ 0005:000008d8       __imp_?InitPadded@CVideoFrameForm@@QAEXHHHH@Z 1003c8d8     TaksiCommon:TaksiCommon.dll
+ 0005:000008dc       __imp_??0CVideoFrameForm@@QAE@XZ 1003c8dc     TaksiCommon:TaksiCommon.dll
+ 0005:000008e0       __imp_?IsValidDll@CDllFile@@QBE_NXZ 1003c8e0     TaksiCommon:TaksiCommon.dll
+ 0005:000008e4       __imp_?FindDll@CDllFile@@QAE_NPBD@Z 1003c8e4     TaksiCommon:TaksiCommon.dll
+ 0005:000008e8       __imp_?SwapReset@CHookJump@@QAEXPAX@Z 1003c8e8     TaksiCommon:TaksiCommon.dll
+ 0005:000008ec       __imp_?SwapOld@CHookJump@@QAEXPAX@Z 1003c8ec     TaksiCommon:TaksiCommon.dll
+ 0005:000008f0       __imp_?RemoveHook@CHookJump@@QAEXPAX@Z 1003c8f0     TaksiCommon:TaksiCommon.dll
+ 0005:000008f4       __imp_?IsHookInstalled@CHookJump@@QBE_NXZ 1003c8f4     TaksiCommon:TaksiCommon.dll
+ 0005:000008f8       __imp_??0CHookJump@@QAE@XZ 1003c8f8     TaksiCommon:TaksiCommon.dll
+ 0005:000008fc       __imp_??0CDllFile@@QAE@PAUHINSTANCE__@@_N@Z 1003c8fc     TaksiCommon:TaksiCommon.dll
+ 0005:00000900       __imp_?FreeDll@CDllFile@@QAEXXZ 1003c900     TaksiCommon:TaksiCommon.dll
+ 0005:00000904       __imp_??1CDllFile@@QAE@XZ  1003c904     TaksiCommon:TaksiCommon.dll
+ 0005:00000908       __imp_?InstallHook@CHookJump@@QAE_NPAX0@Z 1003c908     TaksiCommon:TaksiCommon.dll
+ 0005:0000090c       __imp_?get_DllInt@CDllFile@@QBEIXZ 1003c90c     TaksiCommon:TaksiCommon.dll
+ 0005:00000910       __imp_??BCWndDC@@QBEPAUHDC__@@XZ 1003c910     TaksiCommon:TaksiCommon.dll
+ 0005:00000914       __imp_?get_HBrush@CWndGDI@@QBEPAUHBRUSH__@@XZ 1003c914     TaksiCommon:TaksiCommon.dll
+ 0005:00000918       __imp_??1CWndGDI@@QAE@XZ   1003c918     TaksiCommon:TaksiCommon.dll
+ 0005:0000091c       __imp_?CreateSolidBrush@CWndGDI@@QAEPAUHBRUSH__@@K@Z 1003c91c     TaksiCommon:TaksiCommon.dll
+ 0005:00000920       __imp_??0CWndGDI@@QAE@PAX@Z 1003c920     TaksiCommon:TaksiCommon.dll
+ 0005:00000924       __imp_??1CWndDC@@QAE@XZ    1003c924     TaksiCommon:TaksiCommon.dll
+ 0005:00000928       __imp_?GetDCEx@CWndDC@@QAE_NPAUHWND__@@K@Z 1003c928     TaksiCommon:TaksiCommon.dll
+ 0005:0000092c       __imp_??0CWndDC@@QAE@PAUHDC__@@PAUHWND__@@@Z 1003c92c     TaksiCommon:TaksiCommon.dll
+ 0005:00000930       __imp_?GetObjectA@CWndGDI@@QBEHHPAX@Z 1003c930     TaksiCommon:TaksiCommon.dll
+ 0005:00000934       __imp_??1CWndGDISelect@@QAE@XZ 1003c934     TaksiCommon:TaksiCommon.dll
+ 0005:00000938       __imp_??0CWndGDISelect@@QAE@PAUHDC__@@PAX@Z 1003c938     TaksiCommon:TaksiCommon.dll
+ 0005:0000093c       __imp_??BCWndGDI@@QBEPAXXZ 1003c93c     TaksiCommon:TaksiCommon.dll
+ 0005:00000940       __imp_?get_HBitmap@CWndGDI@@QBEPAUHBITMAP__@@XZ 1003c940     TaksiCommon:TaksiCommon.dll
+ 0005:00000944       __imp_?CreateCompatibleBitmap@CWndDC@@QAEPAUHBITMAP__@@HH@Z 1003c944     TaksiCommon:TaksiCommon.dll
+ 0005:00000948       __imp_?CreateCompatibleDC@CWndDC@@QAE_NPAUHDC__@@@Z 1003c948     TaksiCommon:TaksiCommon.dll
+ 0005:0000094c       __imp_?GetDC@CWndDC@@QAE_NPAUHWND__@@@Z 1003c94c     TaksiCommon:TaksiCommon.dll
+ 0005:00000950       __imp_?GetProcAddress@CDllFile@@QBEP6GHXZPBD@Z 1003c950     TaksiCommon:TaksiCommon.dll
+ 0005:00000954       __imp_?VerifyHook@CHookJump@@QBE_NQAX@Z 1003c954     TaksiCommon:TaksiCommon.dll
+ 0005:00000958       __imp_?FreeFrame@CVideoFrame@@QAEXXZ 1003c958     TaksiCommon:TaksiCommon.dll
+ 0005:0000095c       __imp_?LoadDll@CDllFile@@QAEJPBD@Z 1003c95c     TaksiCommon:TaksiCommon.dll
+ 0005:00000960       __imp_??0CIniObject@@QAE@ABU0@@Z 1003c960     TaksiCommon:TaksiCommon.dll
+ 0005:00000964       __imp_??4CIniObject@@QAEAAU0@ABU0@@Z 1003c964     TaksiCommon:TaksiCommon.dll
+ 0005:00000968       __imp_??1CLogFiltered@@UAE@XZ 1003c968     TaksiCommon:TaksiCommon.dll
+ 0005:0000096c       __imp_??0CLogFiltered@@QAE@KW4LOGL_TYPE@@@Z 1003c96c     TaksiCommon:TaksiCommon.dll
+ 0005:00000970       __imp_?IsLogged@CLogFiltered@@UBE_NKW4LOGL_TYPE@@@Z 1003c970     TaksiCommon:TaksiCommon.dll
+ 0005:00000974       __imp_?VEvent@CLogBase@@UAEHKW4LOGL_TYPE@@PBDPAD@Z 1003c974     TaksiCommon:TaksiCommon.dll
+ 0005:00000978       __imp_??0CLogFiltered@@QAE@ABV0@@Z 1003c978     TaksiCommon:TaksiCommon.dll
+ 0005:0000097c       __imp_??4CLogFiltered@@QAEAAV0@ABV0@@Z 1003c97c     TaksiCommon:TaksiCommon.dll
+ 0005:00000980       __imp_?EventStr@CLogBase@@UAEHKW4LOGL_TYPE@@PBD@Z 1003c980     TaksiCommon:TaksiCommon.dll
+ 0005:00000984       __imp_?FindWindowTop@@YAPAUHWND__@@PAU1@@Z 1003c984     TaksiCommon:TaksiCommon.dll
+ 0005:00000988       __imp_?IsOpen@CAVIFile@@QBE_NXZ 1003c988     TaksiCommon:TaksiCommon.dll
+ 0005:0000098c       __imp_?get_wh@CWaveHeaderBase@@QBEPAUwavehdr_tag@@XZ 1003c98c     TaksiCommon:TaksiCommon.dll
+ 0005:00000990       __imp_?UnprepareDevice@CWaveHeaderBase@@QAEXXZ 1003c990     TaksiCommon:TaksiCommon.dll
+ 0005:00000994       __imp_?Inc@CThreadLockedLong@@QAEJXZ 1003c994     TaksiCommon:TaksiCommon.dll
+ 0005:00000998       __imp_?get_SizeBytes@CVideoFrameForm@@QBEHXZ 1003c998     TaksiCommon:TaksiCommon.dll
+ 0005:0000099c       __imp_?AllocForm@CVideoFrame@@QAE_NABUCVideoFrameForm@@@Z 1003c99c     TaksiCommon:TaksiCommon.dll
+ 0005:000009a0       __imp_?ResetAVIFile@CAVIFile@@QAEJPBD@Z 1003c9a0     TaksiCommon:TaksiCommon.dll
+ 0005:000009a4       __imp_?IsValidHandle@CNTHandle@@QBE_NXZ 1003c9a4     TaksiCommon:TaksiCommon.dll
+ 0005:000009a8       __imp_?IsValidFrame@CVideoFrame@@QBE_NXZ 1003c9a8     TaksiCommon:TaksiCommon.dll
+ 0005:000009ac       __imp_?WriteVideoBlocks@CAVIFile@@QAEJAAUCVideoFrame@@H@Z 1003c9ac     TaksiCommon:TaksiCommon.dll
+ 0005:000009b0       __imp_?get_Handle@CWaveRecorder@@QBEPAUHWAVEIN__@@XZ 1003c9b0     TaksiCommon:TaksiCommon.dll
+ 0005:000009b4       __imp_?GetAudioTimeMs@CAVIFile@@QBEKXZ 1003c9b4     TaksiCommon:TaksiCommon.dll
+ 0005:000009b8       __imp_?GetFrameTimeMs@CAVIFile@@QBEKXZ 1003c9b8     TaksiCommon:TaksiCommon.dll
+ 0005:000009bc       __imp_?GetAudioBytesForMs@CAVIFile@@QBEKK@Z 1003c9bc     TaksiCommon:TaksiCommon.dll
+ 0005:000009c0       __imp_?WriteAudioBlock@CAVIFile@@QAEJPBEK@Z 1003c9c0     TaksiCommon:TaksiCommon.dll
+ 0005:000009c4       __imp_?Dec@CThreadLockedLong@@QAEJXZ 1003c9c4     TaksiCommon:TaksiCommon.dll
+ 0005:000009c8       __imp_??BCNTHandle@@QBEPAXXZ 1003c9c8     TaksiCommon:TaksiCommon.dll
+ 0005:000009cc       __imp_?Debug_Error@CLogBase@@QAAHPBDZZ 1003c9cc     TaksiCommon:TaksiCommon.dll
+ 0005:000009d0       __imp_?Exchange@CThreadLockedLong@@QAEJJ@Z 1003c9d0     TaksiCommon:TaksiCommon.dll
+ 0005:000009d4       __imp_??1CVideoFrame@@QAE@XZ 1003c9d4     TaksiCommon:TaksiCommon.dll
+ 0005:000009d8       __imp_??0CVideoFrame@@QAE@XZ 1003c9d8     TaksiCommon:TaksiCommon.dll
+ 0005:000009dc       __imp_??0CNTHandle@@QAE@PAX@Z 1003c9dc     TaksiCommon:TaksiCommon.dll
+ 0005:000009e0       __imp_??0CThreadLockedLong@@QAE@J@Z 1003c9e0     TaksiCommon:TaksiCommon.dll
+ 0005:000009e4       __imp_??0CWaveRecorder@@QAE@I@Z 1003c9e4     TaksiCommon:TaksiCommon.dll
+ 0005:000009e8       __imp_??1CWaveHeaderBase@@QAE@XZ 1003c9e8     TaksiCommon:TaksiCommon.dll
+ 0005:000009ec       __imp_??_FCWaveHeaderBase@@QAEXXZ 1003c9ec     TaksiCommon:TaksiCommon.dll
+ 0005:000009f0       __imp_??1CNTHandle@@QAE@XZ 1003c9f0     TaksiCommon:TaksiCommon.dll
+ 0005:000009f4       __imp_??1CWaveRecorder@@QAE@XZ 1003c9f4     TaksiCommon:TaksiCommon.dll
+ 0005:000009f8       __imp_?GetPerformanceCounter@@YA_JXZ 1003c9f8     TaksiCommon:TaksiCommon.dll
+ 0005:000009fc       __imp_?Debug_Trace@CLogBase@@QAAHPBDZZ 1003c9fc     TaksiCommon:TaksiCommon.dll
+ 0005:00000a00       __imp_?g_pLog@@3PAVCLogBase@@A 1003ca00     TaksiCommon:TaksiCommon.dll
+ 0005:00000a04       __imp_?Assert_CheckFail@CLogBase@@QAEXPBD0I@Z 1003ca04     TaksiCommon:TaksiCommon.dll
+ 0005:00000a08       __imp_?Debug_Info@CLogBase@@QAAHPBDZZ 1003ca08     TaksiCommon:TaksiCommon.dll
+ 0005:00000a0c       __imp_?Debug_Warn@CLogBase@@QAAHPBDZZ 1003ca0c     TaksiCommon:TaksiCommon.dll
+ 0005:00000a10       __imp_?get_FormatSize@CWaveFormat@@QBEHXZ 1003ca10     TaksiCommon:TaksiCommon.dll
+ 0005:00000a14       \177TaksiCommon_NULL_THUNK_DATA 1003ca14     TaksiCommon:TaksiCommon.dll
+ 0005:00000aa0       __imp__PostMessageA@16     1003caa0     user32:USER32.dll
+ 0005:00000aa4       __imp__CallNextHookEx@16   1003caa4     user32:USER32.dll
+ 0005:00000aa8       __imp__UnhookWindowsHookEx@4 1003caa8     user32:USER32.dll
+ 0005:00000aac       __imp__GetWindowThreadProcessId@8 1003caac     user32:USER32.dll
+ 0005:00000ab0       __imp__SetWindowsHookExA@16 1003cab0     user32:USER32.dll
+ 0005:00000ab4       __imp__MapVirtualKeyA@8    1003cab4     user32:USER32.dll
+ 0005:00000ab8       __imp__WindowFromDC@4      1003cab8     user32:USER32.dll
+ 0005:00000abc       __imp__KillTimer@8         1003cabc     user32:USER32.dll
+ 0005:00000ac0       __imp__InvalidateRect@12   1003cac0     user32:USER32.dll
+ 0005:00000ac4       __imp__IsWindowVisible@4   1003cac4     user32:USER32.dll
+ 0005:00000ac8       __imp__GetWindowLongA@8    1003cac8     user32:USER32.dll
+ 0005:00000acc       __imp__SetWindowLongA@12   1003cacc     user32:USER32.dll
+ 0005:00000ad0       __imp__SetTimer@16         1003cad0     user32:USER32.dll
+ 0005:00000ad4       __imp__CallWindowProcA@20  1003cad4     user32:USER32.dll
+ 0005:00000ad8       __imp__GetCursorPos@4      1003cad8     user32:USER32.dll
+ 0005:00000adc       __imp__GetCursor@0         1003cadc     user32:USER32.dll
+ 0005:00000ae0       __imp__GetIconInfo@8       1003cae0     user32:USER32.dll
+ 0005:00000ae4       __imp__DrawIcon@16         1003cae4     user32:USER32.dll
+ 0005:00000ae8       __imp__GetWindowRect@8     1003cae8     user32:USER32.dll
+ 0005:00000aec       __imp__GetClientRect@8     1003caec     user32:USER32.dll
+ 0005:00000af0       __imp__ClientToScreen@8    1003caf0     user32:USER32.dll
+ 0005:00000af4       __imp__FillRect@12         1003caf4     user32:USER32.dll
+ 0005:00000af8       __imp__IsWindow@4          1003caf8     user32:USER32.dll
+ 0005:00000afc       \177USER32_NULL_THUNK_DATA 1003cafc     user32:USER32.dll
+ 0006:00000000       __DELAY_IMPORT_DESCRIPTOR_gdiplus_dll 1003f000     gdiplus:gdiplus.dll
+ 0006:00000020       __NULL_DELAY_IMPORT_DESCRIPTOR 1003f020     gdiplus:gdiplus.dll
+ 0006:00000058       \177gdiplus_NULL_THUNK_DATA_DLN 1003f058     gdiplus:gdiplus.dll
+ 0006:00000088       __imp__GdipFree@4          1003f088     gdiplus:gdiplus.dll
+ 0006:0000008c       __imp__GdipAlloc@4         1003f08c     gdiplus:gdiplus.dll
+ 0006:00000090       __imp__GdipCreateBitmapFromGdiDib@12 1003f090     gdiplus:gdiplus.dll
+ 0006:00000094       __imp__GdipDisposeImage@4  1003f094     gdiplus:gdiplus.dll
+ 0006:00000098       __imp__GdipCloneImage@8    1003f098     gdiplus:gdiplus.dll
+ 0006:0000009c       __imp__GdipSaveImageToFile@16 1003f09c     gdiplus:gdiplus.dll
+ 0006:000000a0       \177gdiplus_NULL_THUNK_DATA_DLA 1003f0a0     gdiplus:gdiplus.dll
+ 0006:00000254       \177gdiplus_NULL_THUNK_DATA_DLB 1003f254     gdiplus:gdiplus.dll
+ 0007:00000000       ?sg_Shared@@3UCTaksiShared@@A 10040000     TaksiDll.obj
+ 0007:00000138       ?sg_Config@@3UCTaksiConfigData@@A 10040138     TaksiDll.obj
+ 0007:00000410       ?sg_ProcStats@@3UCTaksiProcStats@@A 10040410     TaksiDll.obj
+
+ entry point at        0002:00000613
+

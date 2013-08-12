@@ -1,0 +1,13 @@
+TODO LIST
+
+Find a decent compression codec. XVid has messed up colors. related to size of the image ? non profile size ?
+
+Change the tray icon to reflect the record/pause/stopped state.
+
+Fix  Always on top option. effect immediately. not restart app.
+
+Write a temporary index for AVI file during pause. so preview can be viewed during pause.
+
+Stop from pause mode. currenlty must unpause to stop.
+
+

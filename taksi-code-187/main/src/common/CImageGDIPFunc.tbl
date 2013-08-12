@@ -1,0 +1,15 @@
+//
+// CImageGDIPFunc.tbl
+// Copyright 1992 - 2006 Dennis Robinson (www.menasoft.com)
+//
+
+CIMAGEGDIPFUNC(GdipAlloc,					void*,				( size_t size ), (size) )
+CIMAGEGDIPFUNC(GdipCloneImage,				Gdiplus::Status,	( Gdiplus::Image *image, Gdiplus::Image **cloneImage ), (image,cloneImage) )
+CIMAGEGDIPFUNC(GdipCreateBitmapFromGdiDib,	Gdiplus::Status,	( const BITMAPINFO* gdiBitmapInfo, VOID* gdiBitmapData, Gdiplus::Bitmap** bitmap ), (gdiBitmapInfo,gdiBitmapData,bitmap)  )
+CIMAGEGDIPFUNC(GdipDisposeImage,			Gdiplus::Status,	( Gdiplus::Image *image ), (image) )
+CIMAGEGDIPFUNC(GdipFree,					void,				( void* ptr ), (ptr)  )
+CIMAGEGDIPFUNC(GdipGetImageEncoders,		Gdiplus::Status,	( IN UINT numEncoders, IN UINT size, OUT Gdiplus::ImageCodecInfo *encoders), (numEncoders,size,encoders)  )
+CIMAGEGDIPFUNC(GdipGetImageEncodersSize,	Gdiplus::Status,	( OUT UINT *numDecoders, OUT UINT *size), (numDecoders,size)  )
+CIMAGEGDIPFUNC(GdiplusShutdown,				void,				( ULONG_PTR token ), (token)  )
+CIMAGEGDIPFUNC(GdiplusStartup,				Gdiplus::Status,	( OUT ULONG_PTR *token, const Gdiplus::GdiplusStartupInput *input, OUT Gdiplus::GdiplusStartupOutput *output), (token,input,output)  )
+CIMAGEGDIPFUNC(GdipSaveImageToFile,			Gdiplus::Status,	( Gdiplus::Image* image, const WCHAR* filename, const CLSID* clsidEncoder, const Gdiplus::EncoderParameters* encoderParams), (image,filename,clsidEncoder,encoderParams) )

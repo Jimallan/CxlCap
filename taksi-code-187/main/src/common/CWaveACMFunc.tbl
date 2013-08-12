@@ -1,0 +1,17 @@
+//
+// CWaveACMFunc.tbl
+// Copyright 1992 - 2006 Dennis Robinson (www.menasoft.com)
+//
+CWAVEACMFUNC(acmGetVersion,				DWORD,		(void) )	// must be >= 2
+
+CWAVEACMFUNC(acmStreamOpen,				MMRESULT,	(HACMSTREAM* phas, HACMDRIVER had, WAVEFORMATEX* pwfxSrc, WAVEFORMATEX* pwfxDst, WAVEFILTER* pwfltr, DWORD_PTR dwCallback, DWORD_PTR dwInstance, DWORD fdwOpen) )
+CWAVEACMFUNC(acmStreamClose,			MMRESULT,	(HACMSTREAM has, DWORD fdwClose ) )
+CWAVEACMFUNC(acmStreamSize,				MMRESULT,	(HACMSTREAM has, DWORD cbInput, LPDWORD pdwOutputBytes, DWORD fdwSize ) )
+CWAVEACMFUNC(acmStreamPrepareHeader,	MMRESULT,	(HACMSTREAM has, ACMSTREAMHEADER* pash, DWORD fdwPrepare) )
+CWAVEACMFUNC(acmStreamUnprepareHeader,	MMRESULT,	(HACMSTREAM has, ACMSTREAMHEADER* pash, DWORD fdwUnprepare) )
+CWAVEACMFUNC(acmStreamConvert,			MMRESULT,	(HACMSTREAM has, ACMSTREAMHEADER* pash, DWORD fdwConvert) )
+CWAVEACMFUNC(acmStreamReset,			MMRESULT,	(HACMSTREAM has, DWORD fdwReset ) )
+
+CWAVEACMFUNC(acmMetrics,				MMRESULT,	(HACMOBJ hao, UINT uMetric, LPVOID pMetric) )
+CWAVEACMFUNC(acmFormatTagDetailsA,		MMRESULT,	(HACMDRIVER had, ACMFORMATTAGDETAILS* paftd, DWORD fdwDetails ))
+CWAVEACMFUNC(acmFormatChooseA,			MMRESULT,	(ACMFORMATCHOOSE* pafmtc))	// dialog to fill in format info.

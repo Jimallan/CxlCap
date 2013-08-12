@@ -1,0 +1,54 @@
+Taksi Dev Notes and Task TODO list.
+9/25/2006
+
+Covert to full unicode and allow translations ?
+move all text to RC files for translation.
+
+KNOWN BUGS:
+Crash - GDI doesnt unhook properly on close of Taksi sometimes. (Explorer.exe error message?)
+Odd time lag at the start of the recording? frozen frame for a few seconds??
+GDI indicator drawn over overlapped windows. bleeds through.
+Some Codecs MUST have mult of 4 input even tho they dont fail. MSMPEG4
+Some codecs use profiles requiring precise size/format to work.
+If compensate for record overhead is used then the video will drift out of sync with the audio.
+Audio will only stay in sync for frame rates of 2 FPS or higher.
+
+TODO:
+Alternate input stream like Vidcap32 ?
+GUI configure screenshot type BMP,PNG,JPG for still shots (uses GDI+ default to png).
+fix installer to default to install for all and ask if they want desktop icon ?
+Allow GUI adjust of the size of the background thread Q
+Support DirectShow plugin codec to get Theora support
+Need message explaining focus changing/hooking.
+Graphics Mode Text overlay - display frame rate/ Megs of data written as text on live window
+makefile, Manual.txt completely out of date!
+render the mouse cursor in graphics modes.
+Support auto switch to alternate codec if codec fails ?
+Suggest codecs appropriate to desired CPU usage. MSMpeg4v3 seems good.
+put command menu in the sysmenu of the hooked app ?
+TEST- hook callbacks might not be on the same thread? protect from multithread problems
+
+Context sensative help file.
+crc diff uncompressed frames with last. compress to empty frame.
+AVI may not be the best format. has too much overhead. is MPG or WMV better ?
+http://guru.multimedia.cx/category/container-formats/
+smaller AVI index ? only index every nth frame or an index every 1 second ?
+reflect state in tooltip ?
+Comment tag inside AVI file. TAKSI vX date + user comments?
+add a watermark or logo ? optionally of course.
+color reduction for GDI. reduce to a smaller number of colors ? for better compression?
+
+AUDIO TASK:
+Better audio/video synchronization?  Currently audio is added if needed, but video frames should
+ be dropped if audio is dropped (or have the option to sync video to audio).
+Support formats other than PCM?
+Hook Audio stream from output?
+ Capture of audio is quite complex unless there is already a loopback in place on the hardware.
+ Without a loopback input the output must be hooked at a very low (kernel) level.
+ Hook audio output (Wave,DirectSound) device at kernel level
+
+Does Windows Media Encoder record audio? How do others do it? hooked WaveOut ?
+
+OPEN QUESTIONS:
+why use HeapAlloc instead of new for allocs ? seems the same to me.
+some codecs allow 32 bit RGB (dummy alpha), could this be faster than the conversion to 24 bit?

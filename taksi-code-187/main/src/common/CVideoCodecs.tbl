@@ -1,0 +1,17 @@
+//
+// CVideoCodecs.tbl
+// List of data about common codecs. VideoForWindows
+// ( FOURCC, Desc, Where can i get it, dll ) TODO-> (compression CPU usage, bitrate)
+
+CVideoCodecI('c','v','i','d',	"Cinepak Codec by Radius",						"Windows XP default",	"iccvid.dll" )
+CVideoCodecI('i','4','2','0',	"MS H.263 - Intel 4:2:0 Video V2.50",			"Windows XP default",	"msh263.drv")
+CVideoCodecI('i','v','3','2',	"IR32 - Intel Indeo(R) Video R3.2",				"Windows XP default",	"ir32_32.dll")
+CVideoCodecI('i','y','u','v',	"Intel IYUV codec",								"Windows XP default",	"iyuv_32.dll")
+CVideoCodecI('M','R','L','E',	"MS-RLE Microsoft RLE",							"Windows XP default",	"msrle32.dll")
+CVideoCodecI('m','s','v','c',	"MS-CRAM - Microsoft Video 1",					"Windows XP default",	"msvidc32.dll")
+CVideoCodecI('M','2','6','3',	"MS H.263 - Microsoft H.263 Video Codec",		"Windows XP default",	"msh263.drv" )
+CVideoCodecI('M','2','6','1',	"MS H.261 - Microsoft H.261 Video Codec",		"Windows XP default",	"msh261.drv" )
+CVideoCodecI('W','M','V','3',	"MS-WMV9 - Microsoft Windows Media Video 9",	"Microsoft Download",	"wmv9vcm.dll")
+CVideoCodecI('X','V','I','D',	"XVID - XviD MPEG-4 Codec",						"XVID",					"xvidvfw.dll" )
+
+

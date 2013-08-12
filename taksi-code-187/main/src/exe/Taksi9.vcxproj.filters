@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{e1473ad6-7448-4b8a-8731-56553310965b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="guiConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Taksi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_dx8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_dx9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GuiConfigControls.tbl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="TaksiVer.rch">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\BtnConfig.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnHookMode.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnHookMode2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnHookMode3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnIndic.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnIndic2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRecordBegin.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRecordBeginG.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRecordPause.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRecordPause2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRecordPauseG.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRecordStop.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnRecordStopG.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnScreenshot.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnScreenshotG.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnSmallScreenshot.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BtnSmallScreenshotG.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Taksi.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\ConfigProps.tbl">
+      <Filter>Shared</Filter>
+    </None>
+    <None Include="taksi.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Taksi.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guiConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Taksi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Config.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdafx.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TaksiShared.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TaksiVersion.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

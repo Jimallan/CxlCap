@@ -1,0 +1,51 @@
+//
+// ConfigProps.tbl
+// for CTaksiConfig
+// Shared with DLL and EXE
+
+ConfigProp(AudioFormat,				m_AudioFormat,	"Audio format for codec")
+ConfigProp(AudioDevice,				m_iAudioDevice,	"Use audio device for AVI or not")
+
+ConfigProp(CaptureDir,				m_szCaptureDir,	"Capture directory (NOTE: must end with a backslash)")
+ConfigProp(DebugLog,				m_bDebugLog,	"Debug Log kept?")
+
+#ifdef USE_DIRECTX8
+ConfigProp(UseDX8,					m_abUseGAPI[TAKSI_GAPI_DX8],	"hook DirectX8 API or not?")
+#endif
+#ifdef USE_DIRECTX9
+ConfigProp(UseDX9,					m_abUseGAPI[TAKSI_GAPI_DX9],	"hook DirectX9 API or not?")
+#endif
+
+ConfigProp(UseGDI,					m_abUseGAPI[TAKSI_GAPI_GDI],	"hook GDI API or not?")
+ConfigProp(UseOGL,					m_abUseGAPI[TAKSI_GAPI_OGL],	"hook OpenGL API or not?")
+
+ConfigProp(FileNamePostfix,			m_szFileNamePostfix, "Postfix the saved file name with this")
+
+ConfigProp(GDIDesktop,				m_abUseGAPI[TAKSI_GAPI_DESKTOP], "Allow hooking of the GDI Desktop")
+ConfigProp(GDIFrame,				m_bGDIFrame,		"Record the GDI frame or just the client area")
+ConfigProp(GDICursor,				m_bGDICursor,		"Record the cursor for GDI Window captures")
+
+ConfigProp(ImageFormatExt,			m_szImageFormatExt,	"The image format for screen shots (png,bmp,jpeg)")
+
+ConfigProp(KeyboardUseDirectInput,	m_bUseDirectInput,	"use DirectInput for hotkeys else use hooks")
+ConfigProp(MovieFrameRateTarget,	m_fFrameRateTarget,	"desired frame rate of captured video (f/sec)")
+
+ConfigProp(PosMasterWindow,			m_ptMasterWindow,	"Position of the master window" )
+ConfigProp(PosMasterTopMost,		m_bMasterTopMost,	"master window is always on top" )
+
+ConfigProp(ShowIndicator,			m_bShowIndicator,	"Show the indicator on the window")
+ConfigProp(VideoCodecInfo,			m_VideoCodec,		"Video Codec Info stored as an array of bytes.")
+ConfigProp(VideoCodecMsg,			m_bVideoCodecMsg,	"Did we put up the message about video code yet ?")
+ConfigProp(VideoHalfSize,			m_bVideoHalfSize,	"Capture Half vs Full size video")
+
+ConfigProp(VKey_ConfigOpen,			m_wHotKey[0],	"Hot key to open the config dialog")
+ConfigProp(VKey_HookModeToggle,		m_wHotKey[1],	"Hot key mappings HookModeToggle")
+ConfigProp(VKey_IndicatorToggle,	m_wHotKey[2],	"Hot key mappings IndicatorToggle")
+ConfigProp(VKey_RecordBegin,		m_wHotKey[3],	"Hot key mappings RecordBegin")
+ConfigProp(VKey_RecordPause,		m_wHotKey[4],	"Hot key mappings RecordPause")
+ConfigProp(VKey_RecordStop,			m_wHotKey[5],	"Hot key mappings RecordStop")
+ConfigProp(VKey_Screenshot,			m_wHotKey[6],	"Hot key mappings Screenshot")
+ConfigProp(VKey_SmallScreenshot,	m_wHotKey[7],	"Hot key mappings SmallScreenshot")
+
+ConfigProp(UseOverheadCompensation, m_bUseOverheadCompensation, "Compensate for record overhead in frame rate calc")
+

@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaksiDll", "dll\TaksiDll9.vcxproj", "{A6933EDB-048F-4D59-A0D8-E6DD23F9EAB2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaksiExe", "exe\Taksi9.vcxproj", "{820F2560-D0E6-4A3B-86FA-2DD5107256BC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TaksiInstaller", "TaksiInstaller\TaksiInstaller9.vdproj", "{4B03E80E-18D9-41B0-A1D7-CADF66B39A57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaksiCommon", "common\TaksiCommon9.vcxproj", "{7E0F9143-F2B5-4F3E-A012-5557D90333A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6933EDB-048F-4D59-A0D8-E6DD23F9EAB2}.Debug|Win32.ActiveCfg = Debug9|Win32
+		{A6933EDB-048F-4D59-A0D8-E6DD23F9EAB2}.Debug|Win32.Build.0 = Debug9|Win32
+		{A6933EDB-048F-4D59-A0D8-E6DD23F9EAB2}.Release|Win32.ActiveCfg = Release9|Win32
+		{A6933EDB-048F-4D59-A0D8-E6DD23F9EAB2}.Release|Win32.Build.0 = Release9|Win32
+		{820F2560-D0E6-4A3B-86FA-2DD5107256BC}.Debug|Win32.ActiveCfg = Debug9|Win32
+		{820F2560-D0E6-4A3B-86FA-2DD5107256BC}.Debug|Win32.Build.0 = Debug9|Win32
+		{820F2560-D0E6-4A3B-86FA-2DD5107256BC}.Release|Win32.ActiveCfg = Release9|Win32
+		{820F2560-D0E6-4A3B-86FA-2DD5107256BC}.Release|Win32.Build.0 = Release9|Win32
+		{4B03E80E-18D9-41B0-A1D7-CADF66B39A57}.Debug|Win32.ActiveCfg = Debug9
+		{4B03E80E-18D9-41B0-A1D7-CADF66B39A57}.Release|Win32.ActiveCfg = Release9
+		{7E0F9143-F2B5-4F3E-A012-5557D90333A5}.Debug|Win32.ActiveCfg = Debug9|Win32
+		{7E0F9143-F2B5-4F3E-A012-5557D90333A5}.Debug|Win32.Build.0 = Debug9|Win32
+		{7E0F9143-F2B5-4F3E-A012-5557D90333A5}.Release|Win32.ActiveCfg = Release9|Win32
+		{7E0F9143-F2B5-4F3E-A012-5557D90333A5}.Release|Win32.Build.0 = Release9|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

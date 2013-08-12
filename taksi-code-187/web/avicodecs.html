@@ -1,0 +1,557 @@
+<html><head><title>AVI Codecs</title></head><body>
+
+<font face="ARIAL,GENEVA,HELVETICA">
+
+</font><h1><font face="ARIAL,GENEVA,HELVETICA">AVI</font></h1>
+<p>
+
+<font face="ARIAL,GENEVA,HELVETICA">AVI (Audio-Video Interleave) is a rather old file format that Microsoft has been trying to 
+abandon for years in an attempt to get people to switch to their Windows Media format 
+instead. However, the simplicity of AVI and its ubiquity and made it quite popular, so 
+AVIs are still widely used.  There are many third-party developers using AVIs, so there is 
+a wide array of AVI codecs available.
+
+</font></p><p>
+<font face="ARIAL,GENEVA,HELVETICA"><a href="#Delivery">Delivery Codecs</a><br>
+</font></p><blockquote>
+<font face="ARIAL,GENEVA,HELVETICA"><a href="#MS4v2">Microsoft MPEG-4 v2</a><br>
+<a href="#divx3">DivX 3.11</a><br>
+<a href="#divx5">DivX 5.0.2</a><br>
+<a href="#xvid">XviD</a><br>
+<a href="#3ivx">3ivx</a><br>
+<a href="#ind5">Indeo 5.10</a><br>
+</font></blockquote>
+<p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><a href="#Authoring">Authoring Codecs</a><br>
+</font></p><blockquote>
+<font face="ARIAL,GENEVA,HELVETICA"><a href="#dv">DV</a><br>
+<a href="#huff">Huffyuv1</a><br>
+<a href="#none">None (Uncompressed, Full Frames)</a><br>
+<a href="#avid">Avid AVI 2.02</a><br>
+</font></blockquote>
+<p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><a href="#Legacy">Legacy Codecs</a><br>
+</font></p><blockquote>
+<font face="ARIAL,GENEVA,HELVETICA"><a href="#MS4v1">Microsoft MPEG-4 v1</a><br>
+<a href="#divx4">DivX 4.12</a><br>
+<a href="#cinepak">Cinepak</a><br>
+<a href="#ind4">Indeo 4.4</a><br>
+<a href="#ind3">Indeo 3.2</a><br>
+<a href="#msvid">Microsoft Video 1</a><br>
+<a href="#msrle">Microsoft RLE</a><br>
+</font></blockquote>
+
+<hr>
+<font face="ARIAL,GENEVA,HELVETICA"><a name="Delivery"></a>
+</font><h2><font face="ARIAL,GENEVA,HELVETICA">Delivery Codecs</font></h2>
+
+<p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="MS4v2"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">Microsoft MPEG-4 v2</font></h3>
+<font face="ARIAL,GENEVA,HELVETICA">While this codec encodes AVIs, it is actually the ancestor of Microsoft's current 
+<a href="http://people.csail.mit.edu/tbuehler/video/codecs/wm.html">Windows Media</a> codecs.  After version three (which was not an AVI codec), the codec 
+was renamed to Windows Media 7.  Despite the fact that it is obsolete from a technical 
+standpoint, the MS MPEG-4 v2 codec is still widely used because it encodes to AVIs, 
+which are generally more convenient than Windows Media files (see the Windows Media 
+section for more info).  MS MPEG-4 v2 still gives very good quality and at very small 
+sizes.  
+
+</font><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Quality:</b>  <i>Very Good.</i>  While subsequent Windows Media codecs give better quality, the 
+differences can be rather subtle, so the quality given by MS MPEG-4 v2 is usually more 
+than adequate for most video sources.  At very low bit rates (under 500 kbps) blockiness 
+becomes very noticeable.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Size:</b>  <i>Excellent.</i>  The file sizes are usually quite small, and are among the smallest of all 
+the delivery codecs I tested.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Compatibility:</b>  <i>Good.</i>  Compatible with most machines running Windows 2000 and XP.  
+The codec is available as a free download from Microsoft if needed.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Usability:</b>  <i>Excellent.</i>  The codec provides adequate control with only three parameters to 
+adjust.  Most videos are quite acceptable in terms of quality using just the default settings 
+(although file sizes may be larger than they need be).  Encoding is rather fast as well.  
+One downside is that it can be tough to estimate what your resultant file size will be, 
+since it is a variable bite rate codec and the data rate that is specified is a maximum rate 
+(you can't specify an average rate).
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><a name="notmp4"></a>
+<b><i>Note:</i></b>  One weird thing is that Microsoft's MPEG-4 is NOT actually MPEG-4!  The 
+codecs were developed before the MPEG-4 standard was agreed upon, and Microsoft 
+assumed that the MPEG-4 that they developed would be become the standard MPEG-4.  
+Well, it didn't, which is the main reason why the codec's name was changed to Windows 
+Media in later versions.  
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">What does this mean to you?  Right now, pretty much nothing, since there are very, very 
+few applications that use standardized MPEG-4 at this time.  For download and web 
+distribution, it doesn't matter if the codec is MPEG-4 compliant or not.  However, in the 
+rare occasion that you are compressed a video for something that requires compliant 
+MPEG-4 video, do NOT use Microsoft's "MPEG-4" codecs.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="divx3"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">DivX 3.11:</font></h3><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">Ah, the infamous DivX codec; by far the most notorious and controversial video codec.  
+A large subculture of hackers and pirates (Arr!) have formed around it, and it is the source of 
+the large amount of misinformation and nonsense about its powers. 
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">DivX 3, the most widely used DivX codec, is actually just a hacked version of 
+<a href="http://people.csail.mit.edu/tbuehler/video/codecs/wm.html#MS4v3">Microsoft's MPEG-4 v3 codec</a>.  MS MPEG-4 v3 let you only encode to ASF files, yet 
+DivX 3 lets you encode to AVI, and adds the ability to compress the audio to MP3.  Since 
+this codec was obviously hacked without Microsoft's permission, the codec is technically 
+illegal, although still widely used.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">DivX 3 is actually two codecs:  DivX Fast-Motion and DivX Low-Motion, which are 
+based on two separate builds of the MS MPEG-4 v3 codec.  The Low-Motion is the more 
+widely used codec.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">People often make the claim that DivX 3 is a vast leap in video quality over MS MPEG-4 
+v2.  From a technical standpoint, it is indeed a newer revision of the MS MPEG-4 codec, 
+so it seems natural that it would be better than v2.  Yet in practice, when the same file is 
+encoded in both DivX 3 and MS MPEG-4 v2 using the same settings, in many cases it is 
+extremely difficult to tell the difference between the two, in both image quality and file 
+size.  In fact, I had to encode many different files before I could create artifacts in one 
+video that did not appear in the other, and in each case the artifacts were in the 
+supposedly technically superior DivX 3 file (the person who hacked the codec did not 
+know what was different between the two builds of the MPEG-4 v3 codec he hacked, so 
+its possible they were early builds that differ from the released version).  
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">DivX 3 Low-Motion</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">This codec is usually agreed to be the better of the two DivX 3 codecs, and it was so 
+named because it appears to do better in scenes with not a lot of motion, although it is 
+also a better performer overall.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Quality:</b>  <i>Very Good.</i>  A bit better than to MS MPEG-4 v2.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Size:</b> <i>Excellent.</i>  Again, comparable to MS MPEG-4 v2.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Compatibility:</b>  <i>Fair</i>.  DivX's weakness is the fact that one has to manually install the 
+codec to view content encoded in DivX (obviously, no Windows machine is going to 
+come pre-installed with a hacked codec!)
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Usability:</b>  <i>Excellent.</i>Same as MS MPEG-4 v2.
+
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">DivX 3 Fast-Motion:</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">This codec usually gives better performance than its low-motion brother with video that 
+has a lot of action and movement.  However, on the majority of videos, Low-Motion will 
+give better results.  If you wish to use DivX 3, use the Low-Motion codec, unless your 
+video contains a lot of explosions and car chases.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<b>Why I Don't Recommend You Use DivX.</b>
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">Since DivX is so widely known, I often hear from people wanting to use it.  I do not 
+recommend you use DivX 3 with any video work that relates to your research or 
+professional work, for several reasons:
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">1.	<i>It's illegal.</i>  This is pretty much a no-brainer.  While you may not think twice 
+about installing a hacked codec, people in your audience might.  If you want 
+people to view your video, it's a good rule of thumb to not require that they do 
+anything illegal before they can see it.  Also, it looks very unprofessional to use 
+hacked software.  If you are applying for industry jobs, you don't want to direct 
+them to a web site filed with DivX files (especially if you're applying to 
+Microsoft!)
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">2.	<i>Stigma.</i>  This is related to point one.  In addition to being illegal, DivX is 
+associated with pirated movies and porn, so there is a stigma that is attached to 
+even the later legal versions of DivX.  How your audience views DivX depends 
+on who there are.  I know that in the video community DivX is looked down 
+upon, and a good way to paint yourself as an amateur is to use DivX.  This may 
+differ among mainly computer people, but when most people think of DivX, they 
+don't think of serious research.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">3.	<i>Instability.</i>  DivX and its associated utilities were not written by professionals, 
+and installing them can have unpredictable results.  This is especially true with 
+video software, with whom DivX does not always play well with.  In just my 
+personal experience, I have seen DivX codecs overwrite other codecs without 
+prompting, cause Premiere to crash immediately upon startup, and even in one 
+case a DivX bundle disabled the Firewire drivers.  It doesn't happen on all 
+machines, but its happened enough to me for me to be very wary.  Since by 
+encoding in DivX you are requiring your audience to install the codec, it is 
+possible that the codec will wreck havoc with their machines, after which they 
+will hardly be predisposed to view your video favorably.  
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">All of these reasons have nothing to do with the technical attributes of DivX, but rather 
+how people will view your work if it is encoded in DivX.  While you may only care 
+about how good the quality is and how small the file sizes are, other factors besides 
+image quality affect a person's judgment and reaction to your video.  Remember that you 
+are distributing this video so it can be seen by and impress the largest audience possible.  
+The best codec from a technical standpoint may not be the best in accomplishing this 
+goal.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="divx5"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">DivX 5.0.2</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">The DivX 4 codec was written entirely from scratch and did not use any code from the 
+illegal, hacked, DivX 3 codec, making the codec entirely legal.  However, it also wasn't 
+as good as DivX 3.  DivX 4 (now considered a legacy codec), has been replaced by DivX 
+5, which is a substantial improvement (although the claim on the DivX website that DivX 
+5 is "the most advanced video technology in the world" is absolutely ridiculous).
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA">  
+
+One caveat is that there are multiple versions of DivX 5.  There is a "Pro" version 
+(although no video professionals actually use DivX) that costs money and adds some 
+additional features, most of which are rather trivial.  There is a free version which is 
+bundled with adware as well as a free version that doesn't have adware, although sites 
+that offer DivX 5 often place the non-adware version in an inconspicuous spot, so be 
+careful.  Also, both DivX 4 and DivX 5 are MPEG-4 compliant, while DivX 3 was not.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Quality:</b>  <i>Excellent.</i>  While at high bit rates the quality is comparable to previous DivX 
+versions as well as Microsoft's MPEG-4 codecs, at very low bit rates the quality of DivX 
+5 is quite a bit better.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Size:</b>  <i>Very Good.</i>  The downside of DivX 5 is that it is not as efficient as either DivX 3 or 
+Microsoft MPEG-4.  Even at moderate bit rates, the file sizes of DivX 5 videos can be as 
+much as four times larger as the other codecs.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Compatibility:</b>  <i>Fair.</i>  DivX 5 is not as widespread as DivX 3, so its even more likely that 
+users will not have the codec and be required to install it before watching DivX 5 content.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Usability:</b>  <i>Very Good.</i> DivX 5 provides much more controls that DivX 3 did, although most of 
+them have little effect and rarely need to be tweaked.  Because of these additional 
+controls, it can be a bit confusing to use DivX 5.  The most crucial setting (and probably 
+the only one you'll ever need to change) is the quality setting, for which you can either 
+enter a specific bit rate (up to 10000 kbps) or use a quality-percentage slider.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="xvid"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">XviD</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">This much-hyped codec is rapidly gaining in popularity, and while it is a promising 
+codec, sadly it is not quite ready for primetime.  XviD is another entry in the family of 
+MPEG-4 codecs, and it and DivX 5 both have their origins in the same project.  But 
+while DivX 5 turned commercial, XviD stayed open source.  Its open source nature is a 
+big reason for its popularity, yet it also poses some possible problems.  Currently there 
+are two XviD codecs available, both of which are very similar (Koeppi's and Nic's, 
+apparently Koeppi's is a little faster but I haven't tested this).  There is a danger that 
+multiple development paths can arise, causing multiple XviD codecs and possible 
+confusion in the future.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">But the main downside to XviD is that, in its current state, it's a bit flaky.  It sometimes 
+does not work well with Windows Media Player on some machines, and other players 
+can have other weird problems, such as not playing sound.  XviD's level of compatibility 
+seems to vary with every machine, making it a bit of a risky choice for wide distribution.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">XviD provides quality generally comparable to the other MPEG-4 codecs, although the 
+quality can take a significant hit at low bit rates.  The quality is worse than DivX 5, yet 
+you can get a much smaller file size with XviD.  There are also some weird artifacts at 
+low bit rates that seem endemic to XviD (see below).
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Quality:</b>  <i>Good/Very Good.</i>  At higher bit rates the quality is excellent and pretty much 
+indistinguishable from other MPEG-4 related codecs.  However, at very low bit rates 
+(under 500 kbps) there are some quality issues.  One issue is that on complex scenes there 
+is often a grainy, almost pixilated, pattern to the image; it's a bit like you're watching the 
+video through a screen door.  Also, shots with a great deal of motion may not have 
+constant quality throughout the scene.  The shot may start out looking fine but the quality 
+will then degrade with time.  Strangely, I've also seen the opposite happen, with the 
+quality getting better with time.  Either way, it is distracting to have the quality 
+noticeably change during the same shot.  A plus is it allows for two-pass encoding, which 
+can yield higher quality results.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Size:</b>  <i>Excellent.</i>  Better than DivX 5, and comparable to MS MPEG-4 and DivX 3.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Compatibility:</b>  <i>Fair.</i>  The big problem with XviD is its unpredictable playback.  I have 
+tested playback on several Windows machines: on some machines XviD files play 
+perfectly in Windows Media Player, other machines gave me problems with the same 
+version of Media Player.  I was sometimes forced to download a different player to play 
+back the files, and even then some players worked on some machines and then not on 
+others.  XviD seems to be rather finicky, which is not good if you want to distribute your 
+video widely.  Also, XviD will require the user to download and install the codec, but a 
+plus is that since the codec is open source, you know that this download will be free of 
+both charge and restrictions.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Usability:</b>  <i>Good.</i>  XviD gives a bunch of parameters to tweak, but they are laid out in a 
+confusing manner.  For example, to do a two-pass VBR encode, one must first select 
+"First Pass," set the options, then return to the first screen and select "Second Pass," then 
+pick the options for the second pass.  It is a bit non-intuitive.  Also, many of the 
+parameters will never have to be tweaked by most people.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="3ivx"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">3ivx</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">Yet another MPEG-4 codec.  Not surprisingly, its quality is comparable to the other 
+DivX/MPEG-4 codecs out there, especially at high bit rates.  It falls between DivX 5 and 
+XviD in quality, with its quality noticeably better than XviD at lower bit rates.  Another 
+strength is that the 3ivx codec is available for a wide array of platforms.  However, 3ivx 
+lags far behind in popularity when compared to the other MPEG-4 codecs, and while it is 
+easy to use, it also doesn't offer many encoding options.  It's really not a bad codec, but it 
+is a bit redundant, which unfortunately limits its use.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Quality:</b> <i>Very Good.</i>  Better than XviD, DivX 3, and MS MPEG-4.  Not as good as DivX 
+5.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Size:</b> <i>Excellent.</i>  Comparable to MS MPEG-4, XviD, and DivX 3.  Smaller file sizes than 
+DivX 5.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Compatibility:</b>  <i>Very Good.</i>  Since this codec is not widely used, a user who wishes to 
+view a 3ivx file will likely have to download the codec.  However, the codec is available 
+for a many platforms, including not only Windows and Mac, but also multiple flavors of 
+Linux, Unix and even Amiga!  Also, the 3ivx codec download include both an AVI and a 
+Quicktime codec.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Usability:</b>  <i>Good.</i>  The options are a bit skimpy (only two parameters you can set), so 
+there's not much you can do to control the quality.  However, this does make the codec 
+very easy to use, and the quality is usually good enough that a novie can get good results 
+pretty easily.  Note that the data rate is measured in kilobytes per second, rather than 
+kilobits per second, which is more commonly used by codecs.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="ind5"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">Indeo 5.10</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">Indeo 5.10 is the latest in a long line of codecs that never really became dominant.  Indeo 
+5.10 isn't too good for web distribution and is mainly of interest for games and CD-ROM 
+distribution.  Indeo's hook is that it supports an Alpha channel, which allows for 
+transparency and compositing.  If you don't need this, then Indeo is of little use.  Indeo 
+5.10 is teetering on the edge of obsolesce, although it is still occasionally used.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Quality:</b>  <i>Good.</i>    Indeo 5.10's quality isn't bad, but it uses an inferior color sampling 
+method that makes it prone to blockiness.  Also, a quirk of the codec is that both the 
+height and width must be divisible by 4, or else the video will playback with all kinds of 
+weird and undesirable effects.  This means that DV cannot be compressed at its native 
+720 x 480 resolution.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Size:</b>  <i>Fair.</i>  Files tend to be pretty large.  In fact, its sub-par compression efficiency 
+almost made me classify Indeo 5.10 as a legacy codec.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Compatibility:</b>  <i>Good.</i>  Indeo 5.10 is pre-installed on a fair number of Windows machine.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b>Usability:</b>  <i>Good.</i>  Not a lot of control is given, but it's not totally incomprehensible 
+either.  I've rated Indeo 5.10 lower here because it has been known to behave strangely 
+and has its share of quirks, such as the "divisible by four" requirement stated above.
+
+</font></p><hr>
+<font face="ARIAL,GENEVA,HELVETICA"><a name="Authoring"></a>
+</font><h2><font face="ARIAL,GENEVA,HELVETICA">Authoring Codecs</font></h2>
+
+<p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="DV"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">DV</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">DV isn't just a tape format; it's also a compression method.  All DV camcorders and 
+decks record to tape using DV compression.  When you capture DV over Firewire, you're 
+not actually digitizing the video but rather simply performing a file transfer of the DV 
+compressed files.  Since everything on a DV tape is compressed using DV compression, 
+there is actually no such thing as "uncompressed DV," yet the term uncompressed DV is 
+often casually used to refer to video that has not undergone any further compression 
+besides its native DV compression.  
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">If your footage originated on DV and was captured as Firewire, it is best to keep your 
+project entirely in DV until you are finished.  Only then should you compress to another 
+format, such as with a delivery codec.  By doing this you minimize any compression 
+artifacts.  While DV compression is very light, compression artifacts can occur, most 
+commonly "stair-stepping" on diagonal lines and "mosquito noise" near high-contrast 
+boundaries.  
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA">There are several DV codecs.  Some are better than others, and some have 
+restrictions.  Here are some common AVI DV codecs (note that there are some 
+Quicktime DV codecs as well in the <a href="http://people.csail.mit.edu/tbuehler/video/codecs/quicktime.html">Quicktime</a> section):
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b><i>Canopus DV:</i></b>  Canopus was long considered the best DV codec until the arrival of the 
+Avid DV codec (a Quicktime codec).  It is still highly regarded, yet the main drawback is 
+that you can only encode to Canopus DV on a machine that has Canopus hardware 
+installed.  There is a software-only codec that can be installed on any machine, but it will 
+only playback Canopus DV files; it will not encode with Canopus DV.  Video captured 
+using the DVRaptor or DVStorm will be encoded with the Canopus DV codec.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b><i>DVSoft:</i></b>  A rather old DV codec that is pretty good.  It's main strength is that it can be 
+installed on any machine and allows you to both playback and encode using DVSoft.  
+DVSoft is useful if you want to encode DV files yet your machine does not have any 
+video equipment or DV codecs installed.
+
+</font></p><p>
+
+<font face="ARIAL,GENEVA,HELVETICA"><b><i>Microsoft DV:</i></b>  Microsoft was rather late to the DV game, and their DV codec is usually 
+rated rather poorly, although it has gotten better.  The main advantage is that the DV codec now ships with Windows, 
+so you should only use Microsoft DV if your movie to play on many machines or if you 
+are not sure if your target machine has any other DV codec installed.   
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="huff"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">Huffyuv</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">This is a very fast and very nice lossless codec.  Huffyuv is an ideal codec to use for 
+capturing of non-DV sources.  It is also good to use for video sources that are not 
+destined for DV and thus you avoid any DV artifacts.  It works in both YUV and RGB 
+color space.  File sizes will be large, but not as large as they would be uncompressed.  
+Huffyuv is not pre-installed anywhere, but it is a free download.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="none"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">None (Uncompressed, Full Frames)</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">This is an RGB, uncompressed codec.  Probably it is only best to use this when Huffyuv 
+is not available.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="avid"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">Avid AVI 2.02</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">A rather strange codec, it allows for uncompressed as well as various levels of 
+compressed.  Compressed is expressed through ratios rather than percentages or data 
+rates (a common method within Avid products and high-end video, but rarely found 
+elsewhere).  I've gotten some strange playback errors using uncompressed, and the 
+compressed options are not efficient enough for this codec to be used as a delivery 
+option.  Best not to use unless you are transferring material to or from an Avid system, 
+and even then there are better codecs to use.
+
+</font></p><hr>
+<font face="ARIAL,GENEVA,HELVETICA"><a name="Legacy"></a>
+</font><h2><font face="ARIAL,GENEVA,HELVETICA">Legacy Codecs</font></h2>
+
+<p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="MS4v1"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">Microsoft MPEG-4 v1</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">Here's something you couldn't have figured out on your own:  MS MPEG v1 is the 
+previous version of MS MPEG-4 v2.  In practice, you can probably see very little 
+difference between the two, but there are no advantages this codec has to v2, so its best to 
+go with the newer version.  There's really no need to use this codec.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="divx4"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">DivX 4.12</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">As stated above, this was the first legit DivX codec but was not as good as DivX 3, and 
+hence didn't catch on too well.  DivX 4 has been superceded by DivX5.  In fact, if you 
+install DivX 5 on a machine with DivX 4, DivX 4 will be automatically overwritten.  
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="cinepak"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">Cinepak</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">Cinepak was at one time the standard for distribution of video via CD-ROM.  It was so 
+successful that virtually every Windows or Mac machine comes with Cinepak 
+preinstalled, giving it near-universal compatibility.  However, while the compatibility is 
+great, Cinepak's compression technology is terribly obsolete.  Good-looking video can be 
+had using Cinepak, but only with resulting file sizes that are many times larger than 
+newer delivery codecs.  Cinepak only offers a quality slider for control and often takes a 
+long time to encode, although the resultant file does not take much computer resources to 
+play back, so it may be a possibility if you need your video to be played on older 
+machines.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="ind4"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">Indeo 4.4</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">Like Indeo 5, but not as good.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="ind3"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">Indeo 3.2</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">Like Indeo 4.4, but not as good.
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="msvid"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">Microsoft Video 1</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">The fact that this codec was last updated in 1992 should tell you a lot about its quality.  
+You can't control the data rate, the video looks terrible, and 
+the compression efficiency is so bad that when compressing a DV file, the file that has 
+been "compressed" using Microsoft Video 1 is often larger than the uncompressed DV 
+file!
+
+</font></p><p><font face="ARIAL,GENEVA,HELVETICA"><br>
+
+<a name="msrle"></a>
+</font></p><h3><font face="ARIAL,GENEVA,HELVETICA">Microsoft RLE</font></h3><p>
+<font face="ARIAL,GENEVA,HELVETICA">An authoring codec that is only 8-bit.  Pretty much useless.
+
+</font></p><hr>
+<font face="ARIAL,GENEVA,HELVETICA"><a href="http://people.csail.mit.edu/tbuehler/video/codecs/index.html">Return to Index</a>
+
+
+</font></body></html>

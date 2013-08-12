@@ -1,0 +1,56 @@
+BUILD INSTRUCTIONS
+==========================================================================
+
+There is a Taksi.SLN file for building in Micrsoft Visual Studio 7.1
+There is a Taksi8.SLN file for building in Micrsoft Visual Studio 2005
+There is a Taksi9.SLN file for building in Micrsoft Visual Studio 2008
+
+Alternately the (OUT OF DATE, MUST UPDATE) Makefile (in the src folder) is intended to be used by Microsoft NMAKE 
+tool, which comes with Visual C++ 6. You will need the following 3rd-party
+software to build this program:
+
+1. DirectX 9 SDK 
+(Modify the Makefile so that it points to correct location
+of the SDK on your disk. Default is \DXSDK9)
+
+2. OpenGL main header file (gl.h)
+(Usually is installed in Visual Studio standard location for headers.
+If not, modify the Makefile accordingly.)
+
+3. Optional DirectX 8 support
+The DirectX 8 SDK has been deprecated and thus not included in the latest
+DirectX SDK. However, the entire DirectX 8 SDK is not needed for Taksi to
+support DX8.  The only header files that are needed are:
+d3d8.h
+d3d8caps.h
+d3d8types.h
+Have those files in your include path and then make sure USE_DIRECTX8 is
+defined in stdafx.h (it may be commented out).
+
+Three types of build are supported by the current Makefile: 
+"debug", "release", and "perf".
+
+To perform "debug" build, just type "nmake".
+To perform "release" build, type "nmake release".
+To perform "perf" build, type "nmake perf".
+
+Currently, the difference between "debug" and "release" builds is in the
+way the debug configuration parameter is treated. The "release" build
+ignores debug values > 1, while "debug" build provides more detailed 
+logging for debug > 1. This behaviour, however, may change in the future.
+
+The third type fo build - "perf" - can be used to gather performance
+statistics, using CLOCK_START and CLOCK_STOP_AND_LOG macros from log.h
+
+(NOTE: You can also build the EXE and DLL files separately, using 
+appropriate targets, specified in the Makefile.)
+
+NOTE: When debugging:
+
+You can use 2 debuggers. One for the Taksi app and one for the target app.
+This way you can watch debug messages live from both process spaces.
+Attach the debugger to the target task first then run Taksi under the debugger.
+good sample target tasks are some of the sample apps that come with DirectX SDK
+You can set breakpoints in the target process space and the Taksi.exe process space seperately.
+
+Try using a global debug message monitor like Compuwares Monitor.exe.

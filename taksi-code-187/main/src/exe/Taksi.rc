@@ -1,0 +1,464 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "TaksiVer.rch"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""TaksiVer.rch""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GuiConfig DIALOGEX 20, 20, 284, 151
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP | WS_EX_CONTROLPARENT
+CAPTION "Taksi Config"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_C_TAB,"SysTabControl32",0x0,1,0,281,133
+    LTEXT           "Taksi",IDC_C_StatusText,8,139,170,8
+    PUSHBUTTON      "Revert",IDC_C_RestoreButton,181,134,50,14
+    DEFPUSHBUTTON   "Save",IDC_C_SaveButton,232,134,50,14
+END
+
+IDD_GuiConfigTab1 DIALOGEX 4, 14, 274, 113
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Store captured video and images to files in the selected directory.",IDC_STATIC,5,8,255,8
+    ICON            ID_APP,ID_APP,247,7,20,20
+    LTEXT           "Capture Directory:",IDC_STATIC,5,20,71,8
+    EDITTEXT        IDC_C_CaptureDirectory,5,35,254,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Explore Folder...",IDC_C_CaptureDirectoryExplore,5,55,95,12
+    PUSHBUTTON      "Browse...",IDC_C_CaptureDirectoryBrowse,218,54,41,12
+    CONTROL         "Create Debug Log Files",IDC_C_DebugLog,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,73,156,10
+    EDITTEXT        IDC_C_FileNamePostfix,90,91,169,14,ES_AUTOHSCROLL
+    LTEXT           "File Name Postfix Note:",IDC_STATIC,7,94,77,8
+END
+
+IDD_GuiConfigTab2 DIALOGEX 4, 14, 274, 113
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "What is the target format of the captured AVI file?",IDC_STATIC,7,9,252,8
+    ICON            ID_APP,ID_APP,247,7,20,20
+    LTEXT           "Target Frame Rate:",IDC_STATIC,7,26,82,8
+    EDITTEXT        IDC_C_FrameRate,96,24,46,14,ES_AUTOHSCROLL
+    LTEXT           "FPS",IDC_STATIC,149,26,13,8
+    PUSHBUTTON      "Video Codecs...",IDC_C_VideoCodecButton,7,44,94,12
+    EDITTEXT        IDC_C_VideoCodec,106,46,164,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    CONTROL         "Half Size Video Frame",IDC_C_VideoHalfSize,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,59,180,10
+    LTEXT           "Audio Input Device:",IDC_STATIC,7,76,82,8
+    COMBOBOX        IDC_C_AudioDevices,97,74,173,152,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Audio Format/Codecs...",IDC_C_AudioCodecButton,7,91,93,12
+    EDITTEXT        IDC_C_AudioCodec,106,92,164,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+END
+
+IDD_GuiConfigTab3 DIALOGEX 4, 14, 274, 113
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Hot Keys are pressed to activate Taksi from inside other applications",IDC_STATIC,7,10,230,8
+    ICON            ID_APP,ID_APP,247,7,20,20
+    LTEXT           "Config Dialog Open",IDC_STATIC,7,30,62,8
+    CONTROL         "",IDC_C_KeyConfigOpen,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,75,27,46,14
+    LTEXT           "Video Record Start",IDC_STATIC,145,30,64,8
+    CONTROL         "",IDC_C_KeyRecordBegin,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,214,27,46,14
+    LTEXT           "App Hook Mode",IDC_STATIC,7,46,62,8
+    CONTROL         "",IDC_C_KeyHookModeToggle,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,75,43,46,14
+    LTEXT           "Video Record Pause",IDC_STATIC,145,46,64,8
+    CONTROL         "",IDC_C_KeyRecordPause,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,214,43,46,14
+    LTEXT           "Indicator On/Off",IDC_STATIC,7,62,62,8
+    CONTROL         "",IDC_C_KeyIndicatorToggle,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,75,59,46,14
+    LTEXT           "Video Record Stop",IDC_STATIC,145,62,64,8
+    CONTROL         "",IDC_C_KeyRecordStop,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,214,59,46,14
+    LTEXT           "Screenshot",IDC_STATIC,145,78,64,8
+    CONTROL         "",IDC_C_KeyScreenshot,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,214,75,46,14
+    LTEXT           "Small Screenshot",IDC_STATIC,145,94,64,8
+    CONTROL         "",IDC_C_KeySmallScreenshot,"msctls_hotkey32",WS_BORDER | WS_TABSTOP,214,91,46,14
+    CONTROL         "Use Direct Input API for keys",IDC_C_UseDirectInput,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,96,126,10
+END
+
+IDD_GuiConfigTab4 DIALOGEX 4, 14, 274, 113
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Custom Frame Rates and Weights can be set for certain applications",IDC_STATIC,7,9,244,8
+    ICON            ID_APP,ID_APP,247,7,20,20
+    COMBOBOX        IDC_C_CustomSettingsList,7,29,178,87,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "New",IDC_C_CustomNewButton,190,29,38,12
+    PUSHBUTTON      "Delete",IDC_C_CustomDeleteButton,231,29,38,12
+    LTEXT           "Process Pattern:",IDC_STATIC,7,51,54,8
+    EDITTEXT        IDC_C_CustomPattern,69,48,200,14,ES_AUTOHSCROLL
+    LTEXT           "Frame Rate:",IDC_STATIC,7,88,41,8
+    EDITTEXT        IDC_C_CustomFrameRate,69,85,46,14,ES_AUTOHSCROLL
+    LTEXT           "FPS",IDC_STATIC,122,88,13,8
+    LTEXT           "Frame Weight:",IDC_STATIC,7,72,48,8
+    EDITTEXT        IDC_C_CustomFrameWeight,69,69,46,14,ES_AUTOHSCROLL
+    LTEXT           "(Force ratio of app refreshes : stored frames)",IDC_STATIC,122,72,151,8
+    PUSHBUTTON      "Use current hook",IDC_C_CustomUseCurrent,189,98,77,12
+END
+
+IDD_GuiConfigTab5 DIALOGEX 4, 14, 274, 113
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "The display options for the current application.",-1,7,5,255,8
+    ICON            ID_APP,ID_APP,247,7,20,20
+    CONTROL         "Compensate for record overhead in frame rate",IDC_C_UseOverheadCompensation,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,37,169,10
+    CONTROL         "Hook GDI",IDC_C_UseGDI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,173,50,89,10
+    CONTROL         "Allow capture of full desktop",IDC_C_GDIDesktop,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,50,136,10
+    CONTROL         "Record GDI Frame",IDC_C_GDIFrame,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,63,137,10
+    CONTROL         "Hook OpenGL",IDC_C_UseOGL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,173,63,89,10
+	CONTROL         "Record GDI Cursor",IDC_C_GDICursor,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,76,137,10
+    CONTROL         "Hook DirectX8",IDC_C_UseDX8,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,173,76,89,10
+    CONTROL         "Hook DirectX9",IDC_C_UseDX9,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,173,89,89,10
+    CONTROL         "Control Window Always on Top.",IDC_C_MasterTopMost,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,89,137,10
+END
+
+IDD_GuiConfigTab6 DIALOGEX 4, 14, 274, 113
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Live statistics for the current foreground application.",IDC_STATIC,7,5,255,8
+    ICON            ID_APP,ID_APP,247,7,20,20
+    LTEXT           "Current State",IDC_STATIC,7,20,57,8
+    EDITTEXT        IDC_C_StatState,90,17,114,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Hooked Process Name",IDC_STATIC,7,36,61,8
+    EDITTEXT        IDC_C_StatProcessName,90,33,173,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Last Event Description",IDC_STATIC,7,52,76,8
+    EDITTEXT        IDC_C_StatLastError,90,49,172,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Frame Rate",IDC_STATIC,7,68,45,8
+    EDITTEXT        IDC_C_StatFrameRate,90,65,40,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "FPS",IDC_STATIC,136,68,16,8
+    EDITTEXT        IDC_C_StatFormat,158,65,56,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Recorded Data Size",IDC_STATIC,7,84,83,8
+    EDITTEXT        IDC_C_StatDataRecorded,90,81,66,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "MB",IDC_STATIC,167,84,35,8
+    PUSHBUTTON      "C",IDC_C_StatsClear,250,83,12,12
+    EDITTEXT        IDC_C_StatGAPI,217,65,45,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_About DIALOGEX 0, 0, 214, 97
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Taksi Desktop Video Recorder"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Taksi",IDC_ABOUT_1,7,7,200,8
+    LTEXT           "Desktop Video Recorder",IDC_STATIC,7,15,200,8
+    LTEXT           "For: GDI, DirectX8, 9, and OpenGL",IDC_STATIC,7,24,200,8
+    LTEXT           "",IDC_ABOUT_4,7,33,200,8
+    ICON            ID_APP,ID_APP,186,70,20,20
+    EDITTEXT        IDC_ABOUT_5,7,42,177,48,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GuiConfig, DIALOG
+    BEGIN
+        RIGHTMARGIN, 282
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_GuiConfigTab1, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_GuiConfigTab2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    IDD_GuiConfigTab3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+
+    IDD_GuiConfigTab4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    IDD_GuiConfigTab5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        TOPMARGIN, 7
+    END
+
+    IDD_GuiConfigTab6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        TOPMARGIN, 7
+    END
+
+    IDD_About, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ID_APP                  ICON                    "res/Taksi.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ConfigOpen_1        BITMAP                  "res/BtnConfig.bmp"
+IDB_HookModeToggle_1    BITMAP                  "res/BtnHookMode.bmp"
+IDB_IndicatorToggle_1   BITMAP                  "res/BtnIndic.bmp"
+IDB_RecordBegin_1       BITMAP                  "res/BtnRecordBegin.bmp"
+IDB_RecordPause_1       BITMAP                  "res/BtnRecordPause.bmp"
+IDB_RecordStop_1        BITMAP                  "res/BtnRecordStop.bmp"
+IDB_Screenshot_1        BITMAP                  "res/BtnScreenshot.bmp"
+IDB_SmallScreenshot_1   BITMAP                  "res/BtnSmallScreenshot.bmp"
+IDB_RecordBegin_G       BITMAP                  "res/BtnRecordBeginG.bmp"
+IDB_RecordPause_G       BITMAP                  "res/BtnRecordPauseG.bmp"
+IDB_RecordStop_G        BITMAP                  "res/BtnRecordStopG.bmp"
+IDB_Screenshot_G        BITMAP                  "res/BtnScreenshotG.bmp"
+IDB_SmallScreenshot_G   BITMAP                  "res/BtnSmallScreenshotG.bmp"
+IDB_HookModeToggle_2    BITMAP                  "res/BtnHookMode2.bmp"
+IDB_IndicatorToggle_2   BITMAP                  "res/BtnIndic2.bmp"
+IDB_RecordPause_2       BITMAP                  "res/BtnRecordPause2.bmp"
+IDB_HookModeToggle_3    BITMAP                  "res/BtnHookMode3.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_TRAYICON MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Show Tools...",               IDC_SHOW_NORMAL
+        MENUITEM "Open Config Dialog...",       IDB_ConfigOpen_1
+        MENUITEM "Toggle App Hook",             IDB_HookModeToggle_1
+        MENUITEM "Toggle Indicator",            IDB_IndicatorToggle_1
+        MENUITEM SEPARATOR
+        MENUITEM "Begin Record",                IDB_RecordBegin_1
+        MENUITEM "Pause Record",                IDB_RecordPause_1
+        MENUITEM "Stop Record",                 IDB_RecordStop_1
+        MENUITEM "Screenshot!",                 IDB_Screenshot_1
+        MENUITEM "Small Screenshot!",           IDB_SmallScreenshot_1
+        MENUITEM SEPARATOR
+        MENUITEM "Help URL...",                 IDM_SC_HELP_URL
+        MENUITEM "Help About...",               IDM_SC_HELP_ABOUT
+        MENUITEM "Close",                       61536
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    ID_APP                  "Taksi"
+    IDS_HELP_CODEC_CRAM     "The selected video codec (MS-CRAM)\nis popular and has low CPU usage\nbut does not have very good compression.\nYou may want to check the configuration dialog and pick a different codec."
+    IDS_HELP_CODEC_DIB      "The selected video codec uses a VERY large amount of disk space.\nYou probably want to check the configuration dialog and pick a better codec."
+    IDS_HELP_CODEC_FAIL     "The selected video codec doesnt work on this system.\nPlease check the configuration dialog."
+    IDS_ERR_SAVEDIR         "Cant create save file directory.\nPlease check the configuration dialog."
+    IDS_HELP_CAPTURE        "When the 'App Hook' button is blue, select the window you want to hook\nWhen the 'App Hook' turns green and the green square appears on the app\nYou may press 'Record' to start recording."
+    IDD_GuiConfigTab1       "Directory"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_DESC            "Taksi Desktop Video Recorder"
+    IDS_GuiConfigHelp1      "Change the Directory where screen shots and videos are stored"
+    IDS_GuiConfigHelp2      "Change the Format and codecs used to create the video"
+    IDS_GuiConfigHelp3      "Hot Keys to activate functions inside the application"
+    IDS_GuiConfigHelp4      "Custom configurations for specific applications"
+    IDS_GuiConfigHelp5      "Configure display properties"
+    IDS_GuiConfigHelp6      "Display stats for actions on the current hooked application"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATUS_CHANGES      "CHANGES MADE"
+    IDS_STATUS_RESTORED     "RESTORED"
+    IDS_STATUS_SAVED        "SAVED"
+    IDS_STATUS_FAILSAVE     "FAILED SAVE"
+    IDS_SELECT_APP_HOOK     "Select an application to hook"
+END
+
+STRINGTABLE 
+BEGIN
+    IDD_GuiConfigTab2       "Format"
+    IDD_GuiConfigTab3       "Hot Keys"
+    IDD_GuiConfigTab4       "Custom"
+    IDD_GuiConfigTab5       "Display"
+    IDD_GuiConfigTab6       "Stats"
+END
+
+STRINGTABLE 
+BEGIN
+    IDB_ConfigOpen_1        "Open the configuration dialog window"
+    IDB_HookModeToggle_1    "Change application hook by starting the Hook Focus Mode. Blue=Next selected application will be hooked. Green=Current application is ready to record"
+    IDB_IndicatorToggle_1   "Toggle the indicator on and off"
+    IDB_RecordBegin_1       "Start the video recorder"
+    IDB_RecordPause_1       "Pause video recorder so it may restart in same file"
+    IDB_RecordStop_1        "Stop the video recorder"
+    IDB_Screenshot_1        "Take a full sized screen shot"
+    IDB_SmallScreenshot_1   "Take a small sized screen shot"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_C_RestoreButton     "Restore previous settings last stored in the INI file"
+    IDC_C_SaveButton        "Save any changes to the INI file"
+    IDC_C_CaptureDirectoryBrowse 
+                            "Browse... Select a directory from the windows file explorer."
+    IDC_C_CaptureDirectoryExplore 
+                            "Explore... View the current contents of the selected directory with the Windows File Explorer."
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_C_CustomNewButton   "New - Create a new custom config for some application not yet listed"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATE_Idle			"Idle"
+    IDS_STATE_Ready         "Ready"
+    IDS_STATE_Hooked        "Hook"
+    IDS_STATE_Recording     "Record"
+    IDS_STATE_RecordPause   "Pause"
+    IDS_STATE_QTY           "UNK"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_SC_HELP_URL         "Taksi Help URL..."
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_SC_HELP_ABOUT       "Taksi Help About..."
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_C_CustomUseCurrent  "Use the currently hooked applications information in the dialog"
+    IDC_C_StatsClear        "Clear the stats values"
+    IDC_C_UseOverheadCompensation 
+                            "Check = compensate for the overhead of recording to keep videos at their original speed. (Good for cinematics) Unchecked = play videos as observed during record."
+	IDC_C_GDIDesktop		"Record the entire desktop"
+	IDC_C_GDIFrame          "Include window frame for GDI Window recordings"
+	IDC_C_GDICursor         "Include the cursor for GDI Window recordings"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_C_VideoCodecButton  "Video Codecs - Select a video codec to compress the video stream as it is recorded."
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_ABOUT_5             "Copyright©2004 Anton Jouline (Juce)\r\nhttp://taksi.sourceforge.net/\r\nCopyright©1992-2006 Dennis Robinson (Menace)\r\nhttp://www.menasoft.com/taksi"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

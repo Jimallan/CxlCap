@@ -1,0 +1,40 @@
+// this is not editable via VS editor!
+#ifndef APSTUDIO_INVOKED
+#include "../TaksiVersion.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION TAKSI_VERSION_RES_N
+ PRODUCTVERSION TAKSI_VERSION_RES_N
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Video-capture/Screenshot-making program for graphics applications."
+            VALUE "FileDescription", "Taksi Server"
+            VALUE "FileVersion", TAKSI_VERSION_RES_S
+            VALUE "ProductVersion", TAKSI_VERSION_RES_S
+            VALUE "LegalCopyright", TAKSI_COPYRIGHT
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif

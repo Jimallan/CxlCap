@@ -1,0 +1,59 @@
+//
+// GuiConfigControls.tbl
+//
+
+GuiConfigControl(CaptureDirectory,			1,	"displays capture directory path")
+GuiConfigControl(CaptureDirectoryBrowse,	1,	"browse files dialog")
+GuiConfigControl(CaptureDirectoryExplore,	1,  "")
+GuiConfigControl(DebugLog,					1,	"Create Debug Logs")
+GuiConfigControl(FileNamePostfix,			1,	"File name postfix note")
+
+GuiConfigControl(FrameRate,					2,	"displays adaptive frame rate")
+GuiConfigControl(VideoCodecButton,			2,	"button to choose video codec from a dialog")
+GuiConfigControl(VideoCodec,				2,	"Params for the video codec")
+GuiConfigControl(VideoHalfSize,				2,	"Use Half vs Full Sized Video Frames")
+
+GuiConfigControl(AudioDevices,				2,	"What device to get audio from?")
+GuiConfigControl(AudioCodecButton,			2,	"button to choose audio codec from a dialog")
+GuiConfigControl(AudioCodec,				2,	"Params for the Audio codec")
+
+// MUST have same order as TAKSI_HOTKEY_TYPE
+GuiConfigControl(KeyConfigOpen,		   3, "displays the config dialog")
+GuiConfigControl(KeyHookModeToggle,    3, "displays key binding for mode toggle")
+GuiConfigControl(KeyIndicatorToggle,   3, "displays key binding for indicator toggle")
+GuiConfigControl(KeyRecordBegin,       3, "displays key binding for video start")
+GuiConfigControl(KeyRecordPause,       3, "displays key binding for video pause")
+GuiConfigControl(KeyRecordStop,	       3, "displays key binding for video stop")
+GuiConfigControl(KeyScreenshot,        3, "displays key binding for normal screenshot")
+GuiConfigControl(KeySmallScreenshot,   3, "displays key binding for small screenshot")
+GuiConfigControl(UseDirectInput,		3, "Use direct input or not")
+
+GuiConfigControl(CustomSettingsList,   4, "drop-down list of custom settings")
+GuiConfigControl(CustomNewButton,      4, "'New' button for custom settings")
+GuiConfigControl(CustomDeleteButton,   4, "'Delete' button for custom settings")
+GuiConfigControl(CustomPattern,        4, "displays current custom pattern string")
+GuiConfigControl(CustomFrameRate,      4, "displays current custom frame rate")
+GuiConfigControl(CustomFrameWeight,    4, "displays current custom frame weight")
+GuiConfigControl(CustomUseCurrent,	   4, "Use the current hooked apps info to fill in text" );
+
+//GuiConfigControl(OverlayVerbose,        5, "Indicator has verbose text")
+GuiConfigControl(GDIDesktop,            5, "")
+GuiConfigControl(GDIFrame,              5, "Record the GDI frame or just the client area")
+GuiConfigControl(GDICursor,             5, "Record the cursor for GDI Window captures")
+GuiConfigControl(MasterTopMost,			5,	"Make sure the control window is always on top")
+GuiConfigControl(UseOverheadCompensation, 5, "Attempt to compensate for the overhead of recording")
+
+GuiConfigControl(UseOGL,				5, "Use OpenGL API/mode hooking?")
+GuiConfigControl(UseGDI,				5, "Use GDI API/mode hooking?")
+GuiConfigControl(UseDX8,				5, "Use DirectX8 API/mode hooking?")
+GuiConfigControl(UseDX9,				5, "Use DirectX9 API/mode hooking?")
+
+GuiConfigControl(StatProcessName,		6, "")
+GuiConfigControl(StatLastError,			6, "")
+GuiConfigControl(StatState,				6, "")
+GuiConfigControl(StatFormat,			6, "size of the window.")
+GuiConfigControl(StatGAPI,			6, "")
+GuiConfigControl(StatFrameRate,			6, "")
+GuiConfigControl(StatDataRecorded,		6, "")
+GuiConfigControl(StatsClear,			6, "button to Clear the stats values.")
+
